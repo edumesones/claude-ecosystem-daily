@@ -16,7 +16,14 @@ ARCHIVE_DIR = Path("archive")
 LATEST_FILE = Path("latest.json")
 
 def get_date_str() -> str:
-    return datetime.now().strftime('%Y-%m-%d')
+    """Retorna fecha con indicador AM/PM para diferenciar ejecuciones"""
+    now = datetime.now()
+    hour = now.hour
+    if hour < 12:
+        period = "morning"
+    else:
+        period = "evening"
+    return f"{now.strftime('%Y-%m-%d')}-{period}"
 
 def get_trending_repos_24h() -> List[Dict]:
     """
@@ -120,9 +127,20 @@ def generate_markdown_for_day(date: str, repos: List[Dict], day_dir: Path):
     # Separar en dos tablas: AI/Claude y General
     ai_repos = filter_ai_claude_repos(repos)
     
-    md_content = f"""# 📊 Ecosistema Claude - {date}
+    # Determinar si es mañana o tarde para el título
+    if "morning" in date:
+        period_emoji = "🌅"
+        period_text = "Mañana"
+    else:
+        period_emoji = "🌙"
+        period_text = "Tarde"
+    
+    # Fecha limpia (sin -morning/-evening)
+    clean_date = date.replace("-morning", "").replace("-evening", "")
+    
+    md_content = f"""# {period_emoji} Ecosistema Claude - {clean_date} ({period_text})
 
-> Repos que más ⭐ ganaron en las **últimas 24 horas** (datos de OSS Insight)
+> Repos que más ⭐ ganaron en las **últimas 24 horas** - Actualización de {period_text.lower()}
 
 ---
 
@@ -161,12 +179,13 @@ def generate_markdown_for_day(date: str, repos: List[Dict], day_dir: Path):
 
 - **Repos AI/Claude identificados**: {ai_count}
 - **Estrellas ganadas (top 50 general)**: {total_gained:,}
+- **Período**: {period_text}
 - **Fuente**: [OSS Insight](https://ossinsight.io/)
 - **Método**: API oficial - período `past_24_hours`
 
 ---
 
-*Generado: {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}*
+*Generado: {datetime.now().strftime('%Y-%m-%d %H:%M UTC')} ({period_text})*
 """
     
     with open(day_dir / "README.md", 'w') as f:
@@ -234,8 +253,11 @@ def main():
     """Función principal"""
     
     date = get_date_str()
+    clean_date = date.replace("-morning", "").replace("-evening", "")
+    period = "🌅 Mañana" if "morning" in date else "🌙 Tarde"
+    
     print("=" * 70)
-    print(f"🚀 Claude Ecosystem Daily - {date}")
+    print(f"🚀 Claude Ecosystem Daily - {clean_date} ({period})")
     print("=" * 70)
     
     # Obtener repos desde OSS Insight
