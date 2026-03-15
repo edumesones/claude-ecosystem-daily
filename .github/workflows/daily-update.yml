@@ -40,9 +40,9 @@ jobs:
           DATE=$(date +%Y-%m-%d)
           HOUR=$(date +%H)
           if [ "$HOUR" -lt 12 ]; then
-            TIME_LABEL="🌅 Morning"
+            TIME_LABEL="Morning"
           else
-            TIME_LABEL="🌙 Evening"
+            TIME_LABEL="Evening"
           fi
-          git diff --cached --quiet || git commit -m "📊 $TIME_LABEL update: $DATE"
+          git diff --cached --quiet || git commit -m "Daily $TIME_LABEL update: $DATE"
           git push

@@ -129,16 +129,14 @@ def generate_markdown_for_day(date: str, repos: List[Dict], day_dir: Path):
     
     # Determinar si es mañana o tarde para el título
     if "morning" in date:
-        period_emoji = "🌅"
         period_text = "Mañana"
     else:
-        period_emoji = "🌙"
         period_text = "Tarde"
     
     # Fecha limpia (sin -morning/-evening)
     clean_date = date.replace("-morning", "").replace("-evening", "")
     
-    md_content = f"""# {period_emoji} Ecosistema Claude - {clean_date} ({period_text})
+    md_content = f"""# Ecosistema Claude - {clean_date} ({period_text})
 
 > Repos que más ⭐ ganaron en las **últimas 24 horas** - Actualización de {period_text.lower()}
 
@@ -254,10 +252,10 @@ def main():
     
     date = get_date_str()
     clean_date = date.replace("-morning", "").replace("-evening", "")
-    period = "🌅 Mañana" if "morning" in date else "🌙 Tarde"
+    period = "Mañana" if "morning" in date else "Tarde"
     
     print("=" * 70)
-    print(f"🚀 Claude Ecosystem Daily - {clean_date} ({period})")
+    print(f"Claude Ecosystem Daily - {clean_date} ({period})")
     print("=" * 70)
     
     # Obtener repos desde OSS Insight
