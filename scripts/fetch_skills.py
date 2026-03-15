@@ -16,11 +16,15 @@ def parse_skills_output(output: str) -> List[Dict]:
     """Parsea la salida de 'npx skills find'"""
     skills = []
     
-    # Patrón para extraer: owner/repo@skill [X installs]
-    # Ejemplo: vercel-labs/agent-skills@vercel-react-best-practices [210.3K installs]
-    pattern = r'([\w-]+/[\w-]+)@([\w-:]+)\s+\[(\d+(?:\.\d+)?[K]?) installs\]'
+    # Limpiar códigos ANSI de color
+    ansi_escape = re.compile(r'\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])')
+    output_clean = ansi_escape.sub('', output)
     
-    for line in output.split('\n'):
+    # Patrón para extraer: owner/repo@skill X installs
+    # Ejemplo: vercel-labs/agent-skills@vercel-react-best-practices 210.3K installs
+    pattern = r'([\w\-]+/[\w\-]+)@([\w\-:]+)\s+(\d+(?:\.\d+)?[K]?) installs'
+    
+    for line in output_clean.split('\n'):
         match = re.search(pattern, line)
         if match:
             owner_repo = match.group(1)
@@ -50,15 +54,11 @@ def get_skills() -> List[Dict]:
     all_skills = []
     seen = set()
     
-    # Buscar con diferentes términos para obtener variedad
+    # Buscar con términos populares (limitado a 3 para velocidad)
     queries = [
-        "react",
-        "design",
-        "testing",
-        "deployment",
         "claude",
+        "react",
         "python",
-        "web",
     ]
     
     for query in queries:

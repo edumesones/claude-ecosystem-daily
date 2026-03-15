@@ -1,0 +1,133 @@
+{
+  "date": "2026-03-15",
+  "generated_at": "2026-03-15T10:29:17.767253",
+  "total_skills": 18,
+  "skills": [
+    {
+      "id": "vercel-labs/agent-skills@vercel-react-best-practices",
+      "owner_repo": "vercel-labs/agent-skills",
+      "skill_name": "vercel-react-best-practices",
+      "installs": 210300,
+      "url": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices"
+    },
+    {
+      "id": "vercel-labs/agent-skills@vercel-react-native-skills",
+      "owner_repo": "vercel-labs/agent-skills",
+      "skill_name": "vercel-react-native-skills",
+      "installs": 59200,
+      "url": "https://skills.sh/vercel-labs/agent-skills/vercel-react-native-skills"
+    },
+    {
+      "id": "google-labs-code/stitch-skills@react:components",
+      "owner_repo": "google-labs-code/stitch-skills",
+      "skill_name": "react:components",
+      "installs": 15100,
+      "url": "https://skills.sh/google-labs-code/stitch-skills/react:components"
+    },
+    {
+      "id": "wshobson/agents@python-performance-optimization",
+      "owner_repo": "wshobson/agents",
+      "skill_name": "python-performance-optimization",
+      "installs": 9000,
+      "url": "https://skills.sh/wshobson/agents/python-performance-optimization"
+    },
+    {
+      "id": "wshobson/agents@python-testing-patterns",
+      "owner_repo": "wshobson/agents",
+      "skill_name": "python-testing-patterns",
+      "installs": 7200,
+      "url": "https://skills.sh/wshobson/agents/python-testing-patterns"
+    },
+    {
+      "id": "github/awesome-copilot@python-mcp-server-generator",
+      "owner_repo": "github/awesome-copilot",
+      "skill_name": "python-mcp-server-generator",
+      "installs": 7200,
+      "url": "https://skills.sh/github/awesome-copilot/python-mcp-server-generator"
+    },
+    {
+      "id": "github/awesome-copilot@dataverse-python-production-code",
+      "owner_repo": "github/awesome-copilot",
+      "skill_name": "dataverse-python-production-code",
+      "installs": 7100,
+      "url": "https://skills.sh/github/awesome-copilot/dataverse-python-production-code"
+    },
+    {
+      "id": "github/awesome-copilot@dataverse-python-advanced-patterns",
+      "owner_repo": "github/awesome-copilot",
+      "skill_name": "dataverse-python-advanced-patterns",
+      "installs": 7000,
+      "url": "https://skills.sh/github/awesome-copilot/dataverse-python-advanced-patterns"
+    },
+    {
+      "id": "github/awesome-copilot@dataverse-python-quickstart",
+      "owner_repo": "github/awesome-copilot",
+      "skill_name": "dataverse-python-quickstart",
+      "installs": 7000,
+      "url": "https://skills.sh/github/awesome-copilot/dataverse-python-quickstart"
+    },
+    {
+      "id": "anthropics/skills@claude-api",
+      "owner_repo": "anthropics/skills",
+      "skill_name": "claude-api",
+      "installs": 3000,
+      "url": "https://skills.sh/anthropics/skills/claude-api"
+    },
+    {
+      "id": "resend/react-email@react-email",
+      "owner_repo": "resend/react-email",
+      "skill_name": "react-email",
+      "installs": 3000,
+      "url": "https://skills.sh/resend/react-email/react-email"
+    },
+    {
+      "id": "op7418/claude-to-im-skill@claude-to-im",
+      "owner_repo": "op7418/claude-to-im-skill",
+      "skill_name": "claude-to-im",
+      "installs": 1500,
+      "url": "https://skills.sh/op7418/claude-to-im-skill/claude-to-im"
+    },
+    {
+      "id": "anthropics/claude-plugins-official@claude-md-improver",
+      "owner_repo": "anthropics/claude-plugins-official",
+      "skill_name": "claude-md-improver",
+      "installs": 1500,
+      "url": "https://skills.sh/anthropics/claude-plugins-official/claude-md-improver"
+    },
+    {
+      "id": "anthropics/claude-code@claude-opus-4-5-migration",
+      "owner_repo": "anthropics/claude-code",
+      "skill_name": "claude-opus-4-5-migration",
+      "installs": 1400,
+      "url": "https://skills.sh/anthropics/claude-code/claude-opus-4-5-migration"
+    },
+    {
+      "id": "anthropics/claude-plugins-official@claude-automation-recommender",
+      "owner_repo": "anthropics/claude-plugins-official",
+      "skill_name": "claude-automation-recommender",
+      "installs": 990,
+      "url": "https://skills.sh/anthropics/claude-plugins-official/claude-automation-recommender"
+    },
+    {
+      "id": "claude-office-skills/skills@excel-automation",
+      "owner_repo": "claude-office-skills/skills",
+      "skill_name": "excel-automation",
+      "installs": 521,
+      "url": "https://skills.sh/claude-office-skills/skills/excel-automation"
+    },
+    {
+      "id": "vercel-labs/json-render@json-render-react",
+      "owner_repo": "vercel-labs/json-render",
+      "skill_name": "json-render-react",
+      "installs": 393,
+      "url": "https://skills.sh/vercel-labs/json-render/json-render-react"
+    },
+    {
+      "id": "vercel-labs/json-render@react",
+      "owner_repo": "vercel-labs/json-render",
+      "skill_name": "react",
+      "installs": 205,
+      "url": "https://skills.sh/vercel-labs/json-render/react"
+    }
+  ]
+}
