@@ -25,7 +25,12 @@ Tracking automático **2 veces al día** de los repositorios de GitHub relaciona
 
 ---
 
-## Estructura de datos
+## Tipos de tracking
+
+### 1. Trending Diario (General)
+**Frecuencia**: 2 veces al día (9AM y 9PM UTC)  
+**Período**: Últimas 24 horas  
+**Cobertura**: Todos los repos AI/Claude/Agents trending
 
 ```
 archive/
@@ -38,10 +43,28 @@ archive/
 └── ...
 ```
 
-Cada snapshot incluye:
+**Contenido**:
 - **100 repos trending** de GitHub (últimas 24h)
 - **Filtro AI/Claude**: Repos relacionados con IA/agents (~80-90 repos)
 - **Ranking por estrellas ganadas**
+
+### 2. CLI Tools Weekly (Específico)
+**Frecuencia**: 1 vez por semana (Domingos 12:00 UTC)  
+**Período**: Última semana  
+**Cobertura**: Solo herramientas CLI para AI/Claude
+
+```
+weekly/
+├── 2026-W11-cli/           ← Snapshot semanal de CLI tools
+│   ├── README.md
+│   └── cli-repos.json
+└── ...
+```
+
+**Contenido**:
+- **CLI tools trending** de la semana
+- **Filtro específico**: Repos con "cli", "terminal", "shell", "tui", "command line"
+- **Ranking semanal** por estrellas ganadas
 
 ---
 
