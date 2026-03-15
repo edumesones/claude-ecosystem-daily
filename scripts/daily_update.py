@@ -257,8 +257,11 @@ def main():
     # Mostrar top 5
     print("\n📈 Top 5 repos ganadores de hoy:")
     for i, r in enumerate(repos[:5], 1):
-        gained = r.get('stars_gained', 0)
-        print(f"   {i}. {r['name']} +{gained:,} ⭐")
+        gained = r.get('stars_gained')
+        if gained is None:
+            print(f"   {i}. {r['name']} 📌 Baseline ({r['stars']:,} total)")
+        else:
+            print(f"   {i}. {r['name']} +{gained:,} ⭐")
     
     # 2. Guardar en archivo histórico
     print("\n💾 Guardando datos...")
