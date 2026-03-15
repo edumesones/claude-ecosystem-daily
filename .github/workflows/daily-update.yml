@@ -2,8 +2,11 @@ name: Daily Ecosystem Update
 
 on:
   schedule:
-    # Todos los días a las 9:00 AM UTC
-    - cron: '0 9 * * *'
+    # Dos veces al día: 9:00 AM y 9:00 PM UTC
+    # Mañana: captura overnight activity
+    # Noche: captura daytime activity
+    - cron: '0 9 * * *'   # 9:00 AM UTC
+    - cron: '0 21 * * *'  # 9:00 PM UTC
   workflow_dispatch:
 
 jobs:
@@ -35,5 +38,11 @@ jobs:
           git add -A
           
           DATE=$(date +%Y-%m-%d)
-          git diff --cached --quiet || git commit -m "📊 Daily update: $DATE"
+          HOUR=$(date +%H)
+          if [ "$HOUR" -lt 12 ]; then
+            TIME_LABEL="🌅 Morning"
+          else
+            TIME_LABEL="🌙 Evening"
+          fi
+          git diff --cached --quiet || git commit -m "📊 $TIME_LABEL update: $DATE"
           git push
