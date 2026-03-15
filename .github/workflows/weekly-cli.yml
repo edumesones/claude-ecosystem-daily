@@ -28,7 +28,19 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          WEEK=$(date +%Y-W%V)
+          
           DATE=$(date +%Y-%m-%d)
-          git diff --cached --quiet || git commit -m "Daily CLI 7-Day update: $DATE"
+          
+          # Solo commit si hay cambios
+          if git diff --cached --quiet; then
+            echo "No hay cambios para commit"
+            exit 0
+          fi
+          
+          git commit -m "Daily CLI 7-Day update: $DATE"
+          
+          # Pull con rebase para evitar conflictos
+          git pull --rebase origin main || git pull --no-rebase origin main
+          
+          # Push
           git push

@@ -44,5 +44,17 @@ jobs:
           else
             TIME_LABEL="Evening"
           fi
-          git diff --cached --quiet || git commit -m "Daily $TIME_LABEL update: $DATE"
+          
+          # Solo commit si hay cambios
+          if git diff --cached --quiet; then
+            echo "No hay cambios para commit"
+            exit 0
+          fi
+          
+          git commit -m "Daily $TIME_LABEL update: $DATE"
+          
+          # Pull con rebase para evitar conflictos
+          git pull --rebase origin main || git pull --no-rebase origin main
+          
+          # Push
           git push

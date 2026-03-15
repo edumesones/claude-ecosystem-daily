@@ -1,6 +1,6 @@
 # Claude Ecosystem Daily
 
-> Tracking diario de repos AI/Claude/Agents/LLMs que más estrellas ganan en GitHub
+> Tracking diario del ecosistema de desarrollo con IA: repos GitHub, CLI tools y agent skills
 
 [![Daily Update](https://github.com/edumesones/claude-ecosystem-daily/actions/workflows/daily-update.yml/badge.svg)](https://github.com/edumesones/claude-ecosystem-daily/actions/workflows/daily-update.yml)
 
@@ -8,98 +8,110 @@
 
 ## Qué hace este repo
 
-Tracking automático **2 veces al día** de los repositorios de GitHub relacionados con:
+Tracking automático de 3 fuentes de datos del ecosistema AI/Claude:
 
-- Claude / Anthropic
-- AI Agents
-- LLMs (GPT, Llama, Gemini, etc.)
-- Coding assistants (Cursor, Codex, etc.)
-- Frameworks de agentes
-- Tools para desarrollo con IA
+### 1. GitHub Trending (Diario, 2 veces)
+Repos de GitHub relacionados con Claude/AI/Agents que más estrellas ganan cada día.
 
-### Fuentes de datos
+**Frecuencia**: 9:00 AM UTC (Mañana) y 9:00 PM UTC (Tarde)  
+**Período**: Últimas 24 horas  
+**Output**: 100 repos trending
 
-- **OSS Insight API** - Datos oficiales de trending repos en GitHub
-- **Período**: Últimas 24 horas (`past_24_hours`)
-- **Actualizaciones**: 9:00 AM UTC (Mañana) y 9:00 PM UTC (Tarde)
+### 2. CLI Tools (Diario)
+Herramientas de línea de comandos para AI/Claude con más actividad en 7 días.
+
+**Frecuencia**: 12:00 PM UTC (Diario)  
+**Período**: Últimos 7 días  
+**Output**: CLI tools filtrados
+
+### 3. Agent Skills (Diario) - EXPERIMENTAL
+Skills populares de [skills.sh](https://skills.sh/).
+
+**Frecuencia**: Manual (requiere `npx skills`)  
+**Output**: Skills ordenados por instalaciones
 
 ---
 
-## Tipos de tracking
-
-### 1. Trending Diario (General)
-**Frecuencia**: 2 veces al día (9AM y 9PM UTC)  
-**Período**: Últimas 24 horas  
-**Cobertura**: Todos los repos AI/Claude/Agents trending
+## Estructura de datos
 
 ```
-archive/
-├── 2026-03-15-morning/     ← Snapshot de la mañana
+archive/                      ← Trending diario (repos GitHub)
+├── 2026-03-15-morning/
 │   ├── README.md
 │   └── repos.json
-├── 2026-03-15-evening/     ← Snapshot de la tarde
+├── 2026-03-15-evening/
 │   ├── README.md
 │   └── repos.json
 └── ...
-```
 
-**Contenido**:
-- **100 repos trending** de GitHub (últimas 24h)
-- **Filtro AI/Claude**: Repos relacionados con IA/agents (~80-90 repos)
-- **Ranking por estrellas ganadas**
-
-### 2. CLI Tools Weekly (Específico)
-**Frecuencia**: 1 vez por semana (Domingos 12:00 UTC)  
-**Período**: Última semana  
-**Cobertura**: Solo herramientas CLI para AI/Claude
-
-```
-weekly/
-├── 2026-W11-cli/           ← Snapshot semanal de CLI tools
+weekly/                       ← CLI tools (últimos 7 días)
+├── 2026-03-15-cli-7d/
 │   ├── README.md
 │   └── cli-repos.json
 └── ...
+
+skills-data/                  ← Agent skills
+├── 2026-03-15.json
+├── latest.json
+└── README.md
 ```
-
-**Contenido**:
-- **CLI tools trending** de la semana
-- **Filtro específico**: Repos con "cli", "terminal", "shell", "tui", "command line"
-- **Ranking semanal** por estrellas ganadas
-
----
-
-## Ver últimos datos
-
-[Ver datos de hoy →](./archive/)
-
----
-
-## Cómo funciona
-
-1. **GitHub Action** se ejecuta 2 veces al día (9AM y 9PM UTC)
-2. **Script Python** consulta OSS Insight API
-3. **Filtra** repos relacionados con AI/Claude/Agents
-4. **Genera** README.md con tablas de rankings
-5. **Guarda** datos en carpeta `archive/YYYY-MM-DD-{morning|evening}/`
-6. **Commit automático** con los nuevos datos
 
 ---
 
 ## Campos de datos
 
-Cada repo incluye:
-
+### Repos GitHub (Trending)
 | Campo | Descripción |
 |-------|-------------|
-| `name` | Nombre del repo (owner/repo) |
-| `stars` | Estrellas ganadas en las últimas 24h |
-| `stars_gained_24h` | Alias de `stars` |
-| `forks` | Forks del repo |
+| `name` | owner/repo |
+| `stars` | Estrellas ganadas (24h o 7d) |
 | `description` | Descripción del repo |
-| `url` | URL de GitHub |
 | `language` | Lenguaje principal |
-| `total_score` | Score ponderado de OSS Insight |
-| `contributors` | Top contribuidores |
+| `url` | URL de GitHub |
+
+### Skills
+| Campo | Descripción |
+|-------|-------------|
+| `id` | owner/repo@skill-name |
+| `installs` | Número de instalaciones |
+| `url` | Link a skills.sh |
+
+---
+
+## Fuentes
+
+- **OSS Insight API** - Datos oficiales de GitHub trending
+- **skills.sh CLI** - Skills de agentes (via `npx skills`)
+
+---
+
+## Uso
+
+### Ver datos históricos
+
+```bash
+# Trending de hoy
+cat archive/$(date +%Y-%m-%d)-morning/repos.json
+
+# CLI tools de hoy
+cat weekly/$(date +%Y-%m-%d)-cli-7d/cli-repos.json
+
+# Skills
+ls skills-data/
+```
+
+### Ejecutar manualmente
+
+```bash
+# Trending diario
+python scripts/daily_update.py
+
+# CLI tools
+python scripts/fetch_cli_weekly.py
+
+# Skills
+python scripts/fetch_skills.py
+```
 
 ---
 
@@ -118,39 +130,20 @@ swarm, mcp, skill
 
 ---
 
-## Uso
-
-### Ver datos históricos
-
-```bash
-# Ver archivo de hoy
-cat archive/$(date +%Y-%m-%d)-morning/repos.json
-
-# Ver README de hoy
-cat archive/$(date +%Y-%m-%d)-morning/README.md
-```
-
-### Ejecutar manualmente
-
-```bash
-python scripts/daily_update.py
-```
-
----
-
 ## Tecnologías
 
-- **Python 3.11**
-- **httpx** - HTTP client
-- **OSS Insight API** - Fuente de datos
-- **GitHub Actions** - Automatización
+- Python 3.11
+- httpx
+- GitHub Actions
+- OSS Insight API
+- skills.sh CLI
 
 ---
 
 ## Licencia
 
-MIT - Datos públicos de GitHub
+MIT - Datos públicos
 
 ---
 
-*Generado automáticamente. Última actualización: ver carpetas en `archive/`*
+*Actualizado automáticamente. Ver carpetas para fechas específicas.*
