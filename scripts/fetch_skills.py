@@ -86,44 +86,106 @@ def get_skills() -> List[Dict]:
     print(f"   ✅ {len(all_skills)} skills encontrados")
     return all_skills
 
+def categorize_skill(skill: Dict) -> str:
+    """Clasifica un skill en una categoría"""
+    skill_id = skill['id'].lower()
+    skill_name = skill['skill_name'].lower()
+    
+    # Categoría 1: Frontend & UI
+    frontend_keywords = ['react', 'component', 'ui', 'design', 'frontend', 'web', 'css', 'html']
+    if any(kw in skill_id or kw in skill_name for kw in frontend_keywords):
+        return 'frontend'
+    
+    # Categoría 2: Backend & Python
+    backend_keywords = ['python', 'api', 'backend', 'server', 'database', 'sql', 'dataverse']
+    if any(kw in skill_id or kw in skill_name for kw in backend_keywords):
+        return 'backend'
+    
+    # Categoría 3: Claude & Agents (default)
+    return 'agents'
+
 def save_skills_data(date: str, skills: List[Dict]):
-    """Guarda datos de skills"""
+    """Guarda datos de skills organizados por categorías"""
     
     day_dir = ARCHIVE_DIR
     day_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Clasificar skills
+    categorized = {
+        'frontend': [],
+        'backend': [],
+        'agents': []
+    }
+    
+    for skill in skills:
+        cat = categorize_skill(skill)
+        categorized[cat].append(skill)
+    
+    # Ordenar cada categoría por installs
+    for cat in categorized:
+        categorized[cat].sort(key=lambda x: x['installs'], reverse=True)
     
     data = {
         'date': date,
         'generated_at': datetime.now().isoformat(),
         'total_skills': len(skills),
-        'skills': skills
+        'categories': {
+            'frontend': {'name': 'Frontend & UI', 'skills': categorized['frontend']},
+            'backend': {'name': 'Backend & Python', 'skills': categorized['backend']},
+            'agents': {'name': 'Claude & Agents', 'skills': categorized['agents']}
+        }
     }
     
-    # Guardar JSON con fecha
+    # Guardar JSON
     with open(day_dir / f"{date}.json", 'w') as f:
         json.dump(data, f, indent=2)
     
-    # Guardar también como latest.json
     with open(day_dir / "latest.json", 'w') as f:
         json.dump(data, f, indent=2)
     
-    # Generar README
+    # Generar README con categorías
     md_content = f"""# Skills Populares - {date}
 
-> Skills de skills.sh ordenados por instalaciones
+> Skills de skills.sh organizados por categorías
 
 ---
 
-## TOP 50 Skills
+## 1️⃣ Frontend & UI
 
 | # | Skill | Installs | URL |
 |---|-------|----------|-----|
 """
     
-    for i, skill in enumerate(skills[:50], 1):
+    for i, skill in enumerate(categorized['frontend'][:20], 1):
         md_content += f"| {i} | {skill['id']} | {skill['installs']:,} | [Link]({skill['url']}) |\n"
     
-    total_installs = sum(s['installs'] for s in skills[:50])
+    md_content += f"""
+
+---
+
+## 2️⃣ Backend & Python
+
+| # | Skill | Installs | URL |
+|---|-------|----------|-----|
+"""
+    
+    for i, skill in enumerate(categorized['backend'][:20], 1):
+        md_content += f"| {i} | {skill['id']} | {skill['installs']:,} | [Link]({skill['url']}) |\n"
+    
+    md_content += f"""
+
+---
+
+## 3️⃣ Claude & Agents
+
+| # | Skill | Installs | URL |
+|---|-------|----------|-----|
+"""
+    
+    for i, skill in enumerate(categorized['agents'][:20], 1):
+        md_content += f"| {i} | {skill['id']} | {skill['installs']:,} | [Link]({skill['url']}) |\n"
+    
+    total_installs = sum(s['installs'] for s in skills)
     
     md_content += f"""
 
@@ -131,9 +193,14 @@ def save_skills_data(date: str, skills: List[Dict]):
 
 ## Estadísticas
 
-- **Total skills indexados**: {len(skills)}
-- **Installs top 50**: {total_installs:,}
-- **Fuente**: [skills.sh](https://skills.sh/)
+| Categoría | Skills | Installs totales |
+|-----------|--------|------------------|
+| Frontend & UI | {len(categorized['frontend'])} | {sum(s['installs'] for s in categorized['frontend']):,} |
+| Backend & Python | {len(categorized['backend'])} | {sum(s['installs'] for s in categorized['backend']):,} |
+| Claude & Agents | {len(categorized['agents'])} | {sum(s['installs'] for s in categorized['agents']):,} |
+| **Total** | **{len(skills)}** | **{total_installs:,}** |
+
+**Fuente**: [skills.sh](https://skills.sh/)
 
 ---
 
@@ -144,6 +211,9 @@ def save_skills_data(date: str, skills: List[Dict]):
         f.write(md_content)
     
     print(f"💾 Datos guardados en: {day_dir}/")
+    print(f"   📊 Frontend & UI: {len(categorized['frontend'])} skills")
+    print(f"   📊 Backend & Python: {len(categorized['backend'])} skills")
+    print(f"   📊 Claude & Agents: {len(categorized['agents'])} skills")
 
 def main():
     date = datetime.now().strftime('%Y-%m-%d')
@@ -157,9 +227,28 @@ def main():
         print("❌ No se encontraron skills")
         return
     
-    print("\n🏆 TOP 10 SKILLS:")
-    for i, s in enumerate(skills[:10], 1):
-        print(f"   {i:2d}. {s['id'][:50]:<50} {s['installs']:>10,} installs")
+    # Clasificar para mostrar en consola
+    categorized = {'frontend': [], 'backend': [], 'agents': []}
+    for skill in skills:
+        cat = categorize_skill(skill)
+        categorized[cat].append(skill)
+    
+    for cat in categorized:
+        categorized[cat].sort(key=lambda x: x['installs'], reverse=True)
+    
+    print("\n🏆 TOP SKILLS POR CATEGORÍA:")
+    
+    print("\n   1️⃣ Frontend & UI:")
+    for i, s in enumerate(categorized['frontend'][:5], 1):
+        print(f"      {i}. {s['id'][:45]:<45} {s['installs']:>8,}")
+    
+    print("\n   2️⃣ Backend & Python:")
+    for i, s in enumerate(categorized['backend'][:5], 1):
+        print(f"      {i}. {s['id'][:45]:<45} {s['installs']:>8,}")
+    
+    print("\n   3️⃣ Claude & Agents:")
+    for i, s in enumerate(categorized['agents'][:5], 1):
+        print(f"      {i}. {s['id'][:45]:<45} {s['installs']:>8,}")
     
     save_skills_data(date, skills)
     
