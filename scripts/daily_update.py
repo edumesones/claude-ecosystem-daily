@@ -85,13 +85,24 @@ def get_trending_repos_with_diff() -> List[Dict]:
             yesterday_data = {r['name']: r['stars'] for r in json.load(f).get('repos', [])}
     
     # Calcular ganancia de stars
-    for repo in unique_repos:
-        yesterday_stars = yesterday_data.get(repo['name'], repo['stars'])
-        repo['stars_gained'] = repo['stars'] - yesterday_stars
-        repo['stars_yesterday'] = yesterday_stars
+    is_first_run = not yesterday_data
     
-    # Ordenar por stars ganadas (trending), no por total
-    trending = sorted(unique_repos, key=lambda x: x.get('stars_gained', 0), reverse=True)
+    for repo in unique_repos:
+        if is_first_run:
+            # Primera ejecución: no hay datos previos
+            repo['stars_gained'] = None  # Se mostrará como "Baseline"
+            repo['stars_yesterday'] = 0
+        else:
+            yesterday_stars = yesterday_data.get(repo['name'], repo['stars'])
+            repo['stars_gained'] = repo['stars'] - yesterday_stars
+            repo['stars_yesterday'] = yesterday_stars
+    
+    # Ordenar: si es primera vez, por total; si no, por ganancia
+    if is_first_run:
+        trending = sorted(unique_repos, key=lambda x: x['stars'], reverse=True)
+        print("📌 Primera ejecución - Estableciendo baseline (no hay datos previos)")
+    else:
+        trending = sorted(unique_repos, key=lambda x: x.get('stars_gained', 0), reverse=True)
     
     return trending[:50]
 
@@ -135,10 +146,20 @@ def generate_markdown_for_day(date: str, repos: List[Dict], day_dir: Path):
 """
     
     for i, repo in enumerate(repos[:50], 1):
-        gained = repo.get('stars_gained', 0)
-        gained_str = f"+{gained:,}" if gained > 0 else f"{gained:,}"
+        gained = repo.get('stars_gained')
+        if gained is None:
+            gained_str = "📌 Baseline"  # Primera ejecución
+        elif gained > 0:
+            gained_str = f"+{gained:,}"
+        else:
+            gained_str = f"{gained:,}"
         
-        md_content += f"| {i} | [{repo['name']}]({repo['url']}) | {repo['stars']:,} | **{gained_str}** | {repo['description'][:60]}... |\n"
+        desc = repo['description'][:60] + "..." if len(repo['description']) > 60 else repo['description']
+        md_content += f"| {i} | [{repo['name']}]({repo['url']}) | {repo['stars']:,} | **{gained_str}** | {desc} |\n"
+    
+    # Calcular estadísticas (manejando None para primera ejecución)
+    total_gained = sum(r.get('stars_gained', 0) or 0 for r in repos[:10])
+    gained_label = f"{total_gained:,}" if any(r.get('stars_gained') is not None for r in repos[:10]) else "N/A (baseline)"
     
     md_content += f"""
 
@@ -147,7 +168,7 @@ def generate_markdown_for_day(date: str, repos: List[Dict], day_dir: Path):
 ## 📈 Estadísticas del día
 
 - **Repos analizados**: {len(repos)}
-- **Stars ganadas (top 10)**: {sum(r.get('stars_gained', 0) for r in repos[:10]):,}
+- **Stars ganadas (top 10)**: {gained_label}
 - **Lenguaje más popular**: {max(set(r['language'] for r in repos), key=lambda x: sum(1 for r in repos if r['language'] == x))}
 
 ---
@@ -192,8 +213,12 @@ Ver datos históricos en [`archive/`](./archive/)
     top_10_table += "|---|------|--------|----------|\n"
     
     for i, repo in enumerate(repos[:10], 1):
-        gained = repo.get('stars_gained', 0)
-        top_10_table += f"| {i} | [{repo['name']}]({repo['url']}) | +{gained:,} | {repo['stars']:,} |\n"
+        gained = repo.get('stars_gained')
+        if gained is None:
+            gained_str = "📌 Baseline"
+        else:
+            gained_str = f"+{gained:,}"
+        top_10_table += f"| {i} | [{repo['name']}]({repo['url']}) | {gained_str} | {repo['stars']:,} |\n"
     
     latest_section = f"""### 📅 {date}
 
