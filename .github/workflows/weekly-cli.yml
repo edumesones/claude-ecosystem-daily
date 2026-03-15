@@ -1,9 +1,9 @@
-name: Weekly CLI Tools Update
+name: Daily CLI Tools Update (7-Day)
 
 on:
   schedule:
-    # Una vez por semana: Domingo a las 12:00 UTC
-    - cron: '0 12 * * 0'
+    # Diariamente a las 12:00 UTC (mide últimos 7 días)
+    - cron: '0 12 * * *'
   workflow_dispatch:
 
 jobs:
@@ -29,5 +29,6 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
           WEEK=$(date +%Y-W%V)
-          git diff --cached --quiet || git commit -m "Weekly CLI update: $WEEK"
+          DATE=$(date +%Y-%m-%d)
+          git diff --cached --quiet || git commit -m "Daily CLI 7-Day update: $DATE"
           git push

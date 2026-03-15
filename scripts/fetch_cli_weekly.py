@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Script semanal para trackear CLI tools trending.
-Ejecuta 1 vez por semana (domingos).
+Script diario para trackear CLI tools trending (últimos 7 días).
+Ejecuta 1 vez por día a las 12:00 UTC.
 """
 import json
 import os
@@ -14,13 +14,13 @@ import httpx
 OSSINSIGHT_API = "https://api.ossinsight.io/v1/trends/repos/"
 ARCHIVE_DIR = Path("weekly")
 
-def get_week_str() -> str:
-    """Retorna año-semana: 2026-W11"""
-    return datetime.now().strftime('%Y-W%V')
+def get_date_str() -> str:
+    """Retorna fecha: 2026-03-15"""
+    return datetime.now().strftime('%Y-%m-%d')
 
 def get_cli_repos() -> List[Dict]:
     """
-    Obtiene repos CLI trending de la última semana.
+    Obtiene repos CLI trending de los últimos 7 días.
     Usa keywords específicas para herramientas de línea de comandos.
     """
     # Queries específicas para CLI
@@ -41,7 +41,7 @@ def get_cli_repos() -> List[Dict]:
     all_repos = []
     seen = set()
     
-    print("🔍 Buscando CLI tools trending de la semana...")
+    print("🔍 Buscando CLI tools trending de últimos 7 días...")
     
     for query in queries:
         try:
@@ -75,7 +75,7 @@ def get_cli_repos() -> List[Dict]:
                             all_repos.append({
                                 'name': repo_name,
                                 'stars': int(row.get('stars', 0)),
-                                'stars_gained_week': int(row.get('stars', 0)),
+                                'stars_gained_7d': int(row.get('stars', 0)),
                                 'forks': int(row.get('forks', 0)),
                                 'description': row.get('description', ''),
                                 'url': f"https://github.com/{repo_name}",
@@ -87,46 +87,46 @@ def get_cli_repos() -> List[Dict]:
             print(f"   ⚠️ Error con query '{query}': {e}")
     
     # Ordenar por estrellas ganadas
-    all_repos.sort(key=lambda x: x['stars_gained_week'], reverse=True)
+    all_repos.sort(key=lambda x: x['stars_gained_7d'], reverse=True)
     
     print(f"   ✅ {len(all_repos)} CLI tools encontrados")
     return all_repos
 
-def save_weekly_data(week: str, repos: List[Dict]):
-    """Guarda datos de la semana"""
+def save_cli_data(date: str, repos: List[Dict]):
+    """Guarda datos de 7 días"""
     
-    week_dir = ARCHIVE_DIR / f"{week}-cli"
-    week_dir.mkdir(parents=True, exist_ok=True)
+    day_dir = ARCHIVE_DIR / f"{date}-cli-7d"
+    day_dir.mkdir(parents=True, exist_ok=True)
     
     data = {
-        'week': week,
+        'date': date,
         'generated_at': datetime.now().isoformat(),
         'period': 'past_week',
         'total_repos': len(repos),
         'repos': repos
     }
     
-    with open(week_dir / "cli-repos.json", 'w') as f:
+    with open(day_dir / "cli-repos.json", 'w') as f:
         json.dump(data, f, indent=2)
     
     # Generar README
-    md_content = f"""# CLI Tools Weekly - {week}
+    md_content = f"""# CLI Tools 7-Day - {date}
 
-> CLI tools para AI/Claude/Agents que más ⭐ ganaron esta semana
+> CLI tools para AI/Claude/Agents que más ⭐ ganaron últimos 7 días
 
 ---
 
 ## TOP CLI Tools
 
-| # | Repo | ⭐ Semana | ⭐ Total | Lenguaje | Descripción |
+| # | Repo | ⭐ 7 días | ⭐ Total | Lenguaje | Descripción |
 |---|------|----------|---------|----------|-------------|
 """
     
     for i, repo in enumerate(repos[:50], 1):
         desc = repo['description'][:45] + "..." if len(repo['description']) > 45 else repo['description']
-        md_content += f"| {i} | [{repo['name']}]({repo['url']}) | **+{repo['stars_gained_week']:,}** | {repo['stars']:,} | {repo['language']} | {desc} |\n"
+        md_content += f"| {i} | [{repo['name']}]({repo['url']}) | **+{repo['stars_gained_7d']:,}** | {repo['stars']:,} | {repo['language']} | {desc} |\n"
     
-    total_gained = sum(r['stars_gained_week'] for r in repos[:50])
+    total_gained = sum(r['stars_gained_7d'] for r in repos[:50])
     
     md_content += f"""
 
@@ -136,7 +136,7 @@ def save_weekly_data(week: str, repos: List[Dict]):
 
 - **CLI tools encontrados**: {len(repos)}
 - **Estrellas ganadas (top 50)**: {total_gained:,}
-- **Período**: Última semana
+- **Período**: Últimos 7 días
 - **Fuente**: OSS Insight API
 
 ---
@@ -144,15 +144,15 @@ def save_weekly_data(week: str, repos: List[Dict]):
 *Generado: {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}*
 """
     
-    with open(week_dir / "README.md", 'w') as f:
+    with open(day_dir / "README.md", 'w') as f:
         f.write(md_content)
     
-    print(f"💾 Datos guardados en: {week_dir}/")
+    print(f"💾 Datos guardados en: {day_dir}/")
 
 def main():
-    week = get_week_str()
+    date = get_date_str()
     print("=" * 70)
-    print(f"CLI Tools Weekly - {week}")
+    print(f"CLI Tools 7-Day - {date}")
     print("=" * 70)
     
     repos = get_cli_repos()
@@ -161,14 +161,14 @@ def main():
         print("❌ No se encontraron CLI tools")
         return
     
-    print("\n🏆 TOP 10 CLI TOOLS DE LA SEMANA:")
+    print("\n🏆 TOP 10 CLI TOOLS DE 7 DÍAS:")
     for i, r in enumerate(repos[:10], 1):
-        print(f"   {i:2d}. {r['name'][:45]:<45} +{r['stars_gained_week']:4,} ⭐")
+        print(f"   {i:2d}. {r['name'][:45]:<45} +{r['stars_gained_7d']:4,} ⭐")
     
-    save_weekly_data(week, repos)
+    save_cli_data(date, repos)
     
     print("\n" + "=" * 70)
-    print(f"✨ Completado: {week}")
+    print(f"✨ Completado: {date}")
 
 if __name__ == "__main__":
     main()
