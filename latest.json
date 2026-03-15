@@ -1,17 +1,17 @@
 {
   "date": "2026-03-15",
-  "generated_at": "2026-03-15T07:39:00.108070",
+  "generated_at": "2026-03-15T07:46:31.679867",
   "total_repos": 50,
   "repos": [
     {
       "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
-      "stars": 131072,
+      "stars": 131073,
       "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
       "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
       "language": "Unknown",
       "created_at": "2025-03-05T16:38:29Z",
-      "stars_gained": 0,
-      "stars_yesterday": 131072
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "langchain-ai/langchain",
@@ -20,38 +20,38 @@
       "url": "https://github.com/langchain-ai/langchain",
       "language": "Python",
       "created_at": "2022-10-17T02:58:36Z",
-      "stars_gained": 0,
-      "stars_yesterday": 129501
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "Shubhamsaboo/awesome-llm-apps",
-      "stars": 102149,
+      "stars": 102150,
       "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "language": "Python",
       "created_at": "2024-04-29T05:30:25Z",
-      "stars_gained": 0,
-      "stars_yesterday": 102149
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "anthropics/claude-code",
-      "stars": 78049,
+      "stars": 78054,
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "url": "https://github.com/anthropics/claude-code",
       "language": "Shell",
       "created_at": "2025-02-22T17:41:21Z",
-      "stars_gained": 0,
-      "stars_yesterday": 78049
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "affaan-m/everything-claude-code",
-      "stars": 76210,
+      "stars": 76214,
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "url": "https://github.com/affaan-m/everything-claude-code",
       "language": "JavaScript",
       "created_at": "2026-01-18T00:51:51Z",
-      "stars_gained": 0,
-      "stars_yesterday": 76210
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "jeecgboot/JeecgBoot",
@@ -60,18 +60,18 @@
       "url": "https://github.com/jeecgboot/JeecgBoot",
       "language": "Java",
       "created_at": "2018-11-26T10:40:00Z",
-      "stars_gained": 0,
-      "stars_yesterday": 45398
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "ComposioHQ/awesome-claude-skills",
-      "stars": 44169,
+      "stars": 44170,
       "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
       "language": "Python",
       "created_at": "2025-10-17T07:15:01Z",
-      "stars_gained": 0,
-      "stars_yesterday": 44169
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "zhayujie/chatgpt-on-wechat",
@@ -80,58 +80,58 @@
       "url": "https://github.com/zhayujie/chatgpt-on-wechat",
       "language": "Python",
       "created_at": "2022-08-07T08:33:41Z",
-      "stars_gained": 0,
-      "stars_yesterday": 42211
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "stars": 41576,
+      "stars": 41577,
       "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
       "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
       "language": "Python",
       "created_at": "2025-11-30T11:36:31Z",
-      "stars_gained": 0,
-      "stars_yesterday": 41576
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "code-yeongyu/oh-my-openagent",
-      "stars": 40060,
+      "stars": 40059,
       "description": "omo; the best agent harness - previously oh-my-opencode",
       "url": "https://github.com/code-yeongyu/oh-my-openagent",
       "language": "TypeScript",
       "created_at": "2025-12-03T01:40:05Z",
-      "stars_gained": 0,
-      "stars_yesterday": 40060
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "thedotmack/claude-mem",
-      "stars": 34949,
+      "stars": 34950,
       "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
       "url": "https://github.com/thedotmack/claude-mem",
       "language": "TypeScript",
       "created_at": "2025-08-31T20:50:03Z",
-      "stars_gained": 0,
-      "stars_yesterday": 34949
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "danny-avila/LibreChat",
-      "stars": 34653,
+      "stars": 34654,
       "description": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.",
       "url": "https://github.com/danny-avila/LibreChat",
       "language": "TypeScript",
       "created_at": "2023-02-12T01:06:52Z",
-      "stars_gained": 0,
-      "stars_yesterday": 34653
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "block/goose",
-      "stars": 33029,
+      "stars": 33030,
       "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
       "url": "https://github.com/block/goose",
       "language": "Rust",
       "created_at": "2024-08-23T19:03:36Z",
-      "stars_gained": 0,
-      "stars_yesterday": 33029
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "wshobson/agents",
@@ -140,28 +140,28 @@
       "url": "https://github.com/wshobson/agents",
       "language": "Python",
       "created_at": "2025-07-24T23:28:14Z",
-      "stars_gained": 0,
-      "stars_yesterday": 31260
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "bytedance/deer-flow",
-      "stars": 30662,
+      "stars": 30663,
       "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.",
       "url": "https://github.com/bytedance/deer-flow",
       "language": "Python",
       "created_at": "2025-05-07T02:50:19Z",
-      "stars_gained": 0,
-      "stars_yesterday": 30662
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "gsd-build/get-shit-done",
-      "stars": 30190,
+      "stars": 30193,
       "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by T\u00c2CHES.",
       "url": "https://github.com/gsd-build/get-shit-done",
       "language": "JavaScript",
       "created_at": "2025-12-14T14:17:12Z",
-      "stars_gained": 0,
-      "stars_yesterday": 30190
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "musistudio/claude-code-router",
@@ -170,8 +170,18 @@
       "url": "https://github.com/musistudio/claude-code-router",
       "language": "TypeScript",
       "created_at": "2025-02-25T02:17:18Z",
-      "stars_gained": 0,
-      "stars_yesterday": 29671
+      "stars_gained": null,
+      "stars_yesterday": 0
+    },
+    {
+      "name": "farion1231/cc-switch",
+      "stars": 28251,
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "url": "https://github.com/farion1231/cc-switch",
+      "language": "Rust",
+      "created_at": "2025-08-04T14:16:16Z",
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "hesreallyhim/awesome-claude-code",
@@ -180,28 +190,18 @@
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
       "language": "Python",
       "created_at": "2025-04-19T20:55:59Z",
-      "stars_gained": 0,
-      "stars_yesterday": 28249
-    },
-    {
-      "name": "farion1231/cc-switch",
-      "stars": 28248,
-      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
-      "url": "https://github.com/farion1231/cc-switch",
-      "language": "Rust",
-      "created_at": "2025-08-04T14:16:16Z",
-      "stars_gained": 0,
-      "stars_yesterday": 28248
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "shareAI-lab/learn-claude-code",
-      "stars": 27250,
+      "stars": 27255,
       "description": "Bash is all you need -  A nano Claude Code\u2013like agent, built from 0 to 1",
       "url": "https://github.com/shareAI-lab/learn-claude-code",
       "language": "TypeScript",
       "created_at": "2025-06-29T15:34:15Z",
-      "stars_gained": 0,
-      "stars_yesterday": 27250
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "simstudioai/sim",
@@ -210,8 +210,8 @@
       "url": "https://github.com/simstudioai/sim",
       "language": "TypeScript",
       "created_at": "2025-01-05T22:47:49Z",
-      "stars_gained": 0,
-      "stars_yesterday": 26998
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "warpdotdev/Warp",
@@ -220,8 +220,8 @@
       "url": "https://github.com/warpdotdev/Warp",
       "language": "Unknown",
       "created_at": "2021-07-08T18:48:08Z",
-      "stars_gained": 0,
-      "stars_yesterday": 26123
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "Fosowl/agenticSeek",
@@ -230,48 +230,48 @@
       "url": "https://github.com/Fosowl/agenticSeek",
       "language": "Python",
       "created_at": "2025-02-19T18:03:06Z",
-      "stars_gained": 0,
-      "stars_yesterday": 25507
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "sickn33/antigravity-awesome-skills",
-      "stars": 24407,
+      "stars": 24409,
       "description": "The Ultimate Collection of 1000+ Agentic Skills for Claude Code/Antigravity/Cursor. Battle-tested, high-performance skills for AI agents including official skills from Anthropic and Vercel.",
       "url": "https://github.com/sickn33/antigravity-awesome-skills",
       "language": "Python",
       "created_at": "2026-01-14T17:48:09Z",
-      "stars_gained": 0,
-      "stars_yesterday": 24407
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "badlogic/pi-mono",
-      "stars": 23884,
+      "stars": 23888,
       "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
       "url": "https://github.com/badlogic/pi-mono",
       "language": "TypeScript",
       "created_at": "2025-08-09T14:03:50Z",
-      "stars_gained": 0,
-      "stars_yesterday": 23884
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "BloopAI/vibe-kanban",
-      "stars": 23176,
+      "stars": 23177,
       "description": "Get 10X more out of Claude Code, Codex or any coding agent",
       "url": "https://github.com/BloopAI/vibe-kanban",
       "language": "Rust",
       "created_at": "2025-06-14T19:10:21Z",
-      "stars_gained": 0,
-      "stars_yesterday": 23176
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "qwibitai/nanoclaw",
-      "stars": 22979,
+      "stars": 22980,
       "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
       "url": "https://github.com/qwibitai/nanoclaw",
       "language": "TypeScript",
       "created_at": "2026-01-31T15:47:22Z",
-      "stars_gained": 0,
-      "stars_yesterday": 22979
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "davila7/claude-code-templates",
@@ -280,8 +280,8 @@
       "url": "https://github.com/davila7/claude-code-templates",
       "language": "Python",
       "created_at": "2025-07-04T01:26:26Z",
-      "stars_gained": 0,
-      "stars_yesterday": 22937
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "RooCodeInc/Roo-Code",
@@ -290,8 +290,8 @@
       "url": "https://github.com/RooCodeInc/Roo-Code",
       "language": "TypeScript",
       "created_at": "2024-10-31T17:56:50Z",
-      "stars_gained": 0,
-      "stars_yesterday": 22670
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "vercel/ai",
@@ -300,8 +300,8 @@
       "url": "https://github.com/vercel/ai",
       "language": "TypeScript",
       "created_at": "2023-05-23T15:04:08Z",
-      "stars_gained": 0,
-      "stars_yesterday": 22635
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "oraios/serena",
@@ -310,18 +310,18 @@
       "url": "https://github.com/oraios/serena",
       "language": "Python",
       "created_at": "2025-03-23T22:35:24Z",
-      "stars_gained": 0,
-      "stars_yesterday": 21519
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "SuperClaude-Org/SuperClaude_Framework",
-      "stars": 21461,
+      "stars": 21462,
       "description": "A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies.",
       "url": "https://github.com/SuperClaude-Org/SuperClaude_Framework",
       "language": "Python",
       "created_at": "2025-06-22T12:03:53Z",
-      "stars_gained": 0,
-      "stars_yesterday": 21461
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "charmbracelet/crush",
@@ -330,18 +330,18 @@
       "url": "https://github.com/charmbracelet/crush",
       "language": "Go",
       "created_at": "2025-05-21T12:14:57Z",
-      "stars_gained": 0,
-      "stars_yesterday": 21363
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "ruvnet/ruflo",
-      "stars": 21074,
+      "stars": 21075,
       "description": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
       "url": "https://github.com/ruvnet/ruflo",
       "language": "TypeScript",
       "created_at": "2025-06-02T21:24:20Z",
-      "stars_gained": 0,
-      "stars_yesterday": 21074
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "winfunc/opcode",
@@ -350,8 +350,8 @@
       "url": "https://github.com/winfunc/opcode",
       "language": "TypeScript",
       "created_at": "2025-06-19T13:53:26Z",
-      "stars_gained": 0,
-      "stars_yesterday": 20931
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "iOfficeAI/AionUi",
@@ -360,8 +360,8 @@
       "url": "https://github.com/iOfficeAI/AionUi",
       "language": "TypeScript",
       "created_at": "2025-08-07T10:29:51Z",
-      "stars_gained": 0,
-      "stars_yesterday": 18795
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "SWE-agent/SWE-agent",
@@ -370,8 +370,8 @@
       "url": "https://github.com/SWE-agent/SWE-agent",
       "language": "Python",
       "created_at": "2024-04-02T04:09:47Z",
-      "stars_gained": 0,
-      "stars_yesterday": 18746
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "google/adk-python",
@@ -380,8 +380,8 @@
       "url": "https://github.com/google/adk-python",
       "language": "Python",
       "created_at": "2025-04-01T20:44:40Z",
-      "stars_gained": 0,
-      "stars_yesterday": 18365
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "Kilo-Org/kilocode",
@@ -390,28 +390,28 @@
       "url": "https://github.com/Kilo-Org/kilocode",
       "language": "TypeScript",
       "created_at": "2025-03-10T15:34:26Z",
-      "stars_gained": 0,
-      "stars_yesterday": 16715
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "router-for-me/CLIProxyAPI",
-      "stars": 16515,
+      "stars": 16516,
       "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
       "url": "https://github.com/router-for-me/CLIProxyAPI",
       "language": "Go",
       "created_at": "2025-07-01T19:43:27Z",
-      "stars_gained": 0,
-      "stars_yesterday": 16515
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "shanraisshan/claude-code-best-practice",
-      "stars": 16317,
+      "stars": 16319,
       "description": "practice made claude perfect",
       "url": "https://github.com/shanraisshan/claude-code-best-practice",
       "language": "HTML",
       "created_at": "2025-10-31T14:15:28Z",
-      "stars_gained": 0,
-      "stars_yesterday": 16317
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "OthmanAdi/planning-with-files",
@@ -420,8 +420,8 @@
       "url": "https://github.com/OthmanAdi/planning-with-files",
       "language": "Python",
       "created_at": "2026-01-03T07:37:28Z",
-      "stars_gained": 0,
-      "stars_yesterday": 16078
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "slopus/happy",
@@ -430,8 +430,8 @@
       "url": "https://github.com/slopus/happy",
       "language": "TypeScript",
       "created_at": "2025-07-18T05:53:18Z",
-      "stars_gained": 0,
-      "stars_yesterday": 15193
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "czlonkowski/n8n-mcp",
@@ -440,8 +440,8 @@
       "url": "https://github.com/czlonkowski/n8n-mcp",
       "language": "TypeScript",
       "created_at": "2025-06-07T12:15:57Z",
-      "stars_gained": 0,
-      "stars_yesterday": 15138
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "plandex-ai/plandex",
@@ -450,8 +450,8 @@
       "url": "https://github.com/plandex-ai/plandex",
       "language": "Go",
       "created_at": "2023-10-24T22:11:43Z",
-      "stars_gained": 0,
-      "stars_yesterday": 15079
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "K-Dense-AI/claude-scientific-skills",
@@ -460,8 +460,8 @@
       "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
       "language": "Python",
       "created_at": "2025-10-19T20:54:15Z",
-      "stars_gained": 0,
-      "stars_yesterday": 14909
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "Canner/WrenAI",
@@ -470,8 +470,8 @@
       "url": "https://github.com/Canner/WrenAI",
       "language": "TypeScript",
       "created_at": "2024-03-13T06:18:20Z",
-      "stars_gained": 0,
-      "stars_yesterday": 14612
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "VoltAgent/awesome-claude-code-subagents",
@@ -480,8 +480,8 @@
       "url": "https://github.com/VoltAgent/awesome-claude-code-subagents",
       "language": "Shell",
       "created_at": "2025-07-30T12:31:51Z",
-      "stars_gained": 0,
-      "stars_yesterday": 13873
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "kepano/obsidian-skills",
@@ -490,18 +490,18 @@
       "url": "https://github.com/kepano/obsidian-skills",
       "language": "Unknown",
       "created_at": "2026-01-02T21:45:11Z",
-      "stars_gained": 0,
-      "stars_yesterday": 13826
+      "stars_gained": null,
+      "stars_yesterday": 0
     },
     {
       "name": "GLips/Figma-Context-MCP",
-      "stars": 13687,
+      "stars": 13688,
       "description": "MCP server to provide Figma layout information to AI coding agents like Cursor",
       "url": "https://github.com/GLips/Figma-Context-MCP",
       "language": "TypeScript",
       "created_at": "2025-02-13T02:55:06Z",
-      "stars_gained": 0,
-      "stars_yesterday": 13687
+      "stars_gained": null,
+      "stars_yesterday": 0
     }
   ]
 }
