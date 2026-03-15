@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Environment variables
+.env
+
+# Data cache
+cache/
+*.cache
+
+# Logs
+*.log
+logs/
