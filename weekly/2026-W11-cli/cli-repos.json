@@ -1,0 +1,158 @@
+{
+  "week": "2026-W11",
+  "generated_at": "2026-03-15T09:18:04.146227",
+  "period": "past_week",
+  "total_repos": 15,
+  "repos": [
+    {
+      "name": "paperclipai/paperclip",
+      "stars": 3053,
+      "stars_gained_week": 3053,
+      "forks": 427,
+      "description": "Open-source orchestration for zero-human companies",
+      "url": "https://github.com/paperclipai/paperclip",
+      "language": "TypeScript",
+      "total_score": 10815.2617
+    },
+    {
+      "name": "promptfoo/promptfoo",
+      "stars": 1006,
+      "stars_gained_week": 1006,
+      "forks": 99,
+      "description": "Test your prompts, agents, and RAGs. AI Red teaming, pentesting, and vulnerability scanning for LLMs. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "language": "TypeScript",
+      "total_score": 4255.9371
+    },
+    {
+      "name": "googleworkspace/cli",
+      "stars": 983,
+      "stars_gained_week": 983,
+      "forks": 73,
+      "description": "Google Workspace CLI \u2014 one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "url": "https://github.com/googleworkspace/cli",
+      "language": "Rust",
+      "total_score": 3446.6926
+    },
+    {
+      "name": "farion1231/cc-switch",
+      "stars": 653,
+      "stars_gained_week": 653,
+      "forks": 31,
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.",
+      "url": "https://github.com/farion1231/cc-switch",
+      "language": "TypeScript",
+      "total_score": 2587.774
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 634,
+      "stars_gained_week": 634,
+      "forks": 30,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 2456.1436
+    },
+    {
+      "name": "badlogic/pi-mono",
+      "stars": 605,
+      "stars_gained_week": 605,
+      "forks": 90,
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "url": "https://github.com/badlogic/pi-mono",
+      "language": "TypeScript",
+      "total_score": 2644.6041
+    },
+    {
+      "name": "langflow-ai/openrag",
+      "stars": 539,
+      "stars_gained_week": 539,
+      "forks": 40,
+      "description": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch. ",
+      "url": "https://github.com/langflow-ai/openrag",
+      "language": "Python",
+      "total_score": 2524.2151
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 512,
+      "stars_gained_week": 512,
+      "forks": 81,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 2147.7198
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "stars": 489,
+      "stars_gained_week": 489,
+      "forks": 58,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "total_score": 2132.9928
+    },
+    {
+      "name": "teng-lin/notebooklm-py",
+      "stars": 465,
+      "stars_gained_week": 465,
+      "forks": 55,
+      "description": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features\u2014including capabilities the web UI doesn't expose\u2014via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
+      "url": "https://github.com/teng-lin/notebooklm-py",
+      "language": "Python",
+      "total_score": 1832.7267
+    },
+    {
+      "name": "vercel-labs/agent-browser",
+      "stars": 457,
+      "stars_gained_week": 457,
+      "forks": 25,
+      "description": "Browser automation CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "language": "Rust",
+      "total_score": 1918.9154
+    },
+    {
+      "name": "Panniantong/Agent-Reach",
+      "stars": 448,
+      "stars_gained_week": 448,
+      "forks": 21,
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "language": "Python",
+      "total_score": 1741.2871
+    },
+    {
+      "name": "tobi/qmd",
+      "stars": 399,
+      "stars_gained_week": 399,
+      "forks": 30,
+      "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+      "url": "https://github.com/tobi/qmd",
+      "language": "TypeScript",
+      "total_score": 1673.7209
+    },
+    {
+      "name": "smartcmd/MinecraftConsoles",
+      "stars": 287,
+      "stars_gained_week": 287,
+      "forks": 71,
+      "description": "A certain block game",
+      "url": "https://github.com/smartcmd/MinecraftConsoles",
+      "language": "C++",
+      "total_score": 1214.8889
+    },
+    {
+      "name": "ValueCell-ai/ClawX",
+      "stars": 265,
+      "stars_gained_week": 265,
+      "forks": 44,
+      "description": "ClawX is a desktop app that provides a graphical interface for OpenClaw AI agents. It turns CLI-based AI orchestration into a desktop experience without using the terminal. We\u2019ve moved from clawx.dev to claw-x.com.",
+      "url": "https://github.com/ValueCell-ai/ClawX",
+      "language": "TypeScript",
+      "total_score": 1243.1685
+    }
+  ]
+}
