@@ -1,212 +1,95 @@
 """
 Script de actualización diaria del ecosistema Claude.
-VERSION 3.0 - Usa GitHub Events API para contar estrellas exactas ganadas en 24h.
+VERSION 4.0 - Usa OSS Insight API para trending repos de últimas 24h.
 """
 import json
 import os
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Optional
-from collections import defaultdict
+from typing import List, Dict
 
 import httpx
 
 # Configuración
-GITHUB_API = "https://api.github.com"
+OSSINSIGHT_API = "https://api.ossinsight.io/v1/trends/repos/"
 ARCHIVE_DIR = Path("archive")
 LATEST_FILE = Path("latest.json")
 
 def get_date_str() -> str:
     return datetime.now().strftime('%Y-%m-%d')
 
-def get_24h_ago() -> datetime:
-    """Devuelve timestamp de hace 24 horas"""
-    return datetime.utcnow() - timedelta(hours=24)
-
-def count_stars_gained_in_24h(repo_full_name: str, headers: dict) -> Optional[int]:
+def get_trending_repos_24h() -> List[Dict]:
     """
-    Cuenta exactamente cuántas estrellas ganó un repo en las últimas 24h.
-    Usa la Events API para contar WatchEvent.
+    Obtiene repos trending de últimas 24h desde OSS Insight API.
     """
+    print("🔍 Obteniendo repos trending de últimas 24h...")
+    print("   Fuente: api.ossinsight.io")
+    
     try:
-        # Obtener eventos del repo (máximo 300 eventos recientes)
         response = httpx.get(
-            f"{GITHUB_API}/repos/{repo_full_name}/events",
-            params={"per_page": 100},
-            headers=headers,
-            timeout=30
+            OSSINSIGHT_API,
+            params={
+                "period": "past_24_hours",
+                "language": "All"
+            },
+            headers={"Accept": "application/json"},
+            timeout=60
         )
         
         if response.status_code != 200:
-            return None
+            print(f"   ❌ Error API: {response.status_code}")
+            return []
         
-        events = response.json()
-        cutoff_time = get_24h_ago()
-        star_count = 0
+        data = response.json()
         
-        for event in events:
-            # WatchEvent = alguien dio estrella al repo
-            if event.get('type') == 'WatchEvent':
-                event_time = datetime.fromisoformat(event['created_at'].replace('Z', '+00:00'))
-                # Quitar timezone info para comparar
-                event_time = event_time.replace(tzinfo=None)
-                
-                if event_time >= cutoff_time:
-                    star_count += 1
+        if data.get("type") != "sql_endpoint" or "data" not in data:
+            print("   ❌ Formato de respuesta inesperado")
+            return []
         
-        return star_count
+        rows = data["data"].get("rows", [])
+        
+        repos = []
+        for row in rows:
+            repo = {
+                'name': row.get('repo_name', ''),
+                'stars': int(row.get('stars', 0)),
+                'stars_gained_24h': int(row.get('stars', 0)),  # OSS Insight ya da el valor 24h
+                'forks': int(row.get('forks', 0)),
+                'description': row.get('description', ''),
+                'url': f"https://github.com/{row.get('repo_name', '')}",
+                'language': row.get('primary_language', 'Unknown'),
+                'total_score': float(row.get('total_score', 0)),
+                'contributors': row.get('contributor_logins', ''),
+            }
+            repos.append(repo)
+        
+        print(f"   ✅ {len(repos)} repos obtenidos")
+        return repos
         
     except Exception as e:
-        print(f"   ⚠️ Error contando estrellas para {repo_full_name}: {e}")
-        return None
+        print(f"   ❌ Error: {e}")
+        return []
 
-def get_trending_repos() -> List[Dict]:
+def filter_ai_claude_repos(repos: List[Dict]) -> List[Dict]:
     """
-    Busca repos populares Y emergentes relacionados con Claude/AI.
-    Incluye: populares, recientes, de organizaciones clave, mencionados.
+    Filtra repos relacionados con AI, Claude, agents, etc.
     """
-    queries = [
-        # Populares
-        "claude code",
-        "anthropic agent", 
-        "ai coding agent",
-        "claude skills",
-        "llm agent",
-        "openai agent",
-        "cursor editor",
-        "vibe coding",
-        # Recientes
-        "created:>2025-12-01 ai agent",
-        "created:>2026-01-01 claude",
-        # Específicos
-        "mcp server",
-        "model context protocol",
+    keywords = [
+        'claude', 'anthropic', 'ai', 'agent', 'llm', 'gpt', 'openai',
+        'cursor', 'copilot', 'code', 'assistant', 'model', 'ml',
+        'language model', 'chat', 'prompt', 'embedding', 'vector',
+        'openclaw', 'codex', 'agno', 'agnt', 'artificial',
+        'autonomous', 'coding', 'llama', 'gemini', 'grok',
+        'orchestration', 'swarm', 'mcp', 'skill',
     ]
     
-    # Organizaciones clave a monitorear
-    key_orgs = [
-        "anthropics",
-        "vercel-labs", 
-        "openai",
-        "langchain-ai",
-        "microsoft",
-        "google",
-    ]
+    filtered = []
+    for repo in repos:
+        text = f"{repo['name']} {repo['description']}".lower()
+        if any(kw in text for kw in keywords):
+            filtered.append(repo)
     
-    all_repos = []
-    headers = {"Accept": "application/vnd.github.v3+json"}
-    
-    if os.getenv('GITHUB_TOKEN'):
-        headers["Authorization"] = f"token {os.getenv('GITHUB_TOKEN')}"
-    
-    print("\n🔍 Buscando repos de múltiples fuentes...")
-    
-    # Paso 1: Buscar repos por queries
-    for query in queries:
-        try:
-            # Diferentes criterios de estrellas según el tipo de búsqueda
-            if "created:" in query:
-                stars_filter = "stars:>50"  # Repos recientes con menos estrellas
-                per_page = 30
-            else:
-                stars_filter = "stars:>500"
-                per_page = 20
-                
-            response = httpx.get(
-                f"{GITHUB_API}/search/repositories",
-                params={
-                    "q": f"{query} {stars_filter}",
-                    "sort": "stars",
-                    "order": "desc",
-                    "per_page": per_page
-                },
-                headers=headers,
-                timeout=30
-            )
-            
-            if response.status_code == 200:
-                data = response.json()
-                for item in data.get('items', []):
-                    repo = {
-                        'name': item['full_name'],
-                        'stars': item['stargazers_count'],
-                        'description': item['description'] or "",
-                        'url': item['html_url'],
-                        'language': item['language'] or "Unknown",
-                        'created_at': item['created_at'],
-                        'stars_gained_24h': 0,
-                        'source': 'search',
-                    }
-                    if repo not in all_repos:
-                        all_repos.append(repo)
-                        
-        except Exception as e:
-            print(f"   ⚠️ Error buscando '{query}': {e}")
-    
-    # Paso 2: Buscar repos de organizaciones clave
-    print("   🔎 Buscando en organizaciones clave...")
-    for org in key_orgs:
-        try:
-            response = httpx.get(
-                f"{GITHUB_API}/orgs/{org}/repos",
-                params={
-                    "sort": "updated",
-                    "direction": "desc",
-                    "per_page": 20
-                },
-                headers=headers,
-                timeout=30
-            )
-            
-            if response.status_code == 200:
-                data = response.json()
-                for item in data:
-                    if item.get('stargazers_count', 0) > 100:  # Solo repos con tracción
-                        repo = {
-                            'name': item['full_name'],
-                            'stars': item['stargazers_count'],
-                            'description': item.get('description') or "",
-                            'url': item['html_url'],
-                            'language': item.get('language') or "Unknown",
-                            'created_at': item['created_at'],
-                            'stars_gained_24h': 0,
-                            'source': f'org:{org}',
-                        }
-                        if repo not in all_repos:
-                            all_repos.append(repo)
-        except Exception as e:
-            print(f"   ⚠️ Error con org '{org}': {e}")
-    
-    # Eliminar duplicados y limitar a 50 candidatos
-    seen = set()
-    unique_repos = []
-    for r in sorted(all_repos, key=lambda x: x['stars'], reverse=True):
-        if r['name'] not in seen and len(unique_repos) < 50:
-            seen.add(r['name'])
-            unique_repos.append(r)
-    
-    print(f"   {len(unique_repos)} repos candidatos encontrados")
-    
-    # Paso 2: Contar estrellas ganadas en 24h para cada repo
-    print("\n⭐ Contando estrellas ganadas en las últimas 24h...")
-    print("   (Esto puede tardar unos segundos...)\n")
-    
-    for i, repo in enumerate(unique_repos, 1):
-        gained = count_stars_gained_in_24h(repo['name'], headers)
-        if gained is not None:
-            repo['stars_gained_24h'] = gained
-            print(f"   {i:2d}. {repo['name'][:40]:<40} +{gained:3d} ⭐")
-        else:
-            print(f"   {i:2d}. {repo['name'][:40]:<40} ⚠️  (sin datos)")
-    
-    # Ordenar por estrellas ganadas en 24h
-    trending = sorted(
-        unique_repos,
-        key=lambda x: x.get('stars_gained_24h', 0),
-        reverse=True
-    )
-    
-    return trending
+    return filtered
 
 def save_daily_data(date: str, repos: List[Dict]):
     """Guarda datos del día en carpeta archive/YYYY-MM-DD/"""
@@ -218,7 +101,7 @@ def save_daily_data(date: str, repos: List[Dict]):
         'date': date,
         'generated_at': datetime.now().isoformat(),
         'total_repos': len(repos),
-        'method': 'github_events_api',  # Nuevo método
+        'method': 'ossinsight_api_24h',
         'repos': repos
     }
     
@@ -228,43 +111,58 @@ def save_daily_data(date: str, repos: List[Dict]):
     with open(LATEST_FILE, 'w') as f:
         json.dump(data, f, indent=2)
     
-    print(f"\n💾 Datos guardados en: {day_dir}/")
+    print(f"💾 Datos guardados en: {day_dir}/")
     return day_dir
 
 def generate_markdown_for_day(date: str, repos: List[Dict], day_dir: Path):
     """Genera README.md para el día específico"""
     
+    # Separar en dos tablas: AI/Claude y General
+    ai_repos = filter_ai_claude_repos(repos)
+    
     md_content = f"""# 📊 Ecosistema Claude - {date}
 
-> Top repos que más ⭐ ganaron en las últimas **24 horas** (contado desde GitHub Events API)
+> Repos que más ⭐ ganaron en las **últimas 24 horas** (datos de OSS Insight)
 
 ---
 
-## 🔥 Ranking por Estrellas Ganadas (24h)
+## 🤖 TOP 50 - AI / Claude / Agents / LLMs
 
-| # | Repo | ⭐ Total | ⭐ Hoy | Descripción |
-|---|------|---------|--------|-------------|
+| # | Repo | ⭐ Ganadas | ⭐ Total | Descripción |
+|---|------|-----------|---------|-------------|
 """
     
-    for i, repo in enumerate(repos[:50], 1):
-        gained = repo.get('stars_gained_24h', 0)
-        desc = repo['description'][:55] + "..." if len(repo['description']) > 55 else repo['description']
-        md_content += f"| {i} | [{repo['name']}]({repo['url']}) | {repo['stars']:,} | **+{gained}** | {desc} |\n"
-    
-    # Estadísticas
-    total_gained = sum(r.get('stars_gained_24h', 0) for r in repos[:10])
-    top_language = max(set(r['language'] for r in repos), key=lambda x: sum(1 for r in repos if r['language'] == x))
+    for i, repo in enumerate(ai_repos[:50], 1):
+        desc = repo['description'][:50] + "..." if len(repo['description']) > 50 else repo['description']
+        md_content += f"| {i} | [{repo['name']}]({repo['url']}) | **+{repo['stars_gained_24h']:,}** | {repo['stars']:,} | {desc} |\n"
     
     md_content += f"""
 
 ---
 
-## 📈 Estadísticas del día
+## 🌍 TOP 50 - General (Todos los repos)
 
-- **Repos analizados**: {len(repos)}
-- **Estrellas ganadas (top 10)**: {total_gained:,}
-- **Lenguaje más popular**: {top_language}
-- **Método**: GitHub Events API (WatchEvent contados en 24h)
+| # | Repo | ⭐ Ganadas | ⭐ Total | Lenguaje |
+|---|------|-----------|---------|----------|
+"""
+    
+    for i, repo in enumerate(repos[:50], 1):
+        md_content += f"| {i} | [{repo['name']}]({repo['url']}) | **+{repo['stars_gained_24h']:,}** | {repo['stars']:,} | {repo['language']} |\n"
+    
+    # Estadísticas
+    total_gained = sum(r['stars_gained_24h'] for r in repos[:50])
+    ai_count = len(ai_repos)
+    
+    md_content += f"""
+
+---
+
+## 📈 Estadísticas
+
+- **Repos AI/Claude identificados**: {ai_count}
+- **Estrellas ganadas (top 50 general)**: {total_gained:,}
+- **Fuente**: [OSS Insight](https://ossinsight.io/)
+- **Método**: API oficial - período `past_24_hours`
 
 ---
 
@@ -276,7 +174,7 @@ def generate_markdown_for_day(date: str, repos: List[Dict], day_dir: Path):
     
     print(f"📝 README generado: {day_dir}/README.md")
 
-def update_main_readme(date: str, repos: List[Dict]):
+def update_main_readme(date: str, ai_repos: List[Dict]):
     """Actualiza el README principal con resumen del día"""
     
     readme_path = Path("README.md")
@@ -287,7 +185,7 @@ def update_main_readme(date: str, repos: List[Dict]):
     else:
         content = """# 🚀 Claude Ecosystem Daily
 
-> Curación automática diaria del ecosistema Claude Code
+> Curación automática diaria del ecosistema Claude Code, AI Agents y LLMs
 
 ## 📊 Últimos datos
 
@@ -299,18 +197,19 @@ Ver datos históricos en [`archive/`](./archive/)
 
 ---
 
-*Actualizado automáticamente cada día a las 9:00 AM UTC usando GitHub Events API*
+*Actualizado automáticamente con datos de [OSS Insight](https://ossinsight.io/)*
 """
     
-    # Top 10
+    # Top 10 AI/Claude
     top_10_table = "| # | Repo | ⭐ Hoy | ⭐ Total |\n"
     top_10_table += "|---|------|--------|----------|\n"
     
-    for i, repo in enumerate(repos[:10], 1):
-        gained = repo.get('stars_gained_24h', 0)
-        top_10_table += f"| {i} | [{repo['name']}]({repo['url']}) | +{gained} | {repo['stars']:,} |\n"
+    for i, repo in enumerate(ai_repos[:10], 1):
+        top_10_table += f"| {i} | [{repo['name']}]({repo['url']}) | +{repo['stars_gained_24h']:,} | {repo['stars']:,} |\n"
     
-    latest_section = f"""### 📅 {date}
+    latest_section = f"""### 📅 {date} - Últimas 24h
+
+**🤖 Top AI/Claude/Agents:**
 
 {top_10_table}
 
@@ -335,23 +234,30 @@ def main():
     """Función principal"""
     
     date = get_date_str()
-    print(f"🚀 Iniciando actualización: {date}")
+    print("=" * 70)
+    print(f"🚀 Claude Ecosystem Daily - {date}")
     print("=" * 70)
     
-    # Obtener repos con estrellas ganadas en 24h
-    repos = get_trending_repos()
+    # Obtener repos desde OSS Insight
+    repos = get_trending_repos_24h()
     
     if not repos:
-        print("❌ No se encontraron repos")
+        print("❌ No se pudieron obtener datos")
         return
     
-    # Mostrar top 10
+    # Filtrar repos AI/Claude
+    ai_repos = filter_ai_claude_repos(repos)
+    
+    # Mostrar resumen
     print("\n" + "=" * 70)
-    print("📈 TOP 10 REPOS QUE MÁS ⭐ GANARON EN 24H:")
+    print(f"📈 RESUMEN DE ÚLTIMAS 24H:")
     print("=" * 70)
-    for i, r in enumerate(repos[:10], 1):
-        gained = r.get('stars_gained_24h', 0)
-        print(f"   {i:2d}. {r['name'][:50]:<50} +{gained:4d} ⭐ ({r['stars']:,} total)")
+    print(f"\n🤖 Repos AI/Claude/Agents: {len(ai_repos)}")
+    print(f"🌍 Total repos analizados: {len(repos)}")
+    
+    print("\n🏆 TOP 10 AI/CLAUDE:")
+    for i, r in enumerate(ai_repos[:10], 1):
+        print(f"   {i:2d}. {r['name'][:45]:<45} +{r['stars_gained_24h']:4,} ⭐")
     
     # Guardar datos
     print("\n💾 Guardando datos...")
@@ -360,13 +266,13 @@ def main():
     # Generar documentación
     print("\n📝 Generando documentación...")
     generate_markdown_for_day(date, repos, day_dir)
-    update_main_readme(date, repos)
+    update_main_readme(date, ai_repos)
     
     print("\n" + "=" * 70)
-    print(f"✨ ¡Completado! {date}")
+    print(f"✨ ¡Completado!")
     print(f"📁 Datos: {day_dir}/")
-    print(f"📄 Resumen: {day_dir}/README.md")
-    print(f"🔗 Total estrellas nuevas (top 10): {sum(r.get('stars_gained_24h', 0) for r in repos[:10])}")
+    print(f"📄 Reporte: {day_dir}/README.md")
+    print(f"⭐ Total estrellas nuevas (top 50): {sum(r['stars_gained_24h'] for r in repos[:50]):,}")
 
 if __name__ == "__main__":
     main()
