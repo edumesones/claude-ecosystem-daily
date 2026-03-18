@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-18",
+  "generated_at": "2026-03-18T13:13:08.263196",
+  "period": "past_week",
+  "total_repos": 16,
+  "repos": [
+    {
+      "name": "paperclipai/paperclip",
+      "stars": 2144,
+      "stars_gained_7d": 2144,
+      "forks": 307,
+      "description": "Open-source orchestration for zero-human companies",
+      "url": "https://github.com/paperclipai/paperclip",
+      "language": "TypeScript",
+      "total_score": 8232.9787
+    },
+    {
+      "name": "THU-MAIC/OpenMAIC",
+      "stars": 1132,
+      "stars_gained_7d": 1132,
+      "forks": 156,
+      "description": "Open Multi-Agent Interactive Classroom \u2014 Get an immersive, multi-agent learning experience in just one click",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "language": "TypeScript",
+      "total_score": 5934.9766
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "stars": 1018,
+      "stars_gained_7d": 1018,
+      "forks": 113,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "total_score": 4512.4209
+    },
+    {
+      "name": "promptfoo/promptfoo",
+      "stars": 975,
+      "stars_gained_7d": 975,
+      "forks": 79,
+      "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "language": "TypeScript",
+      "total_score": 3397.3508
+    },
+    {
+      "name": "farion1231/cc-switch",
+      "stars": 641,
+      "stars_gained_7d": 641,
+      "forks": 30,
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "url": "https://github.com/farion1231/cc-switch",
+      "language": "Rust",
+      "total_score": 2538.1137
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 606,
+      "stars_gained_7d": 606,
+      "forks": 35,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 2558.7706
+    },
+    {
+      "name": "badlogic/pi-mono",
+      "stars": 600,
+      "stars_gained_7d": 600,
+      "forks": 83,
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "url": "https://github.com/badlogic/pi-mono",
+      "language": "TypeScript",
+      "total_score": 2519.7922
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 559,
+      "stars_gained_7d": 559,
+      "forks": 87,
+      "description": "734+ structured cybersecurity skills for AI agents \u00b7 MITRE ATT&CK mapped \u00b7 agentskills.io standard \u00b7 Claude Code, Copilot, Codex CLI, Cursor, Gemini CLI",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "total_score": 2843.3488
+    },
+    {
+      "name": "langflow-ai/openrag",
+      "stars": 505,
+      "stars_gained_7d": 505,
+      "forks": 37,
+      "description": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch. ",
+      "url": "https://github.com/langflow-ai/openrag",
+      "language": "Python",
+      "total_score": 1850.9192
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 501,
+      "stars_gained_7d": 501,
+      "forks": 73,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 2199.657
+    },
+    {
+      "name": "googleworkspace/cli",
+      "stars": 492,
+      "stars_gained_7d": 492,
+      "forks": 40,
+      "description": "Google Workspace CLI \u2014 one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "url": "https://github.com/googleworkspace/cli",
+      "language": "Rust",
+      "total_score": 1880.1096
+    },
+    {
+      "name": "vercel-labs/agent-browser",
+      "stars": 472,
+      "stars_gained_7d": 472,
+      "forks": 26,
+      "description": "Browser automation CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "language": "Rust",
+      "total_score": 1905.2223
+    },
+    {
+      "name": "tobi/qmd",
+      "stars": 315,
+      "stars_gained_7d": 315,
+      "forks": 22,
+      "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+      "url": "https://github.com/tobi/qmd",
+      "language": "TypeScript",
+      "total_score": 1315.1802
+    },
+    {
+      "name": "jackwener/opencli",
+      "stars": 309,
+      "stars_gained_7d": 309,
+      "forks": 24,
+      "description": "",
+      "url": "https://github.com/jackwener/opencli",
+      "language": "TypeScript",
+      "total_score": 1550.816
+    },
+    {
+      "name": "Panniantong/Agent-Reach",
+      "stars": 305,
+      "stars_gained_7d": 305,
+      "forks": 13,
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "language": "Python",
+      "total_score": 1283.017
+    },
+    {
+      "name": "epiral/bb-browser",
+      "stars": 245,
+      "stars_gained_7d": 245,
+      "forks": 30,
+      "description": "Your browser is the API. CLI + MCP server for AI agents to control Chrome with your login state.",
+      "url": "https://github.com/epiral/bb-browser",
+      "language": "TypeScript",
+      "total_score": 1254.0654
+    }
+  ]
+}
