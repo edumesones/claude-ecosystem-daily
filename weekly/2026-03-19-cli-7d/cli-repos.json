@@ -1,0 +1,158 @@
+{
+  "date": "2026-03-19",
+  "generated_at": "2026-03-19T13:05:20.511346",
+  "period": "past_week",
+  "total_repos": 15,
+  "repos": [
+    {
+      "name": "paperclipai/paperclip",
+      "stars": 1840,
+      "stars_gained_7d": 1840,
+      "forks": 277,
+      "description": "Open-source orchestration for zero-human companies",
+      "url": "https://github.com/paperclipai/paperclip",
+      "language": "TypeScript",
+      "total_score": 7103.9306
+    },
+    {
+      "name": "THU-MAIC/OpenMAIC",
+      "stars": 1384,
+      "stars_gained_7d": 1384,
+      "forks": 195,
+      "description": "Open Multi-Agent Interactive Classroom \u2014 Get an immersive, multi-agent learning experience in just one click",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "language": "TypeScript",
+      "total_score": 6766.9066
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "stars": 1031,
+      "stars_gained_7d": 1031,
+      "forks": 119,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "total_score": 4311.3602
+    },
+    {
+      "name": "promptfoo/promptfoo",
+      "stars": 900,
+      "stars_gained_7d": 900,
+      "forks": 69,
+      "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "language": "TypeScript",
+      "total_score": 2884.4065
+    },
+    {
+      "name": "farion1231/cc-switch",
+      "stars": 651,
+      "stars_gained_7d": 651,
+      "forks": 37,
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "url": "https://github.com/farion1231/cc-switch",
+      "language": "Rust",
+      "total_score": 2643.1119
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 646,
+      "stars_gained_7d": 646,
+      "forks": 36,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 2610.3664
+    },
+    {
+      "name": "badlogic/pi-mono",
+      "stars": 597,
+      "stars_gained_7d": 597,
+      "forks": 77,
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "url": "https://github.com/badlogic/pi-mono",
+      "language": "TypeScript",
+      "total_score": 2426.9431
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 593,
+      "stars_gained_7d": 593,
+      "forks": 85,
+      "description": "734+ structured cybersecurity skills for AI agents \u00b7 MITRE ATT&CK mapped \u00b7 agentskills.io standard \u00b7 Claude Code, Copilot, Codex CLI, Cursor, Gemini CLI",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "total_score": 2723.0311
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 490,
+      "stars_gained_7d": 490,
+      "forks": 74,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 2143.0113
+    },
+    {
+      "name": "langflow-ai/openrag",
+      "stars": 461,
+      "stars_gained_7d": 461,
+      "forks": 35,
+      "description": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch. ",
+      "url": "https://github.com/langflow-ai/openrag",
+      "language": "Python",
+      "total_score": 1593.5825
+    },
+    {
+      "name": "vercel-labs/agent-browser",
+      "stars": 435,
+      "stars_gained_7d": 435,
+      "forks": 23,
+      "description": "Browser automation CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "language": "Rust",
+      "total_score": 1719.1084
+    },
+    {
+      "name": "jackwener/opencli",
+      "stars": 410,
+      "stars_gained_7d": 410,
+      "forks": 32,
+      "description": "",
+      "url": "https://github.com/jackwener/opencli",
+      "language": "TypeScript",
+      "total_score": 1934.7836
+    },
+    {
+      "name": "googleworkspace/cli",
+      "stars": 407,
+      "stars_gained_7d": 407,
+      "forks": 29,
+      "description": "Google Workspace CLI \u2014 one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "url": "https://github.com/googleworkspace/cli",
+      "language": "Rust",
+      "total_score": 1592.6453
+    },
+    {
+      "name": "epiral/bb-browser",
+      "stars": 260,
+      "stars_gained_7d": 260,
+      "forks": 32,
+      "description": "Your browser is the API. CLI + MCP server for AI agents to control Chrome with your login state.",
+      "url": "https://github.com/epiral/bb-browser",
+      "language": "TypeScript",
+      "total_score": 1221.2963
+    },
+    {
+      "name": "ykdojo/claude-code-tips",
+      "stars": 253,
+      "stars_gained_7d": 253,
+      "forks": 19,
+      "description": "45 tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script, cutting the system prompt in half, using Gemini CLI as Claude Code's minion, and Claude Code running itself in a container. Also includes the dx plugin.",
+      "url": "https://github.com/ykdojo/claude-code-tips",
+      "language": "JavaScript",
+      "total_score": 1270.8083
+    }
+  ]
+}
