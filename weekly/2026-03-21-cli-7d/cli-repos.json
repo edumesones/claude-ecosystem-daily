@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-21",
+  "generated_at": "2026-03-21T12:50:05.133661",
+  "period": "past_week",
+  "total_repos": 16,
+  "repos": [
+    {
+      "name": "THU-MAIC/OpenMAIC",
+      "stars": 1689,
+      "stars_gained_7d": 1689,
+      "forks": 252,
+      "description": "Open Multi-Agent Interactive Classroom \u2014 Get an immersive, multi-agent learning experience in just one click",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "language": "TypeScript",
+      "total_score": 7034.7776
+    },
+    {
+      "name": "paperclipai/paperclip",
+      "stars": 1561,
+      "stars_gained_7d": 1561,
+      "forks": 236,
+      "description": "Open-source orchestration for zero-human companies",
+      "url": "https://github.com/paperclipai/paperclip",
+      "language": "TypeScript",
+      "total_score": 5732.2923
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "stars": 1045,
+      "stars_gained_7d": 1045,
+      "forks": 112,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "total_score": 3770.8532
+    },
+    {
+      "name": "farion1231/cc-switch",
+      "stars": 655,
+      "stars_gained_7d": 655,
+      "forks": 34,
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "url": "https://github.com/farion1231/cc-switch",
+      "language": "Rust",
+      "total_score": 2635.5773
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 641,
+      "stars_gained_7d": 641,
+      "forks": 33,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 2450.3886
+    },
+    {
+      "name": "jackwener/opencli",
+      "stars": 610,
+      "stars_gained_7d": 610,
+      "forks": 42,
+      "description": "",
+      "url": "https://github.com/jackwener/opencli",
+      "language": "TypeScript",
+      "total_score": 2536.6162
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 608,
+      "stars_gained_7d": 608,
+      "forks": 85,
+      "description": "734+ structured cybersecurity skills for AI agents \u00b7 MITRE ATT&CK mapped \u00b7 agentskills.io standard \u00b7 Claude Code, Copilot, Codex CLI, Cursor, Gemini CLI",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "total_score": 2219.0764
+    },
+    {
+      "name": "badlogic/pi-mono",
+      "stars": 567,
+      "stars_gained_7d": 567,
+      "forks": 67,
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "url": "https://github.com/badlogic/pi-mono",
+      "language": "TypeScript",
+      "total_score": 2252.3367
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 516,
+      "stars_gained_7d": 516,
+      "forks": 71,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 2174.0635
+    },
+    {
+      "name": "promptfoo/promptfoo",
+      "stars": 489,
+      "stars_gained_7d": 489,
+      "forks": 40,
+      "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "language": "TypeScript",
+      "total_score": 1646.4809
+    },
+    {
+      "name": "vercel-labs/agent-browser",
+      "stars": 378,
+      "stars_gained_7d": 378,
+      "forks": 21,
+      "description": "Browser automation CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "language": "Rust",
+      "total_score": 1441.2599
+    },
+    {
+      "name": "ykdojo/claude-code-tips",
+      "stars": 345,
+      "stars_gained_7d": 345,
+      "forks": 24,
+      "description": "45 tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script, cutting the system prompt in half, using Gemini CLI as Claude Code's minion, and Claude Code running itself in a container. Also includes the dx plugin.",
+      "url": "https://github.com/ykdojo/claude-code-tips",
+      "language": "JavaScript",
+      "total_score": 1521.4361
+    },
+    {
+      "name": "Narcooo/inkos",
+      "stars": 309,
+      "stars_gained_7d": 309,
+      "forks": 75,
+      "description": "Autonomous novel writing CLI agent \u2014 AI agents write, audit, and revise novels with human review gates",
+      "url": "https://github.com/Narcooo/inkos",
+      "language": "TypeScript",
+      "total_score": 1347.1769
+    },
+    {
+      "name": "googleworkspace/cli",
+      "stars": 306,
+      "stars_gained_7d": 306,
+      "forks": 30,
+      "description": "Google Workspace CLI \u2014 one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "url": "https://github.com/googleworkspace/cli",
+      "language": "Rust",
+      "total_score": 1252.8437
+    },
+    {
+      "name": "kepano/obsidian-skills",
+      "stars": 276,
+      "stars_gained_7d": 276,
+      "forks": 22,
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "language": "",
+      "total_score": 1186.8276
+    },
+    {
+      "name": "lucija8320nhung4/HacxGPT",
+      "stars": 188,
+      "stars_gained_7d": 188,
+      "forks": 59,
+      "description": "HacxGPT CLI \u2014 Open-source command-line interface for unrestricted AI model access with multi-provider support, prompt injection research capabilities, configurable API endpoints, Termux/Linux/Windows compatibility, and Rich terminal UI for security research and red-team evaluation",
+      "url": "https://github.com/lucija8320nhung4/HacxGPT",
+      "language": "Python",
+      "total_score": 1314.5582
+    }
+  ]
+}
