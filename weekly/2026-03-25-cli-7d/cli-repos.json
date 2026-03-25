@@ -1,0 +1,138 @@
+{
+  "date": "2026-03-25",
+  "generated_at": "2026-03-25T13:11:24.100838",
+  "period": "past_week",
+  "total_repos": 13,
+  "repos": [
+    {
+      "name": "THU-MAIC/OpenMAIC",
+      "stars": 934,
+      "stars_gained_7d": 934,
+      "forks": 183,
+      "description": "Open Multi-Agent Interactive Classroom \u2014 Get an immersive, multi-agent learning experience in just one click",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "language": "TypeScript",
+      "total_score": 3531.9214
+    },
+    {
+      "name": "jackwener/opencli",
+      "stars": 864,
+      "stars_gained_7d": 864,
+      "forks": 66,
+      "description": "",
+      "url": "https://github.com/jackwener/opencli",
+      "language": "TypeScript",
+      "total_score": 3531.8603
+    },
+    {
+      "name": "paperclipai/paperclip",
+      "stars": 760,
+      "stars_gained_7d": 760,
+      "forks": 149,
+      "description": "Open-source orchestration for zero-human companies",
+      "url": "https://github.com/paperclipai/paperclip",
+      "language": "TypeScript",
+      "total_score": 3070.6164
+    },
+    {
+      "name": "farion1231/cc-switch",
+      "stars": 615,
+      "stars_gained_7d": 615,
+      "forks": 30,
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "url": "https://github.com/farion1231/cc-switch",
+      "language": "Rust",
+      "total_score": 2411.5022
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 453,
+      "stars_gained_7d": 453,
+      "forks": 16,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 1783.0767
+    },
+    {
+      "name": "badlogic/pi-mono",
+      "stars": 445,
+      "stars_gained_7d": 445,
+      "forks": 42,
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "url": "https://github.com/badlogic/pi-mono",
+      "language": "TypeScript",
+      "total_score": 1830.9208
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "stars": 395,
+      "stars_gained_7d": 395,
+      "forks": 48,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "total_score": 1620.1491
+    },
+    {
+      "name": "kepano/obsidian-skills",
+      "stars": 392,
+      "stars_gained_7d": 392,
+      "forks": 33,
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "language": "",
+      "total_score": 1770.2337
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 392,
+      "stars_gained_7d": 392,
+      "forks": 56,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 1697.1125
+    },
+    {
+      "name": "NVIDIA/OpenShell",
+      "stars": 344,
+      "stars_gained_7d": 344,
+      "forks": 42,
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "language": "Rust",
+      "total_score": 1396.6449
+    },
+    {
+      "name": "teng-lin/notebooklm-py",
+      "stars": 248,
+      "stars_gained_7d": 248,
+      "forks": 31,
+      "description": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features\u2014including capabilities the web UI doesn't expose\u2014via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
+      "url": "https://github.com/teng-lin/notebooklm-py",
+      "language": "Python",
+      "total_score": 1202.7733
+    },
+    {
+      "name": "vercel-labs/agent-browser",
+      "stars": 238,
+      "stars_gained_7d": 238,
+      "forks": 17,
+      "description": "Browser automation CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "language": "Rust",
+      "total_score": 1088.1453
+    },
+    {
+      "name": "guohuiyuan/go-music-dl",
+      "stars": 210,
+      "stars_gained_7d": 210,
+      "forks": 7,
+      "description": "\u4e00\u4e2a\u57fa\u4e8e Go \u8bed\u8a00\u7684\u5168\u7f51\u97f3\u4e50\u641c\u7d22\u4e0e\u4e0b\u8f7d\u5de5\u5177\u3002\u652f\u6301 CLI \u547d\u4ee4\u884c\u4e0e Web \u670d\u52a1\u53cc\u6a21\u5f0f\uff0c\u5185\u7f6e\u7f51\u6613\u4e91\u3001QQ\u3001\u9177\u72d7\u3001Bilibili\u3001\u6c7d\u6c34\u97f3\u4e50\u7b49 10+ \u4e2a\u4e3b\u6d41\u5e73\u53f0\uff0c\u652f\u6301\u591a\u6e90\u5e76\u53d1\u641c\u7d22\u4e0e\u65e0\u635f\u97f3\u8d28\u89e3\u6790\u3002music-dl\u4ea4\u6d41\u7fa4\uff1a1074285005",
+      "url": "https://github.com/guohuiyuan/go-music-dl",
+      "language": "Go",
+      "total_score": 1027.095
+    }
+  ]
+}
