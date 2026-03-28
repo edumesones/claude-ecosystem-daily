@@ -1,0 +1,158 @@
+{
+  "date": "2026-03-28",
+  "generated_at": "2026-03-28T12:55:39.232428",
+  "period": "past_week",
+  "total_repos": 15,
+  "repos": [
+    {
+      "name": "jackwener/opencli",
+      "stars": 752,
+      "stars_gained_7d": 752,
+      "forks": 59,
+      "description": "",
+      "url": "https://github.com/jackwener/opencli",
+      "language": "TypeScript",
+      "total_score": 2750.9738
+    },
+    {
+      "name": "paperclipai/paperclip",
+      "stars": 713,
+      "stars_gained_7d": 713,
+      "forks": 149,
+      "description": "Open-source orchestration for zero-human companies",
+      "url": "https://github.com/paperclipai/paperclip",
+      "language": "TypeScript",
+      "total_score": 3186.9017
+    },
+    {
+      "name": "farion1231/cc-switch",
+      "stars": 487,
+      "stars_gained_7d": 487,
+      "forks": 21,
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "url": "https://github.com/farion1231/cc-switch",
+      "language": "Rust",
+      "total_score": 1899.5701
+    },
+    {
+      "name": "NVIDIA/NemoClaw",
+      "stars": 419,
+      "stars_gained_7d": 419,
+      "forks": 87,
+      "description": "Run OpenClaw more securely inside NVIDIA OpenShell with managed inference",
+      "url": "https://github.com/NVIDIA/NemoClaw",
+      "language": "JavaScript",
+      "total_score": 1648.1778
+    },
+    {
+      "name": "THU-MAIC/OpenMAIC",
+      "stars": 414,
+      "stars_gained_7d": 414,
+      "forks": 110,
+      "description": "Open Multi-Agent Interactive Classroom \u2014 Get an immersive, multi-agent learning experience in just one click",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "language": "TypeScript",
+      "total_score": 1667.5993
+    },
+    {
+      "name": "kepano/obsidian-skills",
+      "stars": 385,
+      "stars_gained_7d": 385,
+      "forks": 30,
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "language": "",
+      "total_score": 1481.9335
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 381,
+      "stars_gained_7d": 381,
+      "forks": 16,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 1538.3634
+    },
+    {
+      "name": "badlogic/pi-mono",
+      "stars": 339,
+      "stars_gained_7d": 339,
+      "forks": 27,
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "url": "https://github.com/badlogic/pi-mono",
+      "language": "TypeScript",
+      "total_score": 1347.9548
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 280,
+      "stars_gained_7d": 280,
+      "forks": 45,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 1231.1329
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "stars": 271,
+      "stars_gained_7d": 271,
+      "forks": 31,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "total_score": 1176.161
+    },
+    {
+      "name": "teng-lin/notebooklm-py",
+      "stars": 232,
+      "stars_gained_7d": 232,
+      "forks": 26,
+      "description": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features\u2014including capabilities the web UI doesn't expose\u2014via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
+      "url": "https://github.com/teng-lin/notebooklm-py",
+      "language": "Python",
+      "total_score": 962.5035
+    },
+    {
+      "name": "vercel-labs/agent-browser",
+      "stars": 225,
+      "stars_gained_7d": 225,
+      "forks": 16,
+      "description": "Browser automation CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "language": "Rust",
+      "total_score": 1010.5473
+    },
+    {
+      "name": "dou-jiang/codex-console",
+      "stars": 193,
+      "stars_gained_7d": 193,
+      "forks": 113,
+      "description": "codex-console \u662f\u4e00\u4e2a\u96c6\u6210\u5316\u63a7\u5236\u53f0\u9879\u76ee\uff0c\u652f\u6301\u4efb\u52a1\u7ba1\u7406\u3001\u6279\u91cf\u5904\u7406\u3001\u6570\u636e\u5bfc\u51fa\u3001\u81ea\u52a8\u4e0a\u4f20\u3001\u65e5\u5fd7\u67e5\u770b\u4e0e\u6253\u5305\u652f\u6301\u3002",
+      "url": "https://github.com/dou-jiang/codex-console",
+      "language": "Python",
+      "total_score": 960.4569
+    },
+    {
+      "name": "alirezarezvani/claude-skills",
+      "stars": 188,
+      "stars_gained_7d": 188,
+      "forks": 27,
+      "description": "+192 Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory.",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "language": "Python",
+      "total_score": 904.7376
+    },
+    {
+      "name": "epiral/bb-browser",
+      "stars": 155,
+      "stars_gained_7d": 155,
+      "forks": 20,
+      "description": "Your browser is the API. CLI + MCP server for AI agents to control Chrome with your login state.",
+      "url": "https://github.com/epiral/bb-browser",
+      "language": "TypeScript",
+      "total_score": 874.316
+    }
+  ]
+}
