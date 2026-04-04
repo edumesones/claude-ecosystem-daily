@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-04",
+  "generated_at": "2026-04-04T12:56:15.379882",
+  "period": "past_week",
+  "total_repos": 16,
+  "repos": [
+    {
+      "name": "anthropics/claude-code",
+      "stars": 3273,
+      "stars_gained_7d": 3273,
+      "forks": 1230,
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "url": "https://github.com/anthropics/claude-code",
+      "language": "Shell",
+      "total_score": 16368.367
+    },
+    {
+      "name": "paperclipai/paperclip",
+      "stars": 1543,
+      "stars_gained_7d": 1543,
+      "forks": 323,
+      "description": "Open-source orchestration for zero-human companies",
+      "url": "https://github.com/paperclipai/paperclip",
+      "language": "TypeScript",
+      "total_score": 6145.041
+    },
+    {
+      "name": "jackwener/opencli",
+      "stars": 735,
+      "stars_gained_7d": 735,
+      "forks": 71,
+      "description": "",
+      "url": "https://github.com/jackwener/opencli",
+      "language": "TypeScript",
+      "total_score": 3330.0586
+    },
+    {
+      "name": "farion1231/cc-switch",
+      "stars": 621,
+      "stars_gained_7d": 621,
+      "forks": 46,
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "url": "https://github.com/farion1231/cc-switch",
+      "language": "Rust",
+      "total_score": 2655.6966
+    },
+    {
+      "name": "Panniantong/Agent-Reach",
+      "stars": 618,
+      "stars_gained_7d": 618,
+      "forks": 55,
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "language": "Python",
+      "total_score": 2169.9567
+    },
+    {
+      "name": "asgeirtj/system_prompts_leaks",
+      "stars": 402,
+      "stars_gained_7d": 402,
+      "forks": 80,
+      "description": "Extracted system prompts from ChatGPT (GPT-5.4, GPT-5.3, Codex), Claude (Opus 4.6, Sonnet 4.6, Claude Code), Gemini (3.1 Pro, 3 Flash, CLI), Grok (4.2, 4), Perplexity, and more. Updated regularly.",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "language": "",
+      "total_score": 2150.5588
+    },
+    {
+      "name": "badlogic/pi-mono",
+      "stars": 392,
+      "stars_gained_7d": 392,
+      "forks": 45,
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "url": "https://github.com/badlogic/pi-mono",
+      "language": "TypeScript",
+      "total_score": 1848.5865
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 390,
+      "stars_gained_7d": 390,
+      "forks": 20,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 1671.652
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 301,
+      "stars_gained_7d": 301,
+      "forks": 50,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 1470.1143
+    },
+    {
+      "name": "ponponon/claude_code_src",
+      "stars": 272,
+      "stars_gained_7d": 272,
+      "forks": 434,
+      "description": "2026.3.31 claude code \u610f\u5916\u628a\u5305\u542b\u6e90\u7801\u7684\u6587\u4ef6\u4e0a\u4f20\u5230 npm \u4ed3\u5e93\uff0c\u7248\u672c\u53f7\u662f 2.1.88\uff0c\u5176\u4e2d cli.js.map \u6587\u4ef6\u6709 57MB \u7684\u4f53\u79ef\uff0cclaude code \u7684\u6e90\u7801\u5728\u8be5\u6587\u4ef6\u7684 sourcesContent \u5b57\u6bb5\u91cc\u9762\uff0c\u89e3\u538b\u8fd8\u539f\u540e\u6709 70w \u884c\u4ee3\u7801",
+      "url": "https://github.com/ponponon/claude_code_src",
+      "language": "TypeScript",
+      "total_score": 2500.8014
+    },
+    {
+      "name": "kepano/obsidian-skills",
+      "stars": 262,
+      "stars_gained_7d": 262,
+      "forks": 27,
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "language": "",
+      "total_score": 1240.7083
+    },
+    {
+      "name": "alirezarezvani/claude-skills",
+      "stars": 256,
+      "stars_gained_7d": 256,
+      "forks": 31,
+      "description": "220+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory.",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "language": "Python",
+      "total_score": 1196.2784
+    },
+    {
+      "name": "vercel-labs/agent-browser",
+      "stars": 244,
+      "stars_gained_7d": 244,
+      "forks": 10,
+      "description": "Browser automation CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "language": "Rust",
+      "total_score": 1171.6757
+    },
+    {
+      "name": "yasasbanukaofficial/claude-code",
+      "stars": 233,
+      "stars_gained_7d": 233,
+      "forks": 373,
+      "description": "\ud83d\ude80 Open source Claude Code CLI source code. Advanced AI Agent for developers. Includes TypeScript codebase for LLM tool-calling, agentic workflows, and terminal UI. Remember this is just the skeleton not the brain itself. Found by Chaofan Shou. ",
+      "url": "https://github.com/yasasbanukaofficial/claude-code",
+      "language": "TypeScript",
+      "total_score": 2463.3601
+    },
+    {
+      "name": "THU-MAIC/OpenMAIC",
+      "stars": 220,
+      "stars_gained_7d": 220,
+      "forks": 49,
+      "description": "Open Multi-Agent Interactive Classroom \u2014 Get an immersive, multi-agent learning experience in just one click",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "language": "TypeScript",
+      "total_score": 1073.5898
+    },
+    {
+      "name": "Piebald-AI/claude-code-system-prompts",
+      "stars": 178,
+      "stars_gained_7d": 178,
+      "forks": 81,
+      "description": "All parts of Claude Code's system prompt, 24 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.",
+      "url": "https://github.com/Piebald-AI/claude-code-system-prompts",
+      "language": "JavaScript",
+      "total_score": 1069.0069
+    }
+  ]
+}
