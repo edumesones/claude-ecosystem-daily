@@ -1,0 +1,198 @@
+{
+  "date": "2026-04-10",
+  "generated_at": "2026-04-10T13:10:51.837579",
+  "period": "past_week",
+  "total_repos": 19,
+  "repos": [
+    {
+      "name": "safishamsi/graphify",
+      "stars": 3067,
+      "stars_gained_7d": 3067,
+      "forks": 242,
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, OpenClaw, Factory Droid, Trae). Turn any folder of code, docs, papers, or images into a queryable knowledge graph",
+      "url": "https://github.com/safishamsi/graphify",
+      "language": "Python",
+      "total_score": 13780.2141
+    },
+    {
+      "name": "paperclipai/paperclip",
+      "stars": 1151,
+      "stars_gained_7d": 1151,
+      "forks": 228,
+      "description": "Open-source orchestration for zero-human companies",
+      "url": "https://github.com/paperclipai/paperclip",
+      "language": "TypeScript",
+      "total_score": 4457.3307
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 986,
+      "stars_gained_7d": 986,
+      "forks": 64,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 3882.9007
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "stars": 960,
+      "stars_gained_7d": 960,
+      "forks": 72,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "total_score": 3795.9194
+    },
+    {
+      "name": "farion1231/cc-switch",
+      "stars": 797,
+      "stars_gained_7d": 797,
+      "forks": 49,
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "url": "https://github.com/farion1231/cc-switch",
+      "language": "Rust",
+      "total_score": 3174.8677
+    },
+    {
+      "name": "jackwener/opencli",
+      "stars": 632,
+      "stars_gained_7d": 632,
+      "forks": 58,
+      "description": "",
+      "url": "https://github.com/jackwener/opencli",
+      "language": "TypeScript",
+      "total_score": 2326.9015
+    },
+    {
+      "name": "badlogic/pi-mono",
+      "stars": 629,
+      "stars_gained_7d": 629,
+      "forks": 78,
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "url": "https://github.com/badlogic/pi-mono",
+      "language": "TypeScript",
+      "total_score": 2501.5233
+    },
+    {
+      "name": "kepano/obsidian-skills",
+      "stars": 629,
+      "stars_gained_7d": 629,
+      "forks": 30,
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "language": "",
+      "total_score": 2431.9491
+    },
+    {
+      "name": "tobi/qmd",
+      "stars": 565,
+      "stars_gained_7d": 565,
+      "forks": 26,
+      "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+      "url": "https://github.com/tobi/qmd",
+      "language": "TypeScript",
+      "total_score": 2282.028
+    },
+    {
+      "name": "farzaa/clicky",
+      "stars": 524,
+      "stars_gained_7d": 524,
+      "forks": 45,
+      "description": "",
+      "url": "https://github.com/farzaa/clicky",
+      "language": "Swift",
+      "total_score": 2608.6365
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "stars": 480,
+      "stars_gained_7d": 480,
+      "forks": 45,
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "language": "Python",
+      "total_score": 1888.6973
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 460,
+      "stars_gained_7d": 460,
+      "forks": 51,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 1924.3579
+    },
+    {
+      "name": "vercel-labs/agent-browser",
+      "stars": 458,
+      "stars_gained_7d": 458,
+      "forks": 19,
+      "description": "Browser automation CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "language": "Rust",
+      "total_score": 1681.5532
+    },
+    {
+      "name": "Panniantong/Agent-Reach",
+      "stars": 402,
+      "stars_gained_7d": 402,
+      "forks": 37,
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "language": "Python",
+      "total_score": 1663.2633
+    },
+    {
+      "name": "maaslalani/sheets",
+      "stars": 313,
+      "stars_gained_7d": 313,
+      "forks": 10,
+      "description": "Terminal based spreadsheet tool",
+      "url": "https://github.com/maaslalani/sheets",
+      "language": "Go",
+      "total_score": 1230.7418
+    },
+    {
+      "name": "afar1/fieldtheory-cli",
+      "stars": 297,
+      "stars_gained_7d": 297,
+      "forks": 31,
+      "description": "Sync and locally store all of your X/Twitter bookmarks. Free and open source CLI for Mac.",
+      "url": "https://github.com/afar1/fieldtheory-cli",
+      "language": "TypeScript",
+      "total_score": 1203.2904
+    },
+    {
+      "name": "yasasbanukaofficial/claude-code",
+      "stars": 248,
+      "stars_gained_7d": 248,
+      "forks": 275,
+      "description": "\ud83d\ude80 Open source Claude Code CLI source code. Advanced AI Agent for developers. Includes TypeScript codebase for LLM tool-calling, agentic workflows, and terminal UI. Remember this is just the skeleton not the brain itself. Found by Chaofan Shou. ",
+      "url": "https://github.com/yasasbanukaofficial/claude-code",
+      "language": "TypeScript",
+      "total_score": 1488.2918
+    },
+    {
+      "name": "THU-MAIC/OpenMAIC",
+      "stars": 241,
+      "stars_gained_7d": 241,
+      "forks": 46,
+      "description": "Open Multi-Agent Interactive Classroom \u2014 Get an immersive, multi-agent learning experience in just one click",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "language": "TypeScript",
+      "total_score": 1177.352
+    },
+    {
+      "name": "codeaashu/claude-code",
+      "stars": 199,
+      "stars_gained_7d": 199,
+      "forks": 194,
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "url": "https://github.com/codeaashu/claude-code",
+      "language": "TypeScript",
+      "total_score": 1166.3121
+    }
+  ]
+}
