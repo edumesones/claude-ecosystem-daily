@@ -1,0 +1,178 @@
+{
+  "date": "2026-04-12",
+  "generated_at": "2026-04-12T13:01:46.566185",
+  "period": "past_week",
+  "total_repos": 17,
+  "repos": [
+    {
+      "name": "safishamsi/graphify",
+      "stars": 3925,
+      "stars_gained_7d": 3925,
+      "forks": 305,
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, OpenClaw, Factory Droid, Trae). Turn any folder of code, docs, papers, or images into a queryable knowledge graph",
+      "url": "https://github.com/safishamsi/graphify",
+      "language": "Python",
+      "total_score": 15151.3875
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 1193,
+      "stars_gained_7d": 1193,
+      "forks": 66,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 4750.6236
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "stars": 983,
+      "stars_gained_7d": 983,
+      "forks": 66,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "total_score": 3443.7612
+    },
+    {
+      "name": "paperclipai/paperclip",
+      "stars": 972,
+      "stars_gained_7d": 972,
+      "forks": 166,
+      "description": "Open-source orchestration for zero-human companies",
+      "url": "https://github.com/paperclipai/paperclip",
+      "language": "TypeScript",
+      "total_score": 3898.6473
+    },
+    {
+      "name": "farion1231/cc-switch",
+      "stars": 797,
+      "stars_gained_7d": 797,
+      "forks": 38,
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "url": "https://github.com/farion1231/cc-switch",
+      "language": "Rust",
+      "total_score": 3115.5515
+    },
+    {
+      "name": "kepano/obsidian-skills",
+      "stars": 654,
+      "stars_gained_7d": 654,
+      "forks": 27,
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "language": "",
+      "total_score": 2446.85
+    },
+    {
+      "name": "farzaa/clicky",
+      "stars": 628,
+      "stars_gained_7d": 628,
+      "forks": 59,
+      "description": "",
+      "url": "https://github.com/farzaa/clicky",
+      "language": "Swift",
+      "total_score": 2646.1968
+    },
+    {
+      "name": "tobi/qmd",
+      "stars": 603,
+      "stars_gained_7d": 603,
+      "forks": 24,
+      "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+      "url": "https://github.com/tobi/qmd",
+      "language": "TypeScript",
+      "total_score": 2245.097
+    },
+    {
+      "name": "badlogic/pi-mono",
+      "stars": 596,
+      "stars_gained_7d": 596,
+      "forks": 70,
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "url": "https://github.com/badlogic/pi-mono",
+      "language": "TypeScript",
+      "total_score": 2390.4325
+    },
+    {
+      "name": "QuipNetwork/quip-node-manager",
+      "stars": 573,
+      "stars_gained_7d": 573,
+      "forks": 0,
+      "description": "A simple GUI client to manage a Quip Network node",
+      "url": "https://github.com/QuipNetwork/quip-node-manager",
+      "language": "Rust",
+      "total_score": 2685.3173
+    },
+    {
+      "name": "Arthur-Ficial/apfel",
+      "stars": 530,
+      "stars_gained_7d": 530,
+      "forks": 17,
+      "description": "Apple Intelligence from the command line. On-device LLM via FoundationModels framework. No API keys, no cloud, no dependencies.",
+      "url": "https://github.com/Arthur-Ficial/apfel",
+      "language": "Swift",
+      "total_score": 1732.235
+    },
+    {
+      "name": "jackwener/opencli",
+      "stars": 447,
+      "stars_gained_7d": 447,
+      "forks": 37,
+      "description": "",
+      "url": "https://github.com/jackwener/opencli",
+      "language": "TypeScript",
+      "total_score": 1763.9394
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 432,
+      "stars_gained_7d": 432,
+      "forks": 48,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 1828.3331
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "stars": 387,
+      "stars_gained_7d": 387,
+      "forks": 35,
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "language": "Python",
+      "total_score": 1587.5878
+    },
+    {
+      "name": "Panniantong/Agent-Reach",
+      "stars": 373,
+      "stars_gained_7d": 373,
+      "forks": 34,
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "language": "Python",
+      "total_score": 1459.4834
+    },
+    {
+      "name": "vercel-labs/agent-browser",
+      "stars": 337,
+      "stars_gained_7d": 337,
+      "forks": 15,
+      "description": "Browser automation CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "language": "Rust",
+      "total_score": 1301.944
+    },
+    {
+      "name": "getpaseo/paseo",
+      "stars": 313,
+      "stars_gained_7d": 313,
+      "forks": 21,
+      "description": "Manage agents remotely from your phone, desktop and CLI",
+      "url": "https://github.com/getpaseo/paseo",
+      "language": "TypeScript",
+      "total_score": 1666.8667
+    }
+  ]
+}
