@@ -1,0 +1,158 @@
+{
+  "date": "2026-04-17",
+  "generated_at": "2026-04-17T13:20:20.191626",
+  "period": "past_week",
+  "total_repos": 15,
+  "repos": [
+    {
+      "name": "safishamsi/graphify",
+      "stars": 1830,
+      "stars_gained_7d": 1830,
+      "forks": 147,
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, OpenClaw, Factory Droid, Trae). Turn any folder of code, docs, papers, or images into a queryable knowledge graph",
+      "url": "https://github.com/safishamsi/graphify",
+      "language": "Python",
+      "total_score": 6215.1677
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 1005,
+      "stars_gained_7d": 1005,
+      "forks": 50,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 3536.02
+    },
+    {
+      "name": "paperclipai/paperclip",
+      "stars": 729,
+      "stars_gained_7d": 729,
+      "forks": 135,
+      "description": "Open-source orchestration for zero-human companies",
+      "url": "https://github.com/paperclipai/paperclip",
+      "language": "TypeScript",
+      "total_score": 2936.3117
+    },
+    {
+      "name": "farion1231/cc-switch",
+      "stars": 665,
+      "stars_gained_7d": 665,
+      "forks": 33,
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "url": "https://github.com/farion1231/cc-switch",
+      "language": "Rust",
+      "total_score": 2547.5934
+    },
+    {
+      "name": "getpaseo/paseo",
+      "stars": 554,
+      "stars_gained_7d": 554,
+      "forks": 38,
+      "description": "Manage agents remotely from your phone, desktop and CLI",
+      "url": "https://github.com/getpaseo/paseo",
+      "language": "TypeScript",
+      "total_score": 2010.0776
+    },
+    {
+      "name": "QuipNetwork/quip-node-manager",
+      "stars": 542,
+      "stars_gained_7d": 542,
+      "forks": 1,
+      "description": "A simple GUI client to manage a Quip Network node",
+      "url": "https://github.com/QuipNetwork/quip-node-manager",
+      "language": "Rust",
+      "total_score": 1782.5491
+    },
+    {
+      "name": "kepano/obsidian-skills",
+      "stars": 452,
+      "stars_gained_7d": 452,
+      "forks": 27,
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "language": "",
+      "total_score": 1741.5855
+    },
+    {
+      "name": "badlogic/pi-mono",
+      "stars": 440,
+      "stars_gained_7d": 440,
+      "forks": 55,
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "url": "https://github.com/badlogic/pi-mono",
+      "language": "TypeScript",
+      "total_score": 1797.1936
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 378,
+      "stars_gained_7d": 378,
+      "forks": 45,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 1581.6851
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "stars": 339,
+      "stars_gained_7d": 339,
+      "forks": 28,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "total_score": 1301.4744
+    },
+    {
+      "name": "microsoft/playwright-cli",
+      "stars": 301,
+      "stars_gained_7d": 301,
+      "forks": 17,
+      "description": "CLI for common Playwright actions. Record and generate Playwright code, inspect selectors and take screenshots.",
+      "url": "https://github.com/microsoft/playwright-cli",
+      "language": "TypeScript",
+      "total_score": 1061.6062
+    },
+    {
+      "name": "tobi/qmd",
+      "stars": 271,
+      "stars_gained_7d": 271,
+      "forks": 12,
+      "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+      "url": "https://github.com/tobi/qmd",
+      "language": "TypeScript",
+      "total_score": 1051.015
+    },
+    {
+      "name": "jackwener/opencli",
+      "stars": 248,
+      "stars_gained_7d": 248,
+      "forks": 22,
+      "description": "",
+      "url": "https://github.com/jackwener/opencli",
+      "language": "TypeScript",
+      "total_score": 1064.8927
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "stars": 236,
+      "stars_gained_7d": 236,
+      "forks": 17,
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "language": "Python",
+      "total_score": 1035.4433
+    },
+    {
+      "name": "alirezarezvani/claude-skills",
+      "stars": 223,
+      "stars_gained_7d": 223,
+      "forks": 27,
+      "description": "232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory.",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "language": "Python",
+      "total_score": 1032.961
+    }
+  ]
+}
