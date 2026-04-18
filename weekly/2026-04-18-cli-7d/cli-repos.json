@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-18",
+  "generated_at": "2026-04-18T13:02:29.160963",
+  "period": "past_week",
+  "total_repos": 16,
+  "repos": [
+    {
+      "name": "safishamsi/graphify",
+      "stars": 1579,
+      "stars_gained_7d": 1579,
+      "forks": 127,
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, OpenClaw, Factory Droid, Trae). Turn any folder of code, docs, papers, or images into a queryable knowledge graph",
+      "url": "https://github.com/safishamsi/graphify",
+      "language": "Python",
+      "total_score": 5278.0535
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 912,
+      "stars_gained_7d": 912,
+      "forks": 45,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 3104.3372
+    },
+    {
+      "name": "paperclipai/paperclip",
+      "stars": 698,
+      "stars_gained_7d": 698,
+      "forks": 134,
+      "description": "Open-source orchestration for zero-human companies",
+      "url": "https://github.com/paperclipai/paperclip",
+      "language": "TypeScript",
+      "total_score": 2777.2613
+    },
+    {
+      "name": "farion1231/cc-switch",
+      "stars": 646,
+      "stars_gained_7d": 646,
+      "forks": 32,
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "url": "https://github.com/farion1231/cc-switch",
+      "language": "Rust",
+      "total_score": 2434.7037
+    },
+    {
+      "name": "getpaseo/paseo",
+      "stars": 463,
+      "stars_gained_7d": 463,
+      "forks": 35,
+      "description": "Manage agents remotely from your phone, desktop and CLI",
+      "url": "https://github.com/getpaseo/paseo",
+      "language": "TypeScript",
+      "total_score": 1645.1265
+    },
+    {
+      "name": "kepano/obsidian-skills",
+      "stars": 439,
+      "stars_gained_7d": 439,
+      "forks": 26,
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "language": "",
+      "total_score": 1631.8992
+    },
+    {
+      "name": "QuipNetwork/quip-node-manager",
+      "stars": 423,
+      "stars_gained_7d": 423,
+      "forks": 1,
+      "description": "A simple GUI client to manage a Quip Network node",
+      "url": "https://github.com/QuipNetwork/quip-node-manager",
+      "language": "Rust",
+      "total_score": 1502.3535
+    },
+    {
+      "name": "badlogic/pi-mono",
+      "stars": 419,
+      "stars_gained_7d": 419,
+      "forks": 51,
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "url": "https://github.com/badlogic/pi-mono",
+      "language": "TypeScript",
+      "total_score": 1716.648
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 383,
+      "stars_gained_7d": 383,
+      "forks": 41,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 1590.5042
+    },
+    {
+      "name": "AgentSeal/codeburn",
+      "stars": 318,
+      "stars_gained_7d": 318,
+      "forks": 25,
+      "description": "See where your AI coding tokens go. Interactive TUI dashboard for Claude Code, Codex, and Cursor cost observability.",
+      "url": "https://github.com/AgentSeal/codeburn",
+      "language": "TypeScript",
+      "total_score": 1507.0434
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "stars": 283,
+      "stars_gained_7d": 283,
+      "forks": 23,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "total_score": 1114.0926
+    },
+    {
+      "name": "tobi/qmd",
+      "stars": 246,
+      "stars_gained_7d": 246,
+      "forks": 11,
+      "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+      "url": "https://github.com/tobi/qmd",
+      "language": "TypeScript",
+      "total_score": 1004.0728
+    },
+    {
+      "name": "jackwener/opencli",
+      "stars": 223,
+      "stars_gained_7d": 223,
+      "forks": 22,
+      "description": "",
+      "url": "https://github.com/jackwener/opencli",
+      "language": "TypeScript",
+      "total_score": 979.7681
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "stars": 221,
+      "stars_gained_7d": 221,
+      "forks": 17,
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "language": "Python",
+      "total_score": 972.3683
+    },
+    {
+      "name": "alirezarezvani/claude-skills",
+      "stars": 211,
+      "stars_gained_7d": 211,
+      "forks": 23,
+      "description": "232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory.",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "language": "Python",
+      "total_score": 973.7997
+    },
+    {
+      "name": "vercel-labs/wterm",
+      "stars": 186,
+      "stars_gained_7d": 186,
+      "forks": 5,
+      "description": "A terminal emulator for the web",
+      "url": "https://github.com/vercel-labs/wterm",
+      "language": "TypeScript",
+      "total_score": 994.4518
+    }
+  ]
+}
