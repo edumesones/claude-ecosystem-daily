@@ -1,0 +1,158 @@
+{
+  "date": "2026-04-24",
+  "generated_at": "2026-04-24T13:24:06.333779",
+  "period": "past_week",
+  "total_repos": 15,
+  "repos": [
+    {
+      "name": "Fincept-Corporation/FinceptTerminal",
+      "stars": 1782,
+      "stars_gained_7d": 1782,
+      "forks": 236,
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "language": "Python",
+      "total_score": 6564.6216
+    },
+    {
+      "name": "safishamsi/graphify",
+      "stars": 868,
+      "stars_gained_7d": 868,
+      "forks": 87,
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, OpenClaw, Factory Droid, Trae). Turn any folder of code, docs, papers, or images into a queryable knowledge graph",
+      "url": "https://github.com/safishamsi/graphify",
+      "language": "Python",
+      "total_score": 3302.8687
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 815,
+      "stars_gained_7d": 815,
+      "forks": 51,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 3152.4723
+    },
+    {
+      "name": "farion1231/cc-switch",
+      "stars": 575,
+      "stars_gained_7d": 575,
+      "forks": 36,
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "url": "https://github.com/farion1231/cc-switch",
+      "language": "Rust",
+      "total_score": 2389.0182
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 480,
+      "stars_gained_7d": 480,
+      "forks": 70,
+      "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 2659.5543
+    },
+    {
+      "name": "badlogic/pi-mono",
+      "stars": 401,
+      "stars_gained_7d": 401,
+      "forks": 55,
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "url": "https://github.com/badlogic/pi-mono",
+      "language": "TypeScript",
+      "total_score": 1686.1951
+    },
+    {
+      "name": "VoltAgent/awesome-agent-skills",
+      "stars": 324,
+      "stars_gained_7d": 324,
+      "forks": 30,
+      "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "language": "",
+      "total_score": 1596.4949
+    },
+    {
+      "name": "Gitlawb/openclaude",
+      "stars": 301,
+      "stars_gained_7d": 301,
+      "forks": 61,
+      "description": "Open Claude Is Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama, Codex, GitHub Models, and 200+ models via OpenAI-compatible APIs.",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "language": "TypeScript",
+      "total_score": 1397.0741
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 276,
+      "stars_gained_7d": 276,
+      "forks": 52,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 1278.0975
+    },
+    {
+      "name": "kepano/obsidian-skills",
+      "stars": 264,
+      "stars_gained_7d": 264,
+      "forks": 22,
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "language": "",
+      "total_score": 1117.725
+    },
+    {
+      "name": "vercel-labs/wterm",
+      "stars": 260,
+      "stars_gained_7d": 260,
+      "forks": 11,
+      "description": "A terminal emulator for the web",
+      "url": "https://github.com/vercel-labs/wterm",
+      "language": "TypeScript",
+      "total_score": 967.2161
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "stars": 224,
+      "stars_gained_7d": 224,
+      "forks": 25,
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "language": "Python",
+      "total_score": 993.8509
+    },
+    {
+      "name": "sickn33/antigravity-awesome-skills",
+      "stars": 202,
+      "stars_gained_7d": 202,
+      "forks": 28,
+      "description": "Installable GitHub library of 1,400+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes installer CLI, bundles, workflows, and official/community skill collections.",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills",
+      "language": "Python",
+      "total_score": 937.4579
+    },
+    {
+      "name": "alirezarezvani/claude-skills",
+      "stars": 178,
+      "stars_gained_7d": 178,
+      "forks": 18,
+      "description": "232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory.",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "language": "Python",
+      "total_score": 816.7795
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 174,
+      "stars_gained_7d": 174,
+      "forks": 37,
+      "description": "754 structured cybersecurity skills for AI agents \u00b7 Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 26 security domains \u00b7 Apache 2.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "total_score": 880.965
+    }
+  ]
+}
