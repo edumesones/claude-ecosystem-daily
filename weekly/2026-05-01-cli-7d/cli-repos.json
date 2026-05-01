@@ -1,0 +1,188 @@
+{
+  "date": "2026-05-01",
+  "generated_at": "2026-05-01T13:18:29.726342",
+  "period": "past_week",
+  "total_repos": 18,
+  "repos": [
+    {
+      "name": "warpdotdev/warp",
+      "stars": 2052,
+      "stars_gained_7d": 2052,
+      "forks": 212,
+      "description": "Warp is an agentic development environment, born out of the terminal.",
+      "url": "https://github.com/warpdotdev/warp",
+      "language": "",
+      "total_score": 9493.9668
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 2012,
+      "stars_gained_7d": 2012,
+      "forks": 247,
+      "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 6561.1498
+    },
+    {
+      "name": "farion1231/cc-switch",
+      "stars": 773,
+      "stars_gained_7d": 773,
+      "forks": 68,
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "url": "https://github.com/farion1231/cc-switch",
+      "language": "Rust",
+      "total_score": 3013.049
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 714,
+      "stars_gained_7d": 714,
+      "forks": 50,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 2479.7737
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "stars": 682,
+      "stars_gained_7d": 682,
+      "forks": 84,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "total_score": 2612.2555
+    },
+    {
+      "name": "safishamsi/graphify",
+      "stars": 669,
+      "stars_gained_7d": 669,
+      "forks": 72,
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, OpenClaw, Factory Droid, Trae). Turn any folder of code, docs, papers, or images into a queryable knowledge graph",
+      "url": "https://github.com/safishamsi/graphify",
+      "language": "Python",
+      "total_score": 2622.0575
+    },
+    {
+      "name": "Fincept-Corporation/FinceptTerminal",
+      "stars": 599,
+      "stars_gained_7d": 599,
+      "forks": 67,
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "language": "Python",
+      "total_score": 2230.2705
+    },
+    {
+      "name": "badlogic/pi-mono",
+      "stars": 567,
+      "stars_gained_7d": 567,
+      "forks": 67,
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "url": "https://github.com/badlogic/pi-mono",
+      "language": "TypeScript",
+      "total_score": 2176.8825
+    },
+    {
+      "name": "ComposioHQ/awesome-codex-skills",
+      "stars": 486,
+      "stars_gained_7d": 486,
+      "forks": 24,
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "language": "Python",
+      "total_score": 1928.5319
+    },
+    {
+      "name": "OpenCoworkAI/open-codesign",
+      "stars": 247,
+      "stars_gained_7d": 247,
+      "forks": 24,
+      "description": "Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt \u2192 prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT.",
+      "url": "https://github.com/OpenCoworkAI/open-codesign",
+      "language": "TypeScript",
+      "total_score": 1052.7466
+    },
+    {
+      "name": "kepano/obsidian-skills",
+      "stars": 229,
+      "stars_gained_7d": 229,
+      "forks": 21,
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "language": "",
+      "total_score": 1083.6787
+    },
+    {
+      "name": "davila7/claude-code-templates",
+      "stars": 214,
+      "stars_gained_7d": 214,
+      "forks": 19,
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "language": "Python",
+      "total_score": 935.2913
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 208,
+      "stars_gained_7d": 208,
+      "forks": 37,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 973.2695
+    },
+    {
+      "name": "VoltAgent/awesome-agent-skills",
+      "stars": 189,
+      "stars_gained_7d": 189,
+      "forks": 16,
+      "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "language": "",
+      "total_score": 843.5826
+    },
+    {
+      "name": "getagentseal/codeburn",
+      "stars": 180,
+      "stars_gained_7d": 180,
+      "forks": 8,
+      "description": "See where your AI coding tokens go. Interactive TUI dashboard for Claude Code, Codex, and Cursor cost observability.",
+      "url": "https://github.com/getagentseal/codeburn",
+      "language": "TypeScript",
+      "total_score": 773.1742
+    },
+    {
+      "name": "jackwener/OpenCLI",
+      "stars": 165,
+      "stars_gained_7d": 165,
+      "forks": 16,
+      "description": "Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to discover, learn, and execute tools seamlessly via a unified AGENT.md integration.",
+      "url": "https://github.com/jackwener/OpenCLI",
+      "language": "JavaScript",
+      "total_score": 810.8835
+    },
+    {
+      "name": "Gitlawb/openclaude",
+      "stars": 165,
+      "stars_gained_7d": 165,
+      "forks": 33,
+      "description": "Open Claude Is Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama, Codex, GitHub Models, and 200+ models via OpenAI-compatible APIs.",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "language": "TypeScript",
+      "total_score": 802.2296
+    },
+    {
+      "name": "sickn33/antigravity-awesome-skills",
+      "stars": 159,
+      "stars_gained_7d": 159,
+      "forks": 15,
+      "description": "Installable GitHub library of 1,400+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes installer CLI, bundles, workflows, and official/community skill collections.",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills",
+      "language": "Python",
+      "total_score": 750.5048
+    }
+  ]
+}
