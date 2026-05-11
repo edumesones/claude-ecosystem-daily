@@ -1,0 +1,198 @@
+{
+  "date": "2026-05-11",
+  "generated_at": "2026-05-11T14:51:29.608479",
+  "period": "past_week",
+  "total_repos": 19,
+  "repos": [
+    {
+      "name": "farion1231/cc-switch",
+      "stars": 941,
+      "stars_gained_7d": 941,
+      "forks": 65,
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "url": "https://github.com/farion1231/cc-switch",
+      "language": "Rust",
+      "total_score": 4077.812
+    },
+    {
+      "name": "decolua/9router",
+      "stars": 525,
+      "stars_gained_7d": 525,
+      "forks": 51,
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "url": "https://github.com/decolua/9router",
+      "language": "JavaScript",
+      "total_score": 2566.715
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 469,
+      "stars_gained_7d": 469,
+      "forks": 28,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 1961.6825
+    },
+    {
+      "name": "safishamsi/graphify",
+      "stars": 429,
+      "stars_gained_7d": 429,
+      "forks": 48,
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, OpenClaw, Factory Droid, Trae). Turn any folder of code, docs, papers, or images into a queryable knowledge graph",
+      "url": "https://github.com/safishamsi/graphify",
+      "language": "Python",
+      "total_score": 1926.4496
+    },
+    {
+      "name": "badlogic/pi-mono",
+      "stars": 389,
+      "stars_gained_7d": 389,
+      "forks": 67,
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "url": "https://github.com/badlogic/pi-mono",
+      "language": "TypeScript",
+      "total_score": 1894.9981
+    },
+    {
+      "name": "warpdotdev/warp",
+      "stars": 347,
+      "stars_gained_7d": 347,
+      "forks": 62,
+      "description": "Warp is an agentic development environment, born out of the terminal.",
+      "url": "https://github.com/warpdotdev/warp",
+      "language": "",
+      "total_score": 1375.8796
+    },
+    {
+      "name": "modem-dev/hunk",
+      "stars": 332,
+      "stars_gained_7d": 332,
+      "forks": 6,
+      "description": "Review-first terminal diff viewer for agentic coders",
+      "url": "https://github.com/modem-dev/hunk",
+      "language": "TypeScript",
+      "total_score": 1469.0451
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 314,
+      "stars_gained_7d": 314,
+      "forks": 51,
+      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 1504.557
+    },
+    {
+      "name": "Lum1104/Understand-Anything",
+      "stars": 309,
+      "stars_gained_7d": 309,
+      "forks": 39,
+      "description": "Graphs that teach > graphs that impress. Turn any code, or knowledge base (Karpathy LLM wiki), into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "language": "TypeScript",
+      "total_score": 1310.6954
+    },
+    {
+      "name": "crynta/terax-ai",
+      "stars": 237,
+      "stars_gained_7d": 237,
+      "forks": 35,
+      "description": "Lightweight (7MB) AI terminal emulator (ADE) built in Rust & Tauri & React",
+      "url": "https://github.com/crynta/terax-ai",
+      "language": "TypeScript",
+      "total_score": 1395.0214
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "stars": 231,
+      "stars_gained_7d": 231,
+      "forks": 31,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "total_score": 1104.4005
+    },
+    {
+      "name": "kepano/obsidian-skills",
+      "stars": 182,
+      "stars_gained_7d": 182,
+      "forks": 17,
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "language": "",
+      "total_score": 917.3852
+    },
+    {
+      "name": "ComposioHQ/awesome-codex-skills",
+      "stars": 182,
+      "stars_gained_7d": 182,
+      "forks": 12,
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "language": "Python",
+      "total_score": 856.2342
+    },
+    {
+      "name": "jackwener/wx-cli",
+      "stars": 170,
+      "stars_gained_7d": 170,
+      "forks": 54,
+      "description": "WeChat local data CLI with daemon architecture",
+      "url": "https://github.com/jackwener/wx-cli",
+      "language": "Rust",
+      "total_score": 1168.4718
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 170,
+      "stars_gained_7d": 170,
+      "forks": 36,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Claude model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 935.6079
+    },
+    {
+      "name": "iOfficeAI/OfficeCLI",
+      "stars": 165,
+      "stars_gained_7d": 165,
+      "forks": 21,
+      "description": "OfficeCLI is the first and best command-line tool purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "language": "C#",
+      "total_score": 946.5791
+    },
+    {
+      "name": "chenhg5/cc-connect",
+      "stars": 157,
+      "stars_gained_7d": 157,
+      "forks": 12,
+      "description": "Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere \u2014 no public IP required for most platforms.",
+      "url": "https://github.com/chenhg5/cc-connect",
+      "language": "Go",
+      "total_score": 859.78
+    },
+    {
+      "name": "Fincept-Corporation/FinceptTerminal",
+      "stars": 155,
+      "stars_gained_7d": 155,
+      "forks": 29,
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "language": "Python",
+      "total_score": 797.0683
+    },
+    {
+      "name": "jackwener/OpenCLI",
+      "stars": 143,
+      "stars_gained_7d": 143,
+      "forks": 26,
+      "description": "Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to discover, learn, and execute tools seamlessly via a unified AGENT.md integration.",
+      "url": "https://github.com/jackwener/OpenCLI",
+      "language": "JavaScript",
+      "total_score": 870.7781
+    }
+  ]
+}
