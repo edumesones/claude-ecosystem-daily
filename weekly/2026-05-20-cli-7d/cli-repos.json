@@ -1,0 +1,148 @@
+{
+  "date": "2026-05-20",
+  "generated_at": "2026-05-20T15:19:57.939731",
+  "period": "past_week",
+  "total_repos": 14,
+  "repos": [
+    {
+      "name": "Hmbown/DeepSeek-TUI",
+      "stars": 479,
+      "stars_gained_7d": 479,
+      "forks": 40,
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "language": "Rust",
+      "total_score": 1862.6791
+    },
+    {
+      "name": "decolua/9router",
+      "stars": 296,
+      "stars_gained_7d": 296,
+      "forks": 40,
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "url": "https://github.com/decolua/9router",
+      "language": "JavaScript",
+      "total_score": 1337.7703
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 287,
+      "stars_gained_7d": 287,
+      "forks": 18,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 1272.0594
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "stars": 268,
+      "stars_gained_7d": 268,
+      "forks": 23,
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "language": "Python",
+      "total_score": 1310.1381
+    },
+    {
+      "name": "jackwener/OpenCLI",
+      "stars": 191,
+      "stars_gained_7d": 191,
+      "forks": 27,
+      "description": "Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to discover, learn, and execute tools seamlessly via a unified AGENT.md integration.",
+      "url": "https://github.com/jackwener/OpenCLI",
+      "language": "JavaScript",
+      "total_score": 914.5941
+    },
+    {
+      "name": "safishamsi/graphify",
+      "stars": 169,
+      "stars_gained_7d": 169,
+      "forks": 17,
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "url": "https://github.com/safishamsi/graphify",
+      "language": "Python",
+      "total_score": 828.0714
+    },
+    {
+      "name": "larksuite/cli",
+      "stars": 167,
+      "stars_gained_7d": 167,
+      "forks": 7,
+      "description": "The official Lark/Feishu CLI tool, maintained by the larksuite team \u2014 built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+      "url": "https://github.com/larksuite/cli",
+      "language": "Go",
+      "total_score": 793.3366
+    },
+    {
+      "name": "crynta/terax-ai",
+      "stars": 152,
+      "stars_gained_7d": 152,
+      "forks": 18,
+      "description": "Lightweight (7MB) AI terminal emulator (ADE) built in Rust & Tauri & React",
+      "url": "https://github.com/crynta/terax-ai",
+      "language": "TypeScript",
+      "total_score": 766.7478
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 148,
+      "stars_gained_7d": 148,
+      "forks": 24,
+      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 807.5017
+    },
+    {
+      "name": "ComposioHQ/awesome-codex-skills",
+      "stars": 123,
+      "stars_gained_7d": 123,
+      "forks": 16,
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "language": "Python",
+      "total_score": 621.2445
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "stars": 113,
+      "stars_gained_7d": 113,
+      "forks": 16,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "total_score": 648.4159
+    },
+    {
+      "name": "kepano/obsidian-skills",
+      "stars": 101,
+      "stars_gained_7d": 101,
+      "forks": 12,
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "language": "",
+      "total_score": 571.0608
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "stars": 97,
+      "stars_gained_7d": 97,
+      "forks": 3,
+      "description": "agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "language": "Rust",
+      "total_score": 587.611
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 94,
+      "stars_gained_7d": 94,
+      "forks": 19,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Claude model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 573.6944
+    }
+  ]
+}
