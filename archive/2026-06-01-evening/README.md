@@ -8,7 +8,7 @@
 
 | # | Repo | ⭐ Ganadas | ⭐ Total | Descripción |
 |---|------|-----------|---------|-------------|
-| 1 | [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) | **+62** | 62 | Pre-indexed code knowledge graph for Claude Code —... |
+| 1 | [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) | **+62** | 62 | Pre-indexed code knowledge graph for Claude Code, ... |
 | 2 | [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) | **+56** | 56 | Graphs that teach > graphs that impress. Turn any ... |
 | 3 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | **+45** | 45 | Learn it. Build it. Ship it for others. |
 | 4 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | **+40** | 40 | Taste-Skill (High-Agency Frontend) - gives your AI... |
@@ -130,4 +130,4 @@
 
 ---
 
-*Generado: 2026-06-01 14:55 UTC (Tarde)*
+*Generado: 2026-06-01 22:56 UTC (Tarde)*
