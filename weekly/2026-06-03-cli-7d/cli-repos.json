@@ -1,0 +1,178 @@
+{
+  "date": "2026-06-03",
+  "generated_at": "2026-06-03T16:48:10.025800",
+  "period": "past_week",
+  "total_repos": 17,
+  "repos": [
+    {
+      "name": "Lum1104/Understand-Anything",
+      "stars": 372,
+      "stars_gained_7d": 372,
+      "forks": 27,
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "language": "TypeScript",
+      "total_score": 1404.1043
+    },
+    {
+      "name": "can1357/oh-my-pi",
+      "stars": 75,
+      "stars_gained_7d": 75,
+      "forks": 3,
+      "description": "\u2325  AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "language": "TypeScript",
+      "total_score": 463.0745
+    },
+    {
+      "name": "safishamsi/graphify",
+      "stars": 74,
+      "stars_gained_7d": 74,
+      "forks": 5,
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "url": "https://github.com/safishamsi/graphify",
+      "language": "Python",
+      "total_score": 458.5103
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 65,
+      "stars_gained_7d": 65,
+      "forks": 4,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 429.7408
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 55,
+      "stars_gained_7d": 55,
+      "forks": 5,
+      "description": "754 structured cybersecurity skills for AI agents \u00b7 Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 26 security domains \u00b7 Apache 2.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "total_score": 383.463
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "stars": 37,
+      "stars_gained_7d": 37,
+      "forks": 2,
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "language": "Python",
+      "total_score": 328.074
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 35,
+      "stars_gained_7d": 35,
+      "forks": 4,
+      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 333.3388
+    },
+    {
+      "name": "crynta/terax-ai",
+      "stars": 31,
+      "stars_gained_7d": 31,
+      "forks": 2,
+      "description": "Lightweight (7MB) Terminal-first AI-native dev workspace",
+      "url": "https://github.com/crynta/terax-ai",
+      "language": "TypeScript",
+      "total_score": 330.1437
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "stars": 30,
+      "stars_gained_7d": 30,
+      "forks": 2,
+      "description": "agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "language": "Rust",
+      "total_score": 324.7099
+    },
+    {
+      "name": "manaflow-ai/cmux",
+      "stars": 29,
+      "stars_gained_7d": 29,
+      "forks": 2,
+      "description": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
+      "url": "https://github.com/manaflow-ai/cmux",
+      "language": "JavaScript",
+      "total_score": 305.8637
+    },
+    {
+      "name": "decolua/9router",
+      "stars": 27,
+      "stars_gained_7d": 27,
+      "forks": 5,
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "url": "https://github.com/decolua/9router",
+      "language": "JavaScript",
+      "total_score": 318.3526
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "stars": 22,
+      "stars_gained_7d": 22,
+      "forks": 2,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "total_score": 290.6418
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 21,
+      "stars_gained_7d": 21,
+      "forks": 3,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 282.5021
+    },
+    {
+      "name": "ComposioHQ/awesome-codex-skills",
+      "stars": 21,
+      "stars_gained_7d": 21,
+      "forks": 4,
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "language": "Python",
+      "total_score": 267.066
+    },
+    {
+      "name": "VoltAgent/awesome-agent-skills",
+      "stars": 20,
+      "stars_gained_7d": 20,
+      "forks": 3,
+      "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "language": "",
+      "total_score": 282.9291
+    },
+    {
+      "name": "getpaseo/paseo",
+      "stars": 18,
+      "stars_gained_7d": 18,
+      "forks": 2,
+      "description": "Orchestrate coding agents remotely from your phone, desktop and CLI",
+      "url": "https://github.com/getpaseo/paseo",
+      "language": "TypeScript",
+      "total_score": 279.7915
+    },
+    {
+      "name": "sickn33/antigravity-awesome-skills",
+      "stars": 18,
+      "stars_gained_7d": 18,
+      "forks": 4,
+      "description": "Installable GitHub library of 1,400+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes installer CLI, bundles, workflows, and official/community skill collections.",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills",
+      "language": "Python",
+      "total_score": 270.4263
+    }
+  ]
+}
