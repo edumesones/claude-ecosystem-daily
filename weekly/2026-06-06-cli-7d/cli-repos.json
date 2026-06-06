@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-06",
+  "generated_at": "2026-06-06T13:42:25.356684",
+  "period": "past_week",
+  "total_repos": 16,
+  "repos": [
+    {
+      "name": "Lum1104/Understand-Anything",
+      "stars": 255,
+      "stars_gained_7d": 255,
+      "forks": 16,
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "language": "TypeScript",
+      "total_score": 1211.0781
+    },
+    {
+      "name": "safishamsi/graphify",
+      "stars": 144,
+      "stars_gained_7d": 144,
+      "forks": 9,
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "url": "https://github.com/safishamsi/graphify",
+      "language": "Python",
+      "total_score": 841.187
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 76,
+      "stars_gained_7d": 76,
+      "forks": 8,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 515.1516
+    },
+    {
+      "name": "Panniantong/Agent-Reach",
+      "stars": 69,
+      "stars_gained_7d": 69,
+      "forks": 5,
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "language": "Python",
+      "total_score": 533.6047
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 67,
+      "stars_gained_7d": 67,
+      "forks": 6,
+      "description": "754 structured cybersecurity skills for AI agents \u00b7 Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 26 security domains \u00b7 Apache 2.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "total_score": 485.0251
+    },
+    {
+      "name": "can1357/oh-my-pi",
+      "stars": 64,
+      "stars_gained_7d": 64,
+      "forks": 5,
+      "description": "\u2325  AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "language": "TypeScript",
+      "total_score": 442.0392
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "stars": 59,
+      "stars_gained_7d": 59,
+      "forks": 2,
+      "description": "agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "language": "Rust",
+      "total_score": 438.8396
+    },
+    {
+      "name": "Fincept-Corporation/FinceptTerminal",
+      "stars": 51,
+      "stars_gained_7d": 51,
+      "forks": 5,
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "language": "Python",
+      "total_score": 326.4282
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 43,
+      "stars_gained_7d": 43,
+      "forks": 9,
+      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 397.4035
+    },
+    {
+      "name": "decolua/9router",
+      "stars": 41,
+      "stars_gained_7d": 41,
+      "forks": 4,
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "url": "https://github.com/decolua/9router",
+      "language": "JavaScript",
+      "total_score": 367.9093
+    },
+    {
+      "name": "crynta/terax-ai",
+      "stars": 38,
+      "stars_gained_7d": 38,
+      "forks": 3,
+      "description": "Lightweight (7MB) Terminal-first AI-native dev workspace",
+      "url": "https://github.com/crynta/terax-ai",
+      "language": "TypeScript",
+      "total_score": 337.215
+    },
+    {
+      "name": "getpaseo/paseo",
+      "stars": 35,
+      "stars_gained_7d": 35,
+      "forks": 1,
+      "description": "Orchestrate coding agents remotely from your phone, desktop and CLI",
+      "url": "https://github.com/getpaseo/paseo",
+      "language": "TypeScript",
+      "total_score": 341.3368
+    },
+    {
+      "name": "iOfficeAI/OfficeCLI",
+      "stars": 34,
+      "stars_gained_7d": 34,
+      "forks": 0,
+      "description": "OfficeCLI is the first and best command-line tool purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "language": "C#",
+      "total_score": 342.1861
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "stars": 33,
+      "stars_gained_7d": 33,
+      "forks": 1,
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "language": "Python",
+      "total_score": 325.6587
+    },
+    {
+      "name": "VoltAgent/awesome-agent-skills",
+      "stars": 31,
+      "stars_gained_7d": 31,
+      "forks": 4,
+      "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "language": "",
+      "total_score": 333.6185
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "stars": 30,
+      "stars_gained_7d": 30,
+      "forks": 3,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "total_score": 321.5792
+    }
+  ]
+}
