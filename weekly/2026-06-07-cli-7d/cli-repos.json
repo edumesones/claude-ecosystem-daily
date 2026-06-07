@@ -1,0 +1,158 @@
+{
+  "date": "2026-06-07",
+  "generated_at": "2026-06-07T13:51:56.807600",
+  "period": "past_week",
+  "total_repos": 15,
+  "repos": [
+    {
+      "name": "Lum1104/Understand-Anything",
+      "stars": 338,
+      "stars_gained_7d": 338,
+      "forks": 17,
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "language": "TypeScript",
+      "total_score": 1503.4079
+    },
+    {
+      "name": "Panniantong/Agent-Reach",
+      "stars": 164,
+      "stars_gained_7d": 164,
+      "forks": 7,
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "language": "Python",
+      "total_score": 975.067
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 106,
+      "stars_gained_7d": 106,
+      "forks": 10,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 633.5318
+    },
+    {
+      "name": "can1357/oh-my-pi",
+      "stars": 96,
+      "stars_gained_7d": 96,
+      "forks": 7,
+      "description": "\u2325  AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "language": "TypeScript",
+      "total_score": 573.891
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 94,
+      "stars_gained_7d": 94,
+      "forks": 10,
+      "description": "754 structured cybersecurity skills for AI agents \u00b7 Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 26 security domains \u00b7 Apache 2.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "total_score": 600.4268
+    },
+    {
+      "name": "Fincept-Corporation/FinceptTerminal",
+      "stars": 73,
+      "stars_gained_7d": 73,
+      "forks": 12,
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "language": "Python",
+      "total_score": 438.567
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "stars": 67,
+      "stars_gained_7d": 67,
+      "forks": 3,
+      "description": "agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "language": "Rust",
+      "total_score": 457.1155
+    },
+    {
+      "name": "decolua/9router",
+      "stars": 58,
+      "stars_gained_7d": 58,
+      "forks": 7,
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "url": "https://github.com/decolua/9router",
+      "language": "JavaScript",
+      "total_score": 443.3894
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 55,
+      "stars_gained_7d": 55,
+      "forks": 11,
+      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 441.5091
+    },
+    {
+      "name": "ComposioHQ/awesome-codex-skills",
+      "stars": 43,
+      "stars_gained_7d": 43,
+      "forks": 0,
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "language": "Python",
+      "total_score": 384.2371
+    },
+    {
+      "name": "getpaseo/paseo",
+      "stars": 42,
+      "stars_gained_7d": 42,
+      "forks": 3,
+      "description": "Orchestrate coding agents remotely from your phone, desktop and CLI",
+      "url": "https://github.com/getpaseo/paseo",
+      "language": "TypeScript",
+      "total_score": 367.391
+    },
+    {
+      "name": "iOfficeAI/OfficeCLI",
+      "stars": 42,
+      "stars_gained_7d": 42,
+      "forks": 0,
+      "description": "OfficeCLI is the first and best command-line tool purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "language": "C#",
+      "total_score": 365.7164
+    },
+    {
+      "name": "VoltAgent/awesome-agent-skills",
+      "stars": 41,
+      "stars_gained_7d": 41,
+      "forks": 6,
+      "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "language": "",
+      "total_score": 374.8167
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 40,
+      "stars_gained_7d": 40,
+      "forks": 7,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 381.5327
+    },
+    {
+      "name": "manaflow-ai/cmux",
+      "stars": 36,
+      "stars_gained_7d": 36,
+      "forks": 8,
+      "description": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
+      "url": "https://github.com/manaflow-ai/cmux",
+      "language": "Swift",
+      "total_score": 353.3179
+    }
+  ]
+}
