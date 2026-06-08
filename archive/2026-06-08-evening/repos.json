@@ -1,6 +1,6 @@
 {
   "date": "2026-06-08-evening",
-  "generated_at": "2026-06-08T13:01:03.087840",
+  "generated_at": "2026-06-08T22:18:35.545514",
   "total_repos": 100,
   "method": "ossinsight_api_24h",
   "repos": [
@@ -1043,7 +1043,7 @@
       "stars": 8,
       "stars_gained_24h": 8,
       "forks": 1,
-      "description": "329 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 320+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "description": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
       "url": "https://github.com/alirezarezvani/claude-skills",
       "language": "Python",
       "total_score": 234.1447,
