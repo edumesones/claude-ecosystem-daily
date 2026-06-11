@@ -1,0 +1,138 @@
+{
+  "date": "2026-06-11",
+  "generated_at": "2026-06-11T16:00:31.562720",
+  "period": "past_week",
+  "total_repos": 13,
+  "repos": [
+    {
+      "name": "Lum1104/Understand-Anything",
+      "stars": 280,
+      "stars_gained_7d": 280,
+      "forks": 20,
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "language": "TypeScript",
+      "total_score": 1173.2742
+    },
+    {
+      "name": "Panniantong/Agent-Reach",
+      "stars": 253,
+      "stars_gained_7d": 253,
+      "forks": 9,
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "language": "Python",
+      "total_score": 1085.0077
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 103,
+      "stars_gained_7d": 103,
+      "forks": 9,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 567.8599
+    },
+    {
+      "name": "can1357/oh-my-pi",
+      "stars": 77,
+      "stars_gained_7d": 77,
+      "forks": 7,
+      "description": "\u2325  AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "language": "TypeScript",
+      "total_score": 476.7877
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 76,
+      "stars_gained_7d": 76,
+      "forks": 9,
+      "description": "754 structured cybersecurity skills for AI agents \u00b7 Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 26 security domains \u00b7 Apache 2.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "total_score": 462.5668
+    },
+    {
+      "name": "Fincept-Corporation/FinceptTerminal",
+      "stars": 69,
+      "stars_gained_7d": 69,
+      "forks": 13,
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "language": "Python",
+      "total_score": 356.1935
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 60,
+      "stars_gained_7d": 60,
+      "forks": 11,
+      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 423.2035
+    },
+    {
+      "name": "ComposioHQ/awesome-codex-skills",
+      "stars": 57,
+      "stars_gained_7d": 57,
+      "forks": 5,
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "language": "Python",
+      "total_score": 397.6087
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 52,
+      "stars_gained_7d": 52,
+      "forks": 9,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 396.6232
+    },
+    {
+      "name": "decolua/9router",
+      "stars": 49,
+      "stars_gained_7d": 49,
+      "forks": 7,
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "url": "https://github.com/decolua/9router",
+      "language": "JavaScript",
+      "total_score": 371.1206
+    },
+    {
+      "name": "Hmbown/CodeWhale",
+      "stars": 48,
+      "stars_gained_7d": 48,
+      "forks": 5,
+      "description": "DeepSeek + MiMo coding agent in terminal",
+      "url": "https://github.com/Hmbown/CodeWhale",
+      "language": "Rust",
+      "total_score": 369.3679
+    },
+    {
+      "name": "iOfficeAI/OfficeCLI",
+      "stars": 48,
+      "stars_gained_7d": 48,
+      "forks": 1,
+      "description": "OfficeCLI is the first and best command-line tool purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "language": "C#",
+      "total_score": 355.2423
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "stars": 48,
+      "stars_gained_7d": 48,
+      "forks": 2,
+      "description": "agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "language": "Rust",
+      "total_score": 349.4596
+    }
+  ]
+}
