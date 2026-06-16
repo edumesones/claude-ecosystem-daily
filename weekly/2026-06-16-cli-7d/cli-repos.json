@@ -1,0 +1,138 @@
+{
+  "date": "2026-06-16",
+  "generated_at": "2026-06-16T16:51:28.866189",
+  "period": "past_week",
+  "total_repos": 13,
+  "repos": [
+    {
+      "name": "Panniantong/Agent-Reach",
+      "stars": 254,
+      "stars_gained_7d": 254,
+      "forks": 21,
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "language": "Python",
+      "total_score": 1268.1456
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 72,
+      "stars_gained_7d": 72,
+      "forks": 4,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 458.6904
+    },
+    {
+      "name": "maziyarpanahi/openmed",
+      "stars": 62,
+      "stars_gained_7d": 62,
+      "forks": 7,
+      "description": "Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device. 1,000+ medical models, 12 languages, Apple MLX + Python, no cloud, no patient data leaving your network. Apache-2.0",
+      "url": "https://github.com/maziyarpanahi/openmed",
+      "language": "Python",
+      "total_score": 412.744
+    },
+    {
+      "name": "can1357/oh-my-pi",
+      "stars": 56,
+      "stars_gained_7d": 56,
+      "forks": 3,
+      "description": "\u2325  AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "language": "TypeScript",
+      "total_score": 407.0727
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 44,
+      "stars_gained_7d": 44,
+      "forks": 11,
+      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 399.6203
+    },
+    {
+      "name": "shuvonsec/claude-bug-bounty",
+      "stars": 28,
+      "stars_gained_7d": 28,
+      "forks": 7,
+      "description": "AI-powered bug bounty hunting from your terminal - recon, 20 vuln classes,   autonomous hunting, and report generation. All inside Claude Code.",
+      "url": "https://github.com/shuvonsec/claude-bug-bounty",
+      "language": "Python",
+      "total_score": 321.5288
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 25,
+      "stars_gained_7d": 25,
+      "forks": 10,
+      "description": "754 structured cybersecurity skills for AI agents \u00b7 Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 26 security domains \u00b7 Apache 2.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "total_score": 312.3623
+    },
+    {
+      "name": "sickn33/antigravity-awesome-skills",
+      "stars": 24,
+      "stars_gained_7d": 24,
+      "forks": 4,
+      "description": "Installable GitHub library of 1,400+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes installer CLI, bundles, workflows, and official/community skill collections.",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills",
+      "language": "Python",
+      "total_score": 302.6673
+    },
+    {
+      "name": "Hmbown/CodeWhale",
+      "stars": 24,
+      "stars_gained_7d": 24,
+      "forks": 3,
+      "description": "DeepSeek + MiMo coding agent in terminal",
+      "url": "https://github.com/Hmbown/CodeWhale",
+      "language": "Rust",
+      "total_score": 298.0052
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 23,
+      "stars_gained_7d": 23,
+      "forks": 7,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 306.4426
+    },
+    {
+      "name": "coder/boo",
+      "stars": 23,
+      "stars_gained_7d": 23,
+      "forks": 0,
+      "description": "A GNU screen style terminal multiplexer built on libghostty.",
+      "url": "https://github.com/coder/boo",
+      "language": "Zig",
+      "total_score": 288.363
+    },
+    {
+      "name": "iOfficeAI/OfficeCLI",
+      "stars": 22,
+      "stars_gained_7d": 22,
+      "forks": 4,
+      "description": "OfficeCLI is the first and best command-line tool purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "language": "C#",
+      "total_score": 288.0569
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "stars": 20,
+      "stars_gained_7d": 20,
+      "forks": 3,
+      "description": "agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "language": "Rust",
+      "total_score": 287.9502
+    }
+  ]
+}
