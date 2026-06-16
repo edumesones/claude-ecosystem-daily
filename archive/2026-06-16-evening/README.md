@@ -37,27 +37,27 @@
 | 27 | [yuanzhongqiao/ai-interview-platform](https://github.com/yuanzhongqiao/ai-interview-platform) | **+8** | 8 | ai-interview-platform  |
 | 28 | [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | **+6** | 6 | ⌥  AI Coding agent for the terminal — hash-anchore... |
 | 29 | [KunAgent/Kun](https://github.com/KunAgent/Kun) | **+4** | 4 | AI agent workspace with Code and Write modes built... |
-| 30 | [anthropics/financial-services](https://github.com/anthropics/financial-services) | **+4** | 4 |  |
-| 31 | [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit) | **+5** | 5 | Hundreds of models & providers. One command to fin... |
-| 32 | [Emily2040/seedance-2.0](https://github.com/Emily2040/seedance-2.0) | **+4** | 4 | Comprehensive production pipeline for quad-modal A... |
-| 33 | [vorssaint/vorssaint-utils](https://github.com/vorssaint/vorssaint-utils) | **+5** | 5 |  |
-| 34 | [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) | **+5** | 5 | agent multiplexer that lives in your terminal. |
-| 35 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | **+3** | 3 | Marketing skills for Claude Code and AI agents. CR... |
-| 36 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | **+4** | 4 | LLM驱动的 A/H/美股智能分析：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送... |
-| 37 | [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) | **+5** | 5 |  |
-| 38 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | **+4** | 4 | World's first open-source, agentic video productio... |
-| 39 | [Leey21/awesome-ai-research-writing](https://github.com/Leey21/awesome-ai-research-writing) | **+5** | 5 | Elevate your AI research writing, no more tedious ... |
-| 40 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | **+4** | 4 | Write HTML. Render video. Built for agents. |
-| 41 | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | **+4** | 4 | Turn Claude Code into a full game dev studio — 49 ... |
-| 42 | [garrytan/gbrain](https://github.com/garrytan/gbrain) | **+5** | 5 | Garry's Opinionated OpenClaw/Hermes Agent Brain |
-| 43 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | **+4** | 4 | from vibe coding to agentic engineering - practice... |
-| 44 | [iliyami/MacSai](https://github.com/iliyami/MacSai) | **+4** | 4 | Mac Sai: the open-source Mac cleaner, optimizer, a... |
-| 45 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | **+4** | 4 | Context window optimization for AI coding agents. ... |
-| 46 | [multica-ai/multica](https://github.com/multica-ai/multica) | **+3** | 3 | The open-source managed agents platform. Turn codi... |
-| 47 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | **+4** | 4 | Open source repository of plugins primarily intend... |
-| 48 | [saif0200/notchprompt](https://github.com/saif0200/notchprompt) | **+4** | 4 | distraction-free teleprompter hidden in the macboo... |
-| 49 | [elder-plinius/G0DM0D3](https://github.com/elder-plinius/G0DM0D3) | **+3** | 3 | LIBERATED AI CHAT |
-| 50 | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | **+4** | 4 | 754 structured cybersecurity skills for AI agents ... |
+| 30 | [fujibee/agmsg](https://github.com/fujibee/agmsg) | **+5** | 5 | Cross-vendor messaging for CLI AI coding agents — ... |
+| 31 | [anthropics/financial-services](https://github.com/anthropics/financial-services) | **+4** | 4 |  |
+| 32 | [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit) | **+5** | 5 | Hundreds of models & providers. One command to fin... |
+| 33 | [Emily2040/seedance-2.0](https://github.com/Emily2040/seedance-2.0) | **+4** | 4 | Comprehensive production pipeline for quad-modal A... |
+| 34 | [vorssaint/vorssaint-utils](https://github.com/vorssaint/vorssaint-utils) | **+5** | 5 |  |
+| 35 | [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) | **+5** | 5 | agent multiplexer that lives in your terminal. |
+| 36 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | **+3** | 3 | Marketing skills for Claude Code and AI agents. CR... |
+| 37 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | **+4** | 4 | LLM驱动的 A/H/美股智能分析：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送... |
+| 38 | [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) | **+5** | 5 |  |
+| 39 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | **+4** | 4 | World's first open-source, agentic video productio... |
+| 40 | [Leey21/awesome-ai-research-writing](https://github.com/Leey21/awesome-ai-research-writing) | **+5** | 5 | Elevate your AI research writing, no more tedious ... |
+| 41 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | **+4** | 4 | Write HTML. Render video. Built for agents. |
+| 42 | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | **+4** | 4 | Turn Claude Code into a full game dev studio — 49 ... |
+| 43 | [garrytan/gbrain](https://github.com/garrytan/gbrain) | **+5** | 5 | Garry's Opinionated OpenClaw/Hermes Agent Brain |
+| 44 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | **+4** | 4 | from vibe coding to agentic engineering - practice... |
+| 45 | [iliyami/MacSai](https://github.com/iliyami/MacSai) | **+4** | 4 | Mac Sai: the open-source Mac cleaner, optimizer, a... |
+| 46 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | **+4** | 4 | Context window optimization for AI coding agents. ... |
+| 47 | [multica-ai/multica](https://github.com/multica-ai/multica) | **+3** | 3 | The open-source managed agents platform. Turn codi... |
+| 48 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | **+4** | 4 | Open source repository of plugins primarily intend... |
+| 49 | [saif0200/notchprompt](https://github.com/saif0200/notchprompt) | **+4** | 4 | distraction-free teleprompter hidden in the macboo... |
+| 50 | [elder-plinius/G0DM0D3](https://github.com/elder-plinius/G0DM0D3) | **+3** | 3 | LIBERATED AI CHAT |
 
 
 ---
@@ -122,7 +122,7 @@
 
 ## 📈 Estadísticas
 
-- **Repos AI/Claude identificados**: 84
+- **Repos AI/Claude identificados**: 85
 - **Estrellas ganadas (top 50 general)**: 651
 - **Período**: Tarde
 - **Fuente**: [OSS Insight](https://ossinsight.io/)
@@ -130,4 +130,4 @@
 
 ---
 
-*Generado: 2026-06-16 13:25 UTC (Tarde)*
+*Generado: 2026-06-16 22:48 UTC (Tarde)*

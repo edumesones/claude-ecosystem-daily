@@ -1,6 +1,6 @@
 {
   "date": "2026-06-16-evening",
-  "generated_at": "2026-06-16T13:25:14.086917",
+  "generated_at": "2026-06-16T22:48:02.041925",
   "total_repos": 100,
   "method": "ossinsight_api_24h",
   "repos": [
@@ -383,7 +383,7 @@
       "stars": 5,
       "stars_gained_24h": 5,
       "forks": 0,
-      "description": "",
+      "description": "Cross-vendor messaging for CLI AI coding agents \u2014 let Claude Code, Codex, Gemini & Copilot talk to each other in one team. Bash + SQLite, no daemon, no framework.",
       "url": "https://github.com/fujibee/agmsg",
       "language": "Shell",
       "total_score": 220.5342,
