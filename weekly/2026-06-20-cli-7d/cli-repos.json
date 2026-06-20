@@ -1,0 +1,108 @@
+{
+  "date": "2026-06-20",
+  "generated_at": "2026-06-20T14:03:00.525980",
+  "period": "past_week",
+  "total_repos": 10,
+  "repos": [
+    {
+      "name": "Panniantong/Agent-Reach",
+      "stars": 279,
+      "stars_gained_7d": 279,
+      "forks": 22,
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "language": "Python",
+      "total_score": 1099.3608
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 50,
+      "stars_gained_7d": 50,
+      "forks": 13,
+      "description": "Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 403.5922
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 47,
+      "stars_gained_7d": 47,
+      "forks": 2,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 362.5541
+    },
+    {
+      "name": "can1357/oh-my-pi",
+      "stars": 47,
+      "stars_gained_7d": 47,
+      "forks": 1,
+      "description": "\u2325  AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "language": "TypeScript",
+      "total_score": 353.1691
+    },
+    {
+      "name": "getkimchi/kimchi",
+      "stars": 33,
+      "stars_gained_7d": 33,
+      "forks": 0,
+      "description": "Terminal coding agent powered by Kimchi's multi-model orchestration ",
+      "url": "https://github.com/getkimchi/kimchi",
+      "language": "TypeScript",
+      "total_score": 300.7871
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "stars": 23,
+      "stars_gained_7d": 23,
+      "forks": 3,
+      "description": "agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "language": "Rust",
+      "total_score": 281.0376
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 22,
+      "stars_gained_7d": 22,
+      "forks": 9,
+      "description": "754 structured cybersecurity skills for AI agents \u00b7 Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 26 security domains \u00b7 Apache 2.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "total_score": 303.0613
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "stars": 22,
+      "stars_gained_7d": 22,
+      "forks": 0,
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "language": "Python",
+      "total_score": 273.0541
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 19,
+      "stars_gained_7d": 19,
+      "forks": 5,
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 275.508
+    },
+    {
+      "name": "zhaoxuya520/reverse-skill",
+      "stars": 18,
+      "stars_gained_7d": 18,
+      "forks": 2,
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients \u9006\u5411/\u6e17\u900f/\u5b89\u5168\u6280\u80fd\u8def\u7531\u5305 - AI \u81ea\u52a8\u8def\u7531 + \u6309\u9700\u81ea\u4e3e\u5de5\u5177\u94fe + \u81ea\u52a8\u8fdb\u5316\u7ecf\u9a8c\u5e93 | \u652f\u6301 Claude Code / Kiro / Cursor / Cline \u7b49\u4ee3\u7801 AI \u5ba2\u6237\u7aef",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "language": "PowerShell",
+      "total_score": 264.2989
+    }
+  ]
+}
