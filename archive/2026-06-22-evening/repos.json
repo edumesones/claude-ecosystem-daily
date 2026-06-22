@@ -1,6 +1,6 @@
 {
   "date": "2026-06-22-evening",
-  "generated_at": "2026-06-22T14:31:28.732380",
+  "generated_at": "2026-06-22T22:41:56.603363",
   "total_repos": 100,
   "method": "ossinsight_api_24h",
   "repos": [
@@ -698,12 +698,12 @@
       "contributors": "pbakaus"
     },
     {
-      "name": "FatihMakes/Jarvis-MK37",
+      "name": "FatihMakes/Mark-XLVI",
       "stars": 3,
       "stars_gained_24h": 3,
       "forks": 1,
       "description": "Newest, latest and most advanced model that is able to control computers and even more. We're improving that model day by day, so follow up to know and see new models.",
-      "url": "https://github.com/FatihMakes/Jarvis-MK37",
+      "url": "https://github.com/FatihMakes/Mark-XLVI",
       "language": "Python",
       "total_score": 215.1618,
       "contributors": ""
