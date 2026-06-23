@@ -1,0 +1,158 @@
+{
+  "date": "2026-06-23",
+  "generated_at": "2026-06-23T14:47:52.283701",
+  "period": "past_week",
+  "total_repos": 15,
+  "repos": [
+    {
+      "name": "Panniantong/Agent-Reach",
+      "stars": 221,
+      "stars_gained_7d": 221,
+      "forks": 18,
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "language": "Python",
+      "total_score": 1001.6637
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 63,
+      "stars_gained_7d": 63,
+      "forks": 4,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 451.803
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 62,
+      "stars_gained_7d": 62,
+      "forks": 10,
+      "description": "754 structured cybersecurity skills for AI agents \u00b7 Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 26 security domains \u00b7 Apache 2.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "total_score": 496.1887
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 52,
+      "stars_gained_7d": 52,
+      "forks": 7,
+      "description": "Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 402.9848
+    },
+    {
+      "name": "can1357/oh-my-pi",
+      "stars": 38,
+      "stars_gained_7d": 38,
+      "forks": 1,
+      "description": "\u2325  AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "language": "TypeScript",
+      "total_score": 340.9648
+    },
+    {
+      "name": "vercel-labs/agent-browser",
+      "stars": 26,
+      "stars_gained_7d": 26,
+      "forks": 2,
+      "description": "Browser automation CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "language": "Rust",
+      "total_score": 311.6567
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "stars": 26,
+      "stars_gained_7d": 26,
+      "forks": 1,
+      "description": "agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "language": "Rust",
+      "total_score": 299.5984
+    },
+    {
+      "name": "TestSprite/testsprite-cli",
+      "stars": 21,
+      "stars_gained_7d": 21,
+      "forks": 0,
+      "description": "Official TestSprite CLI \u2014 AI-powered automated testing from your terminal",
+      "url": "https://github.com/TestSprite/testsprite-cli",
+      "language": "TypeScript",
+      "total_score": 276.1718
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "stars": 20,
+      "stars_gained_7d": 20,
+      "forks": 2,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "total_score": 284.9714
+    },
+    {
+      "name": "modem-dev/hunk",
+      "stars": 20,
+      "stars_gained_7d": 20,
+      "forks": 0,
+      "description": "Review-first terminal diff viewer for agentic coders",
+      "url": "https://github.com/modem-dev/hunk",
+      "language": "TypeScript",
+      "total_score": 281.2149
+    },
+    {
+      "name": "zhaoxuya520/reverse-skill",
+      "stars": 19,
+      "stars_gained_7d": 19,
+      "forks": 2,
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients \u9006\u5411/\u6e17\u900f/\u5b89\u5168\u6280\u80fd\u8def\u7531\u5305 - AI \u81ea\u52a8\u8def\u7531 + \u6309\u9700\u81ea\u4e3e\u5de5\u5177\u94fe + \u81ea\u52a8\u8fdb\u5316\u7ecf\u9a8c\u5e93 | \u652f\u6301 Claude Code / Kiro / Cursor / Cline \u7b49\u4ee3\u7801 AI \u5ba2\u6237\u7aef",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "language": "PowerShell",
+      "total_score": 278.6967
+    },
+    {
+      "name": "iOfficeAI/OfficeCLI",
+      "stars": 18,
+      "stars_gained_7d": 18,
+      "forks": 3,
+      "description": "OfficeCLI is the first and best command-line tool purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "language": "C#",
+      "total_score": 285.599
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "stars": 18,
+      "stars_gained_7d": 18,
+      "forks": 3,
+      "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "language": "Go",
+      "total_score": 270.8531
+    },
+    {
+      "name": "chenhg5/cc-connect",
+      "stars": 18,
+      "stars_gained_7d": 18,
+      "forks": 0,
+      "description": "Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere \u2014 no public IP required for most platforms.",
+      "url": "https://github.com/chenhg5/cc-connect",
+      "language": "Go",
+      "total_score": 267.5507
+    },
+    {
+      "name": "decolua/9router",
+      "stars": 15,
+      "stars_gained_7d": 15,
+      "forks": 3,
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "url": "https://github.com/decolua/9router",
+      "language": "JavaScript",
+      "total_score": 263.6723
+    }
+  ]
+}
