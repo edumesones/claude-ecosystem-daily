@@ -1,0 +1,118 @@
+{
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T13:42:15.951131",
+  "period": "past_week",
+  "total_repos": 11,
+  "repos": [
+    {
+      "name": "Panniantong/Agent-Reach",
+      "stars": 221,
+      "stars_gained_7d": 221,
+      "forks": 21,
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "language": "Python",
+      "total_score": 1056.6201
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 114,
+      "stars_gained_7d": 114,
+      "forks": 12,
+      "description": "754 structured cybersecurity skills for AI agents \u00b7 Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 26 security domains \u00b7 Apache 2.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "total_score": 620.3705
+    },
+    {
+      "name": "zhaoxuya520/reverse-skill",
+      "stars": 85,
+      "stars_gained_7d": 85,
+      "forks": 14,
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients \u9006\u5411/\u6e17\u900f/\u5b89\u5168\u6280\u80fd\u8def\u7531\u5305 - AI \u81ea\u52a8\u8def\u7531 + \u6309\u9700\u81ea\u4e3e\u5de5\u5177\u94fe + \u81ea\u52a8\u8fdb\u5316\u7ecf\u9a8c\u5e93 | \u652f\u6301 Claude Code / Kiro / Cursor / Cline \u7b49\u4ee3\u7801 AI \u5ba2\u6237\u7aef",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "language": "PowerShell",
+      "total_score": 552.501
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 75,
+      "stars_gained_7d": 75,
+      "forks": 6,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 461.738
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "stars": 48,
+      "stars_gained_7d": 48,
+      "forks": 1,
+      "description": "agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "language": "Rust",
+      "total_score": 389.5647
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 39,
+      "stars_gained_7d": 39,
+      "forks": 9,
+      "description": "Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 346.4936
+    },
+    {
+      "name": "googleworkspace/cli",
+      "stars": 38,
+      "stars_gained_7d": 38,
+      "forks": 2,
+      "description": "Google Workspace CLI \u2014 one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "url": "https://github.com/googleworkspace/cli",
+      "language": "Rust",
+      "total_score": 363.0932
+    },
+    {
+      "name": "can1357/oh-my-pi",
+      "stars": 35,
+      "stars_gained_7d": 35,
+      "forks": 0,
+      "description": "\u2325  AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "language": "TypeScript",
+      "total_score": 308.1825
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "stars": 26,
+      "stars_gained_7d": 26,
+      "forks": 3,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "total_score": 288.5082
+    },
+    {
+      "name": "alirezarezvani/claude-skills",
+      "stars": 22,
+      "stars_gained_7d": 22,
+      "forks": 3,
+      "description": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "language": "Python",
+      "total_score": 283.3123
+    },
+    {
+      "name": "jackwener/OpenCLI",
+      "stars": 19,
+      "stars_gained_7d": 19,
+      "forks": 0,
+      "description": "Make Any Website into CLI & Use your logged-in browser by AI agent. ",
+      "url": "https://github.com/jackwener/OpenCLI",
+      "language": "JavaScript",
+      "total_score": 271.3498
+    }
+  ]
+}
