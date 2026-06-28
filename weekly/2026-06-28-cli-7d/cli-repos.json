@@ -1,0 +1,98 @@
+{
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T13:45:14.331871",
+  "period": "past_week",
+  "total_repos": 9,
+  "repos": [
+    {
+      "name": "Panniantong/Agent-Reach",
+      "stars": 204,
+      "stars_gained_7d": 204,
+      "forks": 16,
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "language": "Python",
+      "total_score": 1038.8676
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 108,
+      "stars_gained_7d": 108,
+      "forks": 9,
+      "description": "754 structured cybersecurity skills for AI agents \u00b7 Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 26 security domains \u00b7 Apache 2.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "total_score": 594.6044
+    },
+    {
+      "name": "zhaoxuya520/reverse-skill",
+      "stars": 84,
+      "stars_gained_7d": 84,
+      "forks": 15,
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients \u9006\u5411/\u6e17\u900f/\u5b89\u5168\u6280\u80fd\u8def\u7531\u5305 - AI \u81ea\u52a8\u8def\u7531 + \u6309\u9700\u81ea\u4e3e\u5de5\u5177\u94fe + \u81ea\u52a8\u8fdb\u5316\u7ecf\u9a8c\u5e93 | \u652f\u6301 Claude Code / Kiro / Cursor / Cline \u7b49\u4ee3\u7801 AI \u5ba2\u6237\u7aef",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "language": "PowerShell",
+      "total_score": 533.9984
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 66,
+      "stars_gained_7d": 66,
+      "forks": 5,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 451.6537
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "stars": 43,
+      "stars_gained_7d": 43,
+      "forks": 1,
+      "description": "agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "language": "Rust",
+      "total_score": 377.4416
+    },
+    {
+      "name": "googleworkspace/cli",
+      "stars": 40,
+      "stars_gained_7d": 40,
+      "forks": 2,
+      "description": "Google Workspace CLI \u2014 one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "url": "https://github.com/googleworkspace/cli",
+      "language": "Rust",
+      "total_score": 358.2942
+    },
+    {
+      "name": "can1357/oh-my-pi",
+      "stars": 30,
+      "stars_gained_7d": 30,
+      "forks": 0,
+      "description": "\u2325  AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "language": "TypeScript",
+      "total_score": 298.5374
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 26,
+      "stars_gained_7d": 26,
+      "forks": 10,
+      "description": "Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 316.7827
+    },
+    {
+      "name": "VoltAgent/awesome-agent-skills",
+      "stars": 21,
+      "stars_gained_7d": 21,
+      "forks": 3,
+      "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "language": "",
+      "total_score": 279.5462
+    }
+  ]
+}
