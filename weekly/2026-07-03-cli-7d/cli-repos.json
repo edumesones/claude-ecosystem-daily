@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T14:03:01.446994",
+  "period": "past_week",
+  "total_repos": 12,
+  "repos": [
+    {
+      "name": "Panniantong/Agent-Reach",
+      "stars": 145,
+      "stars_gained_7d": 145,
+      "forks": 10,
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "language": "Python",
+      "total_score": 682.0658
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "stars": 62,
+      "stars_gained_7d": 62,
+      "forks": 1,
+      "description": "agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "language": "Rust",
+      "total_score": 426.8734
+    },
+    {
+      "name": "langchain-ai/openwiki",
+      "stars": 46,
+      "stars_gained_7d": 46,
+      "forks": 2,
+      "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+      "url": "https://github.com/langchain-ai/openwiki",
+      "language": "TypeScript",
+      "total_score": 416.4705
+    },
+    {
+      "name": "diegosouzapw/OmniRoute",
+      "stars": 45,
+      "stars_gained_7d": 45,
+      "forks": 9,
+      "description": "Never stop coding. Free AI gateway: one endpoint, 160+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "language": "TypeScript",
+      "total_score": 407.4419
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 43,
+      "stars_gained_7d": 43,
+      "forks": 5,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 361.3893
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 41,
+      "stars_gained_7d": 41,
+      "forks": 1,
+      "description": "754 structured cybersecurity skills for AI agents \u00b7 Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 26 security domains \u00b7 Apache 2.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "total_score": 339.3142
+    },
+    {
+      "name": "baairon/torlink",
+      "stars": 26,
+      "stars_gained_7d": 26,
+      "forks": 1,
+      "description": "A sleek, zero-setup torrent finder and downloader that lives right in your terminal.",
+      "url": "https://github.com/baairon/torlink",
+      "language": "TypeScript",
+      "total_score": 312.4198
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 22,
+      "stars_gained_7d": 22,
+      "forks": 5,
+      "description": "Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 286.1118
+    },
+    {
+      "name": "can1357/oh-my-pi",
+      "stars": 21,
+      "stars_gained_7d": 21,
+      "forks": 2,
+      "description": "\u2325  AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "language": "TypeScript",
+      "total_score": 283.759
+    },
+    {
+      "name": "decolua/9router",
+      "stars": 19,
+      "stars_gained_7d": 19,
+      "forks": 9,
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "url": "https://github.com/decolua/9router",
+      "language": "JavaScript",
+      "total_score": 293.683
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "stars": 18,
+      "stars_gained_7d": 18,
+      "forks": 0,
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "language": "Python",
+      "total_score": 256.0013
+    },
+    {
+      "name": "sickn33/antigravity-awesome-skills",
+      "stars": 15,
+      "stars_gained_7d": 15,
+      "forks": 2,
+      "description": "Installable GitHub library of 1,400+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes installer CLI, bundles, workflows, and official/community skill collections.",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills",
+      "language": "Python",
+      "total_score": 256.6948
+    }
+  ]
+}
