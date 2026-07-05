@@ -1,0 +1,158 @@
+{
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T13:38:01.482268",
+  "period": "past_week",
+  "total_repos": 15,
+  "repos": [
+    {
+      "name": "langchain-ai/openwiki",
+      "stars": 129,
+      "stars_gained_7d": 129,
+      "forks": 9,
+      "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+      "url": "https://github.com/langchain-ai/openwiki",
+      "language": "TypeScript",
+      "total_score": 799.991
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "stars": 79,
+      "stars_gained_7d": 79,
+      "forks": 3,
+      "description": "agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "language": "Rust",
+      "total_score": 536.3047
+    },
+    {
+      "name": "diegosouzapw/OmniRoute",
+      "stars": 57,
+      "stars_gained_7d": 57,
+      "forks": 9,
+      "description": "Never stop coding. Free AI gateway: one endpoint, 160+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "language": "TypeScript",
+      "total_score": 451.5926
+    },
+    {
+      "name": "baairon/torlink",
+      "stars": 36,
+      "stars_gained_7d": 36,
+      "forks": 0,
+      "description": "A sleek, zero-setup torrent finder and downloader that lives right in your terminal.",
+      "url": "https://github.com/baairon/torlink",
+      "language": "TypeScript",
+      "total_score": 342.8996
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "stars": 31,
+      "stars_gained_7d": 31,
+      "forks": 7,
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "language": "Rust",
+      "total_score": 340.2539
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 30,
+      "stars_gained_7d": 30,
+      "forks": 2,
+      "description": "754 structured cybersecurity skills for AI agents \u00b7 Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 26 security domains \u00b7 Apache 2.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "total_score": 327.5983
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 25,
+      "stars_gained_7d": 25,
+      "forks": 4,
+      "description": "Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 314.5634
+    },
+    {
+      "name": "can1357/oh-my-pi",
+      "stars": 22,
+      "stars_gained_7d": 22,
+      "forks": 3,
+      "description": "\u2325  AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "language": "TypeScript",
+      "total_score": 295.9153
+    },
+    {
+      "name": "crynta/terax-ai",
+      "stars": 19,
+      "stars_gained_7d": 19,
+      "forks": 3,
+      "description": "Lightweight (7MB) Terminal-first AI-native dev workspace",
+      "url": "https://github.com/crynta/terax-ai",
+      "language": "TypeScript",
+      "total_score": 296.473
+    },
+    {
+      "name": "alirezarezvani/claude-skills",
+      "stars": 18,
+      "stars_gained_7d": 18,
+      "forks": 6,
+      "description": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "language": "Python",
+      "total_score": 302.2166
+    },
+    {
+      "name": "modiqo/cliare",
+      "stars": 18,
+      "stars_gained_7d": 18,
+      "forks": 0,
+      "description": "CLI agent-readiness measurement, command-shape inference, and CI scorecards",
+      "url": "https://github.com/modiqo/cliare",
+      "language": "Rust",
+      "total_score": 276.9119
+    },
+    {
+      "name": "decolua/9router",
+      "stars": 17,
+      "stars_gained_7d": 17,
+      "forks": 5,
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "url": "https://github.com/decolua/9router",
+      "language": "JavaScript",
+      "total_score": 281.2118
+    },
+    {
+      "name": "TestSprite/testsprite-cli",
+      "stars": 17,
+      "stars_gained_7d": 17,
+      "forks": 0,
+      "description": "Official TestSprite CLI \u2014 AI-powered automated testing from your terminal",
+      "url": "https://github.com/TestSprite/testsprite-cli",
+      "language": "TypeScript",
+      "total_score": 277.3395
+    },
+    {
+      "name": "HduSy/tokenscope",
+      "stars": 17,
+      "stars_gained_7d": 17,
+      "forks": 0,
+      "description": "MacOS menu-bar dashboard for Claude CLI token usage, estimated cost, and per-model / MCP / Skill breakdowns.",
+      "url": "https://github.com/HduSy/tokenscope",
+      "language": "Rust",
+      "total_score": 263.0706
+    },
+    {
+      "name": "vercel-labs/agent-browser",
+      "stars": 13,
+      "stars_gained_7d": 13,
+      "forks": 1,
+      "description": "Browser automation CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "language": "Rust",
+      "total_score": 258.1421
+    }
+  ]
+}
