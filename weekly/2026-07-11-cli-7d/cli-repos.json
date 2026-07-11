@@ -1,0 +1,148 @@
+{
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T13:17:54.346564",
+  "period": "past_week",
+  "total_repos": 14,
+  "repos": [
+    {
+      "name": "langchain-ai/openwiki",
+      "stars": 117,
+      "stars_gained_7d": 117,
+      "forks": 11,
+      "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+      "url": "https://github.com/langchain-ai/openwiki",
+      "language": "TypeScript",
+      "total_score": 526.0225
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "stars": 46,
+      "stars_gained_7d": 46,
+      "forks": 1,
+      "description": "agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "language": "Rust",
+      "total_score": 335.4551
+    },
+    {
+      "name": "diegosouzapw/OmniRoute",
+      "stars": 38,
+      "stars_gained_7d": 38,
+      "forks": 1,
+      "description": "Never stop coding. Free AI gateway: one endpoint, 160+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "language": "TypeScript",
+      "total_score": 310.7677
+    },
+    {
+      "name": "iOfficeAI/OfficeCLI",
+      "stars": 30,
+      "stars_gained_7d": 30,
+      "forks": 3,
+      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "language": "C#",
+      "total_score": 319.7531
+    },
+    {
+      "name": "alirezarezvani/claude-skills",
+      "stars": 18,
+      "stars_gained_7d": 18,
+      "forks": 5,
+      "description": "345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "language": "Python",
+      "total_score": 253.6243
+    },
+    {
+      "name": "crynta/terax-ai",
+      "stars": 16,
+      "stars_gained_7d": 16,
+      "forks": 2,
+      "description": "Lightweight (7MB) Terminal-first AI-native dev workspace",
+      "url": "https://github.com/crynta/terax-ai",
+      "language": "TypeScript",
+      "total_score": 243.2196
+    },
+    {
+      "name": "TestSprite/testsprite-cli",
+      "stars": 14,
+      "stars_gained_7d": 14,
+      "forks": 0,
+      "description": "Official TestSprite CLI \u2014 AI-powered automated testing from your terminal",
+      "url": "https://github.com/TestSprite/testsprite-cli",
+      "language": "TypeScript",
+      "total_score": 232.9617
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 13,
+      "stars_gained_7d": 13,
+      "forks": 3,
+      "description": "Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 242.0419
+    },
+    {
+      "name": "baairon/torlink",
+      "stars": 12,
+      "stars_gained_7d": 12,
+      "forks": 0,
+      "description": "A sleek, zero-setup torrent finder and downloader that lives right in your terminal.",
+      "url": "https://github.com/baairon/torlink",
+      "language": "TypeScript",
+      "total_score": 233.8376
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 11,
+      "stars_gained_7d": 11,
+      "forks": 2,
+      "description": "754 structured cybersecurity skills for AI agents \u00b7 Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 26 security domains \u00b7 Apache 2.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "total_score": 231.1097
+    },
+    {
+      "name": "iOfficeAI/AionUi",
+      "stars": 10,
+      "stars_gained_7d": 10,
+      "forks": 1,
+      "description": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "language": "TypeScript",
+      "total_score": 236.7179
+    },
+    {
+      "name": "oomol-lab/open-connector",
+      "stars": 10,
+      "stars_gained_7d": 10,
+      "forks": 0,
+      "description": "Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
+      "url": "https://github.com/oomol-lab/open-connector",
+      "language": "TypeScript",
+      "total_score": 230.4439
+    },
+    {
+      "name": "Archive228/loopkit",
+      "stars": 10,
+      "stars_gained_7d": 10,
+      "forks": 0,
+      "description": "33 battle-tested skills + minimal .claude harness for any coding agent (Claude Code, Cursor, Codex, Gemini CLI).",
+      "url": "https://github.com/Archive228/loopkit",
+      "language": "JavaScript",
+      "total_score": 224.332
+    },
+    {
+      "name": "decolua/9router",
+      "stars": 9,
+      "stars_gained_7d": 9,
+      "forks": 1,
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "url": "https://github.com/decolua/9router",
+      "language": "JavaScript",
+      "total_score": 226.4298
+    }
+  ]
+}
