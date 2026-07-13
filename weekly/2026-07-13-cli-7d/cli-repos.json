@@ -1,0 +1,158 @@
+{
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T14:32:47.379222",
+  "period": "past_week",
+  "total_repos": 15,
+  "repos": [
+    {
+      "name": "iOfficeAI/OfficeCLI",
+      "stars": 32,
+      "stars_gained_7d": 32,
+      "forks": 3,
+      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "language": "C#",
+      "total_score": 300.432
+    },
+    {
+      "name": "langchain-ai/openwiki",
+      "stars": 26,
+      "stars_gained_7d": 26,
+      "forks": 5,
+      "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+      "url": "https://github.com/langchain-ai/openwiki",
+      "language": "TypeScript",
+      "total_score": 279.5513
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "stars": 25,
+      "stars_gained_7d": 25,
+      "forks": 1,
+      "description": "agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "language": "Rust",
+      "total_score": 278.249
+    },
+    {
+      "name": "diegosouzapw/OmniRoute",
+      "stars": 21,
+      "stars_gained_7d": 21,
+      "forks": 0,
+      "description": "Never stop coding. Free AI gateway: one endpoint, 160+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "language": "TypeScript",
+      "total_score": 259.0055
+    },
+    {
+      "name": "Dicklesworthstone/destructive_command_guard",
+      "stars": 8,
+      "stars_gained_7d": 8,
+      "forks": 0,
+      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "language": "Rust",
+      "total_score": 235.851
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 7,
+      "stars_gained_7d": 7,
+      "forks": 2,
+      "description": "Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 230.799
+    },
+    {
+      "name": "modem-dev/hunk",
+      "stars": 7,
+      "stars_gained_7d": 7,
+      "forks": 0,
+      "description": "Review-first terminal diff viewer for agentic coders",
+      "url": "https://github.com/modem-dev/hunk",
+      "language": "TypeScript",
+      "total_score": 225.5842
+    },
+    {
+      "name": "oomol-lab/open-connector",
+      "stars": 7,
+      "stars_gained_7d": 7,
+      "forks": 0,
+      "description": "Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
+      "url": "https://github.com/oomol-lab/open-connector",
+      "language": "TypeScript",
+      "total_score": 219.6823
+    },
+    {
+      "name": "iOfficeAI/AionUi",
+      "stars": 6,
+      "stars_gained_7d": 6,
+      "forks": 1,
+      "description": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "language": "TypeScript",
+      "total_score": 221.1411
+    },
+    {
+      "name": "decolua/9router",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "url": "https://github.com/decolua/9router",
+      "language": "JavaScript",
+      "total_score": 216.3933
+    },
+    {
+      "name": "cobusgreyling/loop-engineering",
+      "stars": 4,
+      "stars_gained_7d": 4,
+      "forks": 1,
+      "description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
+      "url": "https://github.com/cobusgreyling/loop-engineering",
+      "language": "JavaScript",
+      "total_score": 217.5239
+    },
+    {
+      "name": "baairon/torlink",
+      "stars": 4,
+      "stars_gained_7d": 4,
+      "forks": 0,
+      "description": "A sleek, zero-setup torrent finder and downloader that lives right in your terminal.",
+      "url": "https://github.com/baairon/torlink",
+      "language": "TypeScript",
+      "total_score": 214.1293
+    },
+    {
+      "name": "sickn33/agentic-awesome-skills",
+      "stars": 3,
+      "stars_gained_7d": 3,
+      "forks": 1,
+      "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+      "url": "https://github.com/sickn33/agentic-awesome-skills",
+      "language": "Python",
+      "total_score": 215.7732
+    },
+    {
+      "name": "alirezarezvani/claude-skills",
+      "stars": 3,
+      "stars_gained_7d": 3,
+      "forks": 2,
+      "description": "345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "language": "Python",
+      "total_score": 215.6428
+    },
+    {
+      "name": "THU-MAIC/OpenMAIC",
+      "stars": 3,
+      "stars_gained_7d": 3,
+      "forks": 1,
+      "description": "Open Multi-Agent Interactive Classroom \u2014 Get an immersive, multi-agent learning experience in just one click",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "language": "TypeScript",
+      "total_score": 213.7311
+    }
+  ]
+}
