@@ -1,0 +1,158 @@
+{
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T13:26:49.564219",
+  "period": "past_week",
+  "total_repos": 15,
+  "repos": [
+    {
+      "name": "Dicklesworthstone/destructive_command_guard",
+      "stars": 18,
+      "stars_gained_7d": 18,
+      "forks": 1,
+      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "language": "Rust",
+      "total_score": 266.3376
+    },
+    {
+      "name": "iOfficeAI/OfficeCLI",
+      "stars": 17,
+      "stars_gained_7d": 17,
+      "forks": 0,
+      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "language": "C#",
+      "total_score": 266.316
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "stars": 16,
+      "stars_gained_7d": 16,
+      "forks": 1,
+      "description": "agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "language": "Rust",
+      "total_score": 272.2073
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 13,
+      "stars_gained_7d": 13,
+      "forks": 0,
+      "description": "Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 248.6299
+    },
+    {
+      "name": "MDX-Tom/gpt-5.6-instruct",
+      "stars": 12,
+      "stars_gained_7d": 12,
+      "forks": 2,
+      "description": "A Codex CLI jailbreak prompt and test pack for gpt-5.6-sol. \u9488\u5bf9 gpt-5.6 \u7cfb\u5217\u7684 Codex CLI \u7834\u7532\u63d0\u793a\u8bcd\u4e0e\u6d4b\u8bd5\u5305\u3002",
+      "url": "https://github.com/MDX-Tom/gpt-5.6-instruct",
+      "language": "Python",
+      "total_score": 253.4026
+    },
+    {
+      "name": "diegosouzapw/OmniRoute",
+      "stars": 10,
+      "stars_gained_7d": 10,
+      "forks": 1,
+      "description": "Never stop coding. Free AI gateway: one endpoint, 160+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "language": "TypeScript",
+      "total_score": 244.8569
+    },
+    {
+      "name": "langchain-ai/openwiki",
+      "stars": 10,
+      "stars_gained_7d": 10,
+      "forks": 1,
+      "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+      "url": "https://github.com/langchain-ai/openwiki",
+      "language": "TypeScript",
+      "total_score": 236.8583
+    },
+    {
+      "name": "oomol-lab/open-connector",
+      "stars": 7,
+      "stars_gained_7d": 7,
+      "forks": 0,
+      "description": "Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
+      "url": "https://github.com/oomol-lab/open-connector",
+      "language": "TypeScript",
+      "total_score": 229.4872
+    },
+    {
+      "name": "modem-dev/hunk",
+      "stars": 7,
+      "stars_gained_7d": 7,
+      "forks": 0,
+      "description": "Review-first terminal diff viewer for agentic coders",
+      "url": "https://github.com/modem-dev/hunk",
+      "language": "TypeScript",
+      "total_score": 223.6468
+    },
+    {
+      "name": "cobusgreyling/loop-engineering",
+      "stars": 6,
+      "stars_gained_7d": 6,
+      "forks": 3,
+      "description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
+      "url": "https://github.com/cobusgreyling/loop-engineering",
+      "language": "JavaScript",
+      "total_score": 233.1887
+    },
+    {
+      "name": "Stack-Cairn/LiveAgent",
+      "stars": 6,
+      "stars_gained_7d": 6,
+      "forks": 0,
+      "description": "A fully functional AI Agent desktop client that supports Webui access and can be creatively customized and expanded!",
+      "url": "https://github.com/Stack-Cairn/LiveAgent",
+      "language": "TypeScript",
+      "total_score": 225.5741
+    },
+    {
+      "name": "can1357/oh-my-pi",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "\u2325  AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "language": "TypeScript",
+      "total_score": 220.2513
+    },
+    {
+      "name": "VoltAgent/awesome-agent-skills",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "language": "",
+      "total_score": 219.6936
+    },
+    {
+      "name": "decolua/9router",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "url": "https://github.com/decolua/9router",
+      "language": "JavaScript",
+      "total_score": 219.0522
+    },
+    {
+      "name": "iOfficeAI/AionUi",
+      "stars": 4,
+      "stars_gained_7d": 4,
+      "forks": 2,
+      "description": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "language": "TypeScript",
+      "total_score": 218.4969
+    }
+  ]
+}
