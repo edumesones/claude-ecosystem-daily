@@ -1,0 +1,228 @@
+{
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T13:51:47.300192",
+  "period": "past_week",
+  "total_repos": 22,
+  "repos": [
+    {
+      "name": "diegosouzapw/OmniRoute",
+      "stars": 24,
+      "stars_gained_7d": 24,
+      "forks": 6,
+      "description": "Never stop coding. Free AI gateway: one endpoint, 160+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "language": "TypeScript",
+      "total_score": 306.9233
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "stars": 24,
+      "stars_gained_7d": 24,
+      "forks": 1,
+      "description": "agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "language": "Rust",
+      "total_score": 279.5994
+    },
+    {
+      "name": "tirth8205/code-review-graph",
+      "stars": 14,
+      "stars_gained_7d": 14,
+      "forks": 2,
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "language": "Python",
+      "total_score": 263.6648
+    },
+    {
+      "name": "MoonshotAI/kimi-cli",
+      "stars": 14,
+      "stars_gained_7d": 14,
+      "forks": 0,
+      "description": "Kimi Code CLI is your next CLI agent.",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "language": "Python",
+      "total_score": 250.4055
+    },
+    {
+      "name": "iOfficeAI/OfficeCLI",
+      "stars": 13,
+      "stars_gained_7d": 13,
+      "forks": 2,
+      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "language": "C#",
+      "total_score": 246.5535
+    },
+    {
+      "name": "nullclaw/nullhub",
+      "stars": 9,
+      "stars_gained_7d": 9,
+      "forks": 3,
+      "description": "Management console for the Null ecosystem \u2014 install, configure, and monitor AI agents, orchestration workflows, task pipelines, and system health",
+      "url": "https://github.com/nullclaw/nullhub",
+      "language": "Zig",
+      "total_score": 242.2949
+    },
+    {
+      "name": "langchain-ai/openwiki",
+      "stars": 9,
+      "stars_gained_7d": 9,
+      "forks": 0,
+      "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+      "url": "https://github.com/langchain-ai/openwiki",
+      "language": "TypeScript",
+      "total_score": 229.5686
+    },
+    {
+      "name": "MoonshotAI/kimi-code",
+      "stars": 8,
+      "stars_gained_7d": 8,
+      "forks": 0,
+      "description": "Kimi Code CLI  \u2014  The Starting Point for Next-Gen Agents",
+      "url": "https://github.com/MoonshotAI/kimi-code",
+      "language": "TypeScript",
+      "total_score": 230.5593
+    },
+    {
+      "name": "MDX-Tom/gpt-5.6-instruct",
+      "stars": 8,
+      "stars_gained_7d": 8,
+      "forks": 1,
+      "description": "A Codex CLI jailbreak prompt and test pack for gpt-5.6-sol. \u9488\u5bf9 gpt-5.6 \u7cfb\u5217\u7684 Codex CLI \u7834\u7532\u63d0\u793a\u8bcd\u4e0e\u6d4b\u8bd5\u5305\u3002",
+      "url": "https://github.com/MDX-Tom/gpt-5.6-instruct",
+      "language": "Python",
+      "total_score": 227.1862
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 8,
+      "stars_gained_7d": 8,
+      "forks": 0,
+      "description": "Use claude code, codex or pi for free from the terminal, IDE, or you phone like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 221.4264
+    },
+    {
+      "name": "Stack-Cairn/LiveAgent",
+      "stars": 8,
+      "stars_gained_7d": 8,
+      "forks": 0,
+      "description": "A fully functional AI Agent desktop client that supports Webui access and can be creatively customized and expanded!",
+      "url": "https://github.com/Stack-Cairn/LiveAgent",
+      "language": "TypeScript",
+      "total_score": 221.3649
+    },
+    {
+      "name": "can1357/oh-my-pi",
+      "stars": 7,
+      "stars_gained_7d": 7,
+      "forks": 0,
+      "description": "\u2325  AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "language": "TypeScript",
+      "total_score": 225.4843
+    },
+    {
+      "name": "oomol-lab/open-connector",
+      "stars": 7,
+      "stars_gained_7d": 7,
+      "forks": 0,
+      "description": "Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
+      "url": "https://github.com/oomol-lab/open-connector",
+      "language": "TypeScript",
+      "total_score": 220.741
+    },
+    {
+      "name": "lidge-jun/opencodex",
+      "stars": 6,
+      "stars_gained_7d": 6,
+      "forks": 0,
+      "description": "Universal provider proxy for OpenAI Codex & Claude Code \u2014 use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama\u2026) with Codex CLI, App, SDK, and Claude Code",
+      "url": "https://github.com/lidge-jun/opencodex",
+      "language": "TypeScript",
+      "total_score": 227.0657
+    },
+    {
+      "name": "MatinSenPai/Aether-GUI",
+      "stars": 6,
+      "stars_gained_7d": 6,
+      "forks": 0,
+      "description": "One-click desktop GUI for the Aether censorship-circumvention tunnel \u2014 Tauri v2, React 19, Rust",
+      "url": "https://github.com/MatinSenPai/Aether-GUI",
+      "language": "TypeScript",
+      "total_score": 217.2122
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 2,
+      "description": "754 structured cybersecurity skills for AI agents \u00b7 Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 26 security domains \u00b7 Apache 2.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "total_score": 220.0829
+    },
+    {
+      "name": "jlcodes99/cockpit-tools",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 1,
+      "description": " \ud83d\ude80 \u901a\u7528 AI IDE \u8d26\u53f7\u7ba1\u7406\u5de5\u5177\uff1a\u652f\u6301 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy\uff0c\u591a\u8d26\u53f7\u5207\u6362\u3001\u914d\u989d\u76d1\u63a7\u3001\u81ea\u52a8\u5524\u9192\u4e0e\u591a\u5f00\u5b9e\u4f8b\u7ba1\u7406\u3002 \ud83d\ude80 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
+      "url": "https://github.com/jlcodes99/cockpit-tools",
+      "language": "Rust",
+      "total_score": 217.9612
+    },
+    {
+      "name": "Icex0/wp2shell-poc",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "wp2shell (CVE-2026-63030 & CVE-2026-60137) - full RCE chain",
+      "url": "https://github.com/Icex0/wp2shell-poc",
+      "language": "Python",
+      "total_score": 217.6542
+    },
+    {
+      "name": "modem-dev/hunk",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "Review-first terminal diff viewer for agentic coders",
+      "url": "https://github.com/modem-dev/hunk",
+      "language": "TypeScript",
+      "total_score": 217.47
+    },
+    {
+      "name": "esengine/DeepSeek-Reasonix",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 1,
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability \u2014 leave it running.",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "language": "Go",
+      "total_score": 216.8476
+    },
+    {
+      "name": "iOfficeAI/AionUi",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "language": "TypeScript",
+      "total_score": 216.8169
+    },
+    {
+      "name": "yorgai/ORG2",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "Coding agent orgs: built for reviewability and team collaboration. Built-in rust harness & 20+ CLIs.",
+      "url": "https://github.com/yorgai/ORG2",
+      "language": "TypeScript",
+      "total_score": 215.9898
+    }
+  ]
+}
