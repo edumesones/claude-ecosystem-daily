@@ -1,0 +1,198 @@
+{
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T13:43:44.109727",
+  "period": "past_week",
+  "total_repos": 19,
+  "repos": [
+    {
+      "name": "diegosouzapw/OmniRoute",
+      "stars": 39,
+      "stars_gained_7d": 39,
+      "forks": 5,
+      "description": "Never stop coding. Free AI gateway: one endpoint, 160+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "language": "TypeScript",
+      "total_score": 359.5825
+    },
+    {
+      "name": "tirth8205/code-review-graph",
+      "stars": 20,
+      "stars_gained_7d": 20,
+      "forks": 2,
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "language": "Python",
+      "total_score": 276.707
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "stars": 19,
+      "stars_gained_7d": 19,
+      "forks": 1,
+      "description": "agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "language": "Rust",
+      "total_score": 266.2007
+    },
+    {
+      "name": "iOfficeAI/OfficeCLI",
+      "stars": 17,
+      "stars_gained_7d": 17,
+      "forks": 3,
+      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "language": "C#",
+      "total_score": 270.5979
+    },
+    {
+      "name": "lidge-jun/opencodex",
+      "stars": 13,
+      "stars_gained_7d": 13,
+      "forks": 1,
+      "description": "Universal provider proxy for OpenAI Codex & Claude Code \u2014 use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama\u2026) with Codex CLI, App, SDK, and Claude Code",
+      "url": "https://github.com/lidge-jun/opencodex",
+      "language": "TypeScript",
+      "total_score": 257.3753
+    },
+    {
+      "name": "MoonshotAI/kimi-cli",
+      "stars": 13,
+      "stars_gained_7d": 13,
+      "forks": 0,
+      "description": "Kimi Code CLI is your next CLI agent.",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "language": "Python",
+      "total_score": 237.19
+    },
+    {
+      "name": "nullclaw/nullhub",
+      "stars": 9,
+      "stars_gained_7d": 9,
+      "forks": 3,
+      "description": "Management console for the Null ecosystem \u2014 install, configure, and monitor AI agents, orchestration workflows, task pipelines, and system health",
+      "url": "https://github.com/nullclaw/nullhub",
+      "language": "Zig",
+      "total_score": 232.0085
+    },
+    {
+      "name": "can1357/oh-my-pi",
+      "stars": 8,
+      "stars_gained_7d": 8,
+      "forks": 0,
+      "description": "\u2325  AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "language": "TypeScript",
+      "total_score": 229.6965
+    },
+    {
+      "name": "MoonshotAI/kimi-code",
+      "stars": 8,
+      "stars_gained_7d": 8,
+      "forks": 0,
+      "description": "Kimi Code CLI  \u2014  The Starting Point for Next-Gen Agents",
+      "url": "https://github.com/MoonshotAI/kimi-code",
+      "language": "TypeScript",
+      "total_score": 226.347
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "stars": 7,
+      "stars_gained_7d": 7,
+      "forks": 0,
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "language": "Python",
+      "total_score": 225.7825
+    },
+    {
+      "name": "langchain-ai/openwiki",
+      "stars": 6,
+      "stars_gained_7d": 6,
+      "forks": 0,
+      "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+      "url": "https://github.com/langchain-ai/openwiki",
+      "language": "TypeScript",
+      "total_score": 216.2435
+    },
+    {
+      "name": "esengine/DeepSeek-Reasonix",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability \u2014 leave it running.",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "language": "Go",
+      "total_score": 219.4956
+    },
+    {
+      "name": "Icex0/wp2shell-poc",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "wp2shell (CVE-2026-63030 & CVE-2026-60137) - full RCE chain",
+      "url": "https://github.com/Icex0/wp2shell-poc",
+      "language": "Python",
+      "total_score": 213.3684
+    },
+    {
+      "name": "MDX-Tom/gpt-5.6-instruct",
+      "stars": 4,
+      "stars_gained_7d": 4,
+      "forks": 2,
+      "description": "A Codex CLI jailbreak prompt and test pack for gpt-5.6-sol. \u9488\u5bf9 gpt-5.6 \u7cfb\u5217\u7684 Codex CLI \u7834\u7532\u63d0\u793a\u8bcd\u4e0e\u6d4b\u8bd5\u5305\u3002",
+      "url": "https://github.com/MDX-Tom/gpt-5.6-instruct",
+      "language": "Python",
+      "total_score": 220.0815
+    },
+    {
+      "name": "Galaxy-Dawn/claude-scholar",
+      "stars": 4,
+      "stars_gained_7d": 4,
+      "forks": 0,
+      "description": "Semi-automated research assistant for academic research and software development. Supports Claude Code, Codex CLI, Kimi Code CLI, and OpenCode across ideation, coding, experiments, writing, and publication.",
+      "url": "https://github.com/Galaxy-Dawn/claude-scholar",
+      "language": "Python",
+      "total_score": 216.7072
+    },
+    {
+      "name": "oomol-lab/open-connector",
+      "stars": 4,
+      "stars_gained_7d": 4,
+      "forks": 0,
+      "description": "Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
+      "url": "https://github.com/oomol-lab/open-connector",
+      "language": "TypeScript",
+      "total_score": 216.0625
+    },
+    {
+      "name": "kurikomi-labs/komi-store",
+      "stars": 4,
+      "stars_gained_7d": 4,
+      "forks": 0,
+      "description": "\ud83e\ude75 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo \u2014 browse, discover, and install apps with one click. Formerly GitHub Store.",
+      "url": "https://github.com/kurikomi-labs/komi-store",
+      "language": "Kotlin",
+      "total_score": 214.8211
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 4,
+      "stars_gained_7d": 4,
+      "forks": 0,
+      "description": "Use claude code, codex or pi for free from the terminal, IDE, or you phone like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 214.321
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "stars": 3,
+      "stars_gained_7d": 3,
+      "forks": 1,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "total_score": 214.7967
+    }
+  ]
+}
