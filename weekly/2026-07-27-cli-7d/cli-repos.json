@@ -1,0 +1,148 @@
+{
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27T14:32:05.116678",
+  "period": "past_week",
+  "total_repos": 14,
+  "repos": [
+    {
+      "name": "diegosouzapw/OmniRoute",
+      "stars": 43,
+      "stars_gained_7d": 43,
+      "forks": 6,
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models \u2014 Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "language": "TypeScript",
+      "total_score": 361.9933
+    },
+    {
+      "name": "lidge-jun/opencodex",
+      "stars": 16,
+      "stars_gained_7d": 16,
+      "forks": 2,
+      "description": "Universal provider proxy for OpenAI Codex & Claude Code \u2014 use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama\u2026) with Codex CLI, App, SDK, and Claude Code",
+      "url": "https://github.com/lidge-jun/opencodex",
+      "language": "TypeScript",
+      "total_score": 259.5033
+    },
+    {
+      "name": "iOfficeAI/OfficeCLI",
+      "stars": 14,
+      "stars_gained_7d": 14,
+      "forks": 2,
+      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "language": "C#",
+      "total_score": 253.1573
+    },
+    {
+      "name": "tirth8205/code-review-graph",
+      "stars": 12,
+      "stars_gained_7d": 12,
+      "forks": 2,
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "language": "Python",
+      "total_score": 239.1199
+    },
+    {
+      "name": "ogulcancelik/herdr",
+      "stars": 11,
+      "stars_gained_7d": 11,
+      "forks": 2,
+      "description": "agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "language": "Rust",
+      "total_score": 244.9193
+    },
+    {
+      "name": "can1357/oh-my-pi",
+      "stars": 7,
+      "stars_gained_7d": 7,
+      "forks": 0,
+      "description": "\u2325  AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "language": "TypeScript",
+      "total_score": 223.5841
+    },
+    {
+      "name": "MoonshotAI/kimi-code",
+      "stars": 6,
+      "stars_gained_7d": 6,
+      "forks": 0,
+      "description": "Kimi Code CLI  \u2014  The Starting Point for Next-Gen Agents",
+      "url": "https://github.com/MoonshotAI/kimi-code",
+      "language": "TypeScript",
+      "total_score": 219.9452
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 1,
+      "description": "Use claude code, codex or pi for free from the terminal, IDE, or your phone like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 223.0777
+    },
+    {
+      "name": "oomol-lab/open-connector",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
+      "url": "https://github.com/oomol-lab/open-connector",
+      "language": "TypeScript",
+      "total_score": 217.9917
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "language": "Python",
+      "total_score": 217.9143
+    },
+    {
+      "name": "kurikomi-labs/komi-store",
+      "stars": 4,
+      "stars_gained_7d": 4,
+      "forks": 0,
+      "description": "\ud83e\ude75 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo \u2014 browse, discover, and install apps with one click. Formerly GitHub Store.",
+      "url": "https://github.com/kurikomi-labs/komi-store",
+      "language": "Kotlin",
+      "total_score": 214.3651
+    },
+    {
+      "name": "guohuiyuan/go-music-dl",
+      "stars": 3,
+      "stars_gained_7d": 3,
+      "forks": 0,
+      "description": "\u4e00\u4e2a\u57fa\u4e8e Go \u8bed\u8a00\u7684\u5168\u7f51\u97f3\u4e50\u641c\u7d22\u4e0e\u4e0b\u8f7d\u5de5\u5177\u3002\u652f\u6301 CLI \u547d\u4ee4\u884c\u4e0e Web \u670d\u52a1\u53cc\u6a21\u5f0f\uff0c\u5185\u7f6e\u7f51\u6613\u4e91\u3001QQ\u3001\u9177\u72d7\u3001Bilibili\u3001\u6c7d\u6c34\u97f3\u4e50\u7b49 10+ \u4e2a\u4e3b\u6d41\u5e73\u53f0\uff0c\u652f\u6301\u591a\u6e90\u5e76\u53d1\u641c\u7d22\u4e0e\u65e0\u635f\u97f3\u8d28\u89e3\u6790\u3002music-dl\u4ea4\u6d41\u7fa4\uff1a755087923",
+      "url": "https://github.com/guohuiyuan/go-music-dl",
+      "language": "Go",
+      "total_score": 214.9079
+    },
+    {
+      "name": "MoonshotAI/kimi-cli",
+      "stars": 3,
+      "stars_gained_7d": 3,
+      "forks": 1,
+      "description": "Kimi Code CLI is your next CLI agent.",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "language": "Python",
+      "total_score": 214.3182
+    },
+    {
+      "name": "Charles-0509/Grok-Register",
+      "stars": 3,
+      "stars_gained_7d": 3,
+      "forks": 1,
+      "description": "Grok free-register CLI: register \u2192 OAuth \u2192 CPA JSON (Go)",
+      "url": "https://github.com/Charles-0509/Grok-Register",
+      "language": "Go",
+      "total_score": 214.092
+    }
+  ]
+}
