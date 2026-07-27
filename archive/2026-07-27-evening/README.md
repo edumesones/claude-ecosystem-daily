@@ -37,8 +37,8 @@
 | 27 | [ruc-datalab/DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) | **+1** | 1 | DeepAnalyze is the first agentic LLM for autonomou... |
 | 28 | [kansoku-trade/kansoku](https://github.com/kansoku-trade/kansoku) | **+1** | 1 | AI Stock Partner on Your Mac – Local Market Inform... |
 | 29 | [1weiho/open-slide](https://github.com/1weiho/open-slide) | **+1** | 1 | A slide framework built for agents. |
-| 30 | [imraywang/wewrite](https://github.com/imraywang/wewrite) | **+1** | 1 | 公众号内容全流程 Skill，从热点抓取到微信草稿箱，一句话跑完整条内容管道 |
-| 31 | [liliMozi/openhanako](https://github.com/liliMozi/openhanako) | **+1** | 1 | A personal AI agent with memory, personality, and ... |
+| 30 | [liliMozi/openhanako](https://github.com/liliMozi/openhanako) | **+1** | 1 | A personal AI agent with memory, personality, and ... |
+| 31 | [imraywang/wewrite](https://github.com/imraywang/wewrite) | **+1** | 1 | 公众号内容全流程 Skill，从热点抓取到微信草稿箱，一句话跑完整条内容管道 |
 | 32 | [ZeroPointSix/outlookEmailPlus](https://github.com/ZeroPointSix/outlookEmailPlus) | **+1** | 1 |  Outlookmail Plus: Designed Specifically for Regis... |
 | 33 | [zhizhuodemao/js-reverse-mcp](https://github.com/zhizhuodemao/js-reverse-mcp) | **+1** | 1 | AI Agent-first JS 逆向 MCP Server：有头 Chrome 调试、断点、网络... |
 | 34 | [capitalone/VulnHunter](https://github.com/capitalone/VulnHunter) | **+1** | 1 | Agentic AI security tool that applies proactive, a... |
@@ -48,8 +48,8 @@
 | 38 | [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) | **+1** | 1 | Worktrunk is a CLI for Git worktree management, de... |
 | 39 | [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) | **+1** | 1 | OpenStock is an open-source alternative to expensi... |
 | 40 | [AgnesAI-Labs/AgnesAI-Models](https://github.com/AgnesAI-Labs/AgnesAI-Models) | **+1** | 1 | Official Agnes AI gateway and model catalog for Op... |
-| 41 | [chenkunhu/TDSKILL-basic](https://github.com/chenkunhu/TDSKILL-basic) | **+1** | 1 | 兔导将公众号【兔子舞的奇思妙想y】上的40万字文章凝练出来形成的关于情感中认知、搭讪、聊天、约会、私... |
-| 42 | [AMD-AGI/Apex](https://github.com/AMD-AGI/Apex) | **+1** | 1 | Agents, and RL environment, for optimizing GPU ker... |
+| 41 | [AMD-AGI/Apex](https://github.com/AMD-AGI/Apex) | **+1** | 1 | Agents, and RL environment, for optimizing GPU ker... |
+| 42 | [chenkunhu/TDSKILL-basic](https://github.com/chenkunhu/TDSKILL-basic) | **+1** | 1 | 兔导将公众号【兔子舞的奇思妙想y】上的40万字文章凝练出来形成的关于情感中认知、搭讪、聊天、约会、私... |
 | 43 | [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) | **+1** | 1 | agent multiplexer that lives in your terminal. |
 | 44 | [dnshe/DNSHE-FreeDomains](https://github.com/dnshe/DNSHE-FreeDomains) | **+1** | 1 | 🌐 DNSHE Official - Stable & Free Subdomains for De... |
 | 45 | [bethington/ghidra-mcp](https://github.com/bethington/ghidra-mcp) | **+1** | 1 | Ghidra MCP Server — 200+ MCP tools for AI-powered ... |
@@ -106,8 +106,8 @@
 | 38 | [kansoku-trade/kansoku](https://github.com/kansoku-trade/kansoku) | **+1** | 1 | TypeScript |
 | 39 | [dominostars/playtranslate](https://github.com/dominostars/playtranslate) | **+1** | 1 | Kotlin |
 | 40 | [1weiho/open-slide](https://github.com/1weiho/open-slide) | **+1** | 1 | TypeScript |
-| 41 | [imraywang/wewrite](https://github.com/imraywang/wewrite) | **+1** | 1 | Python |
-| 42 | [liliMozi/openhanako](https://github.com/liliMozi/openhanako) | **+1** | 1 | TypeScript |
+| 41 | [liliMozi/openhanako](https://github.com/liliMozi/openhanako) | **+1** | 1 | TypeScript |
+| 42 | [imraywang/wewrite](https://github.com/imraywang/wewrite) | **+1** | 1 | Python |
 | 43 | [ZeroPointSix/outlookEmailPlus](https://github.com/ZeroPointSix/outlookEmailPlus) | **+1** | 1 | Python |
 | 44 | [zhizhuodemao/js-reverse-mcp](https://github.com/zhizhuodemao/js-reverse-mcp) | **+1** | 1 | TypeScript |
 | 45 | [capitalone/VulnHunter](https://github.com/capitalone/VulnHunter) | **+1** | 1 | Python |
@@ -130,4 +130,4 @@
 
 ---
 
-*Generado: 2026-07-27 12:15 UTC (Tarde)*
+*Generado: 2026-07-27 21:56 UTC (Tarde)*
