@@ -1,0 +1,138 @@
+{
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30T13:59:19.796394",
+  "period": "past_week",
+  "total_repos": 13,
+  "repos": [
+    {
+      "name": "diegosouzapw/OmniRoute",
+      "stars": 30,
+      "stars_gained_7d": 30,
+      "forks": 5,
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models \u2014 Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "language": "TypeScript",
+      "total_score": 307.2325
+    },
+    {
+      "name": "herdrdev/herdr",
+      "stars": 16,
+      "stars_gained_7d": 16,
+      "forks": 1,
+      "description": "agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/herdrdev/herdr",
+      "language": "Rust",
+      "total_score": 258.5357
+    },
+    {
+      "name": "lidge-jun/opencodex",
+      "stars": 12,
+      "stars_gained_7d": 12,
+      "forks": 1,
+      "description": "Universal provider proxy for OpenAI Codex & Claude Code \u2014 use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama\u2026) with Codex CLI, App, SDK, and Claude Code",
+      "url": "https://github.com/lidge-jun/opencodex",
+      "language": "TypeScript",
+      "total_score": 242.8746
+    },
+    {
+      "name": "iOfficeAI/OfficeCLI",
+      "stars": 9,
+      "stars_gained_7d": 9,
+      "forks": 1,
+      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "language": "C#",
+      "total_score": 229.5603
+    },
+    {
+      "name": "builtbybel/FluentCleaner",
+      "stars": 8,
+      "stars_gained_7d": 8,
+      "forks": 0,
+      "description": "A real WinUI desktop cleaner with terminal control and multi-database support",
+      "url": "https://github.com/builtbybel/FluentCleaner",
+      "language": "C#",
+      "total_score": 230.9928
+    },
+    {
+      "name": "can1357/oh-my-pi",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "\u2325  AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "language": "TypeScript",
+      "total_score": 217.788
+    },
+    {
+      "name": "tirth8205/code-review-graph",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "language": "Python",
+      "total_score": 216.7077
+    },
+    {
+      "name": "MDX-Tom/gpt-5.6-instruct",
+      "stars": 4,
+      "stars_gained_7d": 4,
+      "forks": 1,
+      "description": "A Codex CLI jailbreak prompt and test pack for gpt-5.6-sol. \u9488\u5bf9 gpt-5.6 \u7cfb\u5217\u7684 Codex CLI \u7834\u7532\u63d0\u793a\u8bcd\u4e0e\u6d4b\u8bd5\u5305\u3002",
+      "url": "https://github.com/MDX-Tom/gpt-5.6-instruct",
+      "language": "Python",
+      "total_score": 213.734
+    },
+    {
+      "name": "jgravelle/jcodemunch-mcp",
+      "stars": 4,
+      "stars_gained_7d": 4,
+      "forks": 0,
+      "description": "Cut AI token costs 95%+ on code exploration. The leading MCP server for precise, symbol-level GitHub code retrieval via tree-sitter AST. Works with Claude Code, Cursor & any MCP client. 313B+ tokens saved.",
+      "url": "https://github.com/jgravelle/jcodemunch-mcp",
+      "language": "Python",
+      "total_score": 212.5684
+    },
+    {
+      "name": "langchain-ai/openwiki",
+      "stars": 3,
+      "stars_gained_7d": 3,
+      "forks": 0,
+      "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+      "url": "https://github.com/langchain-ai/openwiki",
+      "language": "TypeScript",
+      "total_score": 213.4901
+    },
+    {
+      "name": "zhaoxuya520/reverse-skill",
+      "stars": 3,
+      "stars_gained_7d": 3,
+      "forks": 0,
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients \u9006\u5411/\u6e17\u900f/\u5b89\u5168\u6280\u80fd\u8def\u7531\u5305 - AI \u81ea\u52a8\u8def\u7531 + \u6309\u9700\u81ea\u4e3e\u5de5\u5177\u94fe + \u81ea\u52a8\u8fdb\u5316\u7ecf\u9a8c\u5e93 | \u652f\u6301 Claude Code / Kiro / Cursor / Cline \u7b49\u4ee3\u7801 AI \u5ba2\u6237\u7aef",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "language": "PowerShell",
+      "total_score": 212.774
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 3,
+      "stars_gained_7d": 3,
+      "forks": 2,
+      "description": "Use claude code, codex or pi for free from the terminal, IDE, or your phone like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 212.7298
+    },
+    {
+      "name": "VoltAgent/awesome-agent-skills",
+      "stars": 2,
+      "stars_gained_7d": 2,
+      "forks": 1,
+      "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "language": "",
+      "total_score": 212.7271
+    }
+  ]
+}
