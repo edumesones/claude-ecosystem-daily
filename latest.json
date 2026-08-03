@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03-evening",
-  "generated_at": "2026-08-03T12:15:46.328870",
+  "generated_at": "2026-08-03T21:58:45.637478",
   "total_repos": 100,
   "method": "ossinsight_api_24h",
   "repos": [
@@ -317,7 +317,7 @@
       "stars": 1,
       "stars_gained_24h": 1,
       "forks": 0,
-      "description": "A ROOT REQUIRED LSPosed/Zygisk module to hide your app list, settings, package installers and more. It is a fork of Hide My Applist project.",
+      "description": "A Zygisk module to hide your app list, settings, package installers and more. It is a fork of Hide My Applist project, but LSPosed dependency is replaced with Zygisk.",
       "url": "https://github.com/frknkrc44/HMA-OSS",
       "language": "Kotlin",
       "total_score": 204.6364,
@@ -390,17 +390,6 @@
       "contributors": ""
     },
     {
-      "name": "mauriceboe/TREK",
-      "stars": 1,
-      "stars_gained_24h": 1,
-      "forks": 0,
-      "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
-      "url": "https://github.com/mauriceboe/TREK",
-      "language": "TypeScript",
-      "total_score": 204.4507,
-      "contributors": ""
-    },
-    {
       "name": "openai/skills",
       "stars": 1,
       "stars_gained_24h": 1,
@@ -408,6 +397,17 @@
       "description": "Skills Catalog for Codex",
       "url": "https://github.com/openai/skills",
       "language": "Python",
+      "total_score": 204.4507,
+      "contributors": ""
+    },
+    {
+      "name": "mauriceboe/TREK",
+      "stars": 1,
+      "stars_gained_24h": 1,
+      "forks": 0,
+      "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
+      "url": "https://github.com/mauriceboe/TREK",
+      "language": "TypeScript",
       "total_score": 204.4507,
       "contributors": ""
     },

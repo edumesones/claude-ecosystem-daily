@@ -101,8 +101,8 @@
 | 33 | [ayuayue/PiDeck](https://github.com/ayuayue/PiDeck) | **+1** | 1 | TypeScript |
 | 34 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | **+1** | 1 | Python |
 | 35 | [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | **+1** | 1 | C# |
-| 36 | [mauriceboe/TREK](https://github.com/mauriceboe/TREK) | **+1** | 1 | TypeScript |
-| 37 | [openai/skills](https://github.com/openai/skills) | **+1** | 1 | Python |
+| 36 | [openai/skills](https://github.com/openai/skills) | **+1** | 1 | Python |
+| 37 | [mauriceboe/TREK](https://github.com/mauriceboe/TREK) | **+1** | 1 | TypeScript |
 | 38 | [antfu/skills-npm](https://github.com/antfu/skills-npm) | **+1** | 1 | TypeScript |
 | 39 | [JackyST0/hotpush](https://github.com/JackyST0/hotpush) | **+1** | 1 | Python |
 | 40 | [AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi) | **+1** | 1 | Rust |
@@ -130,4 +130,4 @@
 
 ---
 
-*Generado: 2026-08-03 12:15 UTC (Tarde)*
+*Generado: 2026-08-03 21:58 UTC (Tarde)*
