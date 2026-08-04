@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-04",
+  "generated_at": "2026-08-04T14:09:33.914161",
+  "period": "past_week",
+  "total_repos": 16,
+  "repos": [
+    {
+      "name": "openai/codex-security",
+      "stars": 26,
+      "stars_gained_7d": 26,
+      "forks": 5,
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "language": "TypeScript",
+      "total_score": 276.8402
+    },
+    {
+      "name": "zhaoxuya520/reverse-skill",
+      "stars": 19,
+      "stars_gained_7d": 19,
+      "forks": 4,
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients \u9006\u5411/\u6e17\u900f/\u5b89\u5168\u6280\u80fd\u8def\u7531\u5305 - AI \u81ea\u52a8\u8def\u7531 + \u6309\u9700\u81ea\u4e3e\u5de5\u5177\u94fe + \u81ea\u52a8\u8fdb\u5316\u7ecf\u9a8c\u5e93 | \u652f\u6301 Claude Code / Kiro / Cursor / Cline \u7b49\u4ee3\u7801 AI \u5ba2\u6237\u7aef",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "language": "PowerShell",
+      "total_score": 291.6605
+    },
+    {
+      "name": "diegosouzapw/OmniRoute",
+      "stars": 11,
+      "stars_gained_7d": 11,
+      "forks": 1,
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models \u2014 Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "language": "TypeScript",
+      "total_score": 234.6391
+    },
+    {
+      "name": "iOfficeAI/OfficeCLI",
+      "stars": 9,
+      "stars_gained_7d": 9,
+      "forks": 0,
+      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "language": "C#",
+      "total_score": 235.5434
+    },
+    {
+      "name": "esengine/DeepSeek-Reasonix",
+      "stars": 6,
+      "stars_gained_7d": 6,
+      "forks": 0,
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability \u2014 leave it running.",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "language": "Go",
+      "total_score": 225.176
+    },
+    {
+      "name": "tirth8205/code-review-graph",
+      "stars": 6,
+      "stars_gained_7d": 6,
+      "forks": 0,
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "language": "Python",
+      "total_score": 224.1212
+    },
+    {
+      "name": "can1357/oh-my-pi",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 1,
+      "description": "\u2325  AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "language": "TypeScript",
+      "total_score": 222.0595
+    },
+    {
+      "name": "lidge-jun/opencodex",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "Universal provider proxy for OpenAI Codex & Claude Code \u2014 use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama\u2026) with Codex CLI, App, SDK, and Claude Code",
+      "url": "https://github.com/lidge-jun/opencodex",
+      "language": "TypeScript",
+      "total_score": 218.6451
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 3,
+      "stars_gained_7d": 3,
+      "forks": 1,
+      "description": "Use Claude Code, Codex and Pi for free from your terminal, app, IDE, or phone like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 218.6637
+    },
+    {
+      "name": "decolua/9router",
+      "stars": 3,
+      "stars_gained_7d": 3,
+      "forks": 1,
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "url": "https://github.com/decolua/9router",
+      "language": "JavaScript",
+      "total_score": 214.2567
+    },
+    {
+      "name": "langchain-ai/openwiki",
+      "stars": 3,
+      "stars_gained_7d": 3,
+      "forks": 0,
+      "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+      "url": "https://github.com/langchain-ai/openwiki",
+      "language": "TypeScript",
+      "total_score": 209.1317
+    },
+    {
+      "name": "abue-ammar/tinycast",
+      "stars": 3,
+      "stars_gained_7d": 3,
+      "forks": 0,
+      "description": "Tinycast \u2014 a tiny, fully native macOS launcher, hotkeys, and clipboard history",
+      "url": "https://github.com/abue-ammar/tinycast",
+      "language": "Swift",
+      "total_score": 208.9619
+    },
+    {
+      "name": "callstack/agent-device",
+      "stars": 2,
+      "stars_gained_7d": 2,
+      "forks": 1,
+      "description": "CLI to control iOS and Android devices for AI agents",
+      "url": "https://github.com/callstack/agent-device",
+      "language": "TypeScript",
+      "total_score": 212.7106
+    },
+    {
+      "name": "alirezarezvani/claude-skills",
+      "stars": 2,
+      "stars_gained_7d": 2,
+      "forks": 1,
+      "description": "345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "language": "Python",
+      "total_score": 210.1258
+    },
+    {
+      "name": "vercel-labs/agent-browser",
+      "stars": 2,
+      "stars_gained_7d": 2,
+      "forks": 0,
+      "description": "Browser automation CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "language": "Rust",
+      "total_score": 209.1144
+    },
+    {
+      "name": "appshubcc/Bettbox",
+      "stars": 2,
+      "stars_gained_7d": 2,
+      "forks": 0,
+      "description": "Another Better Mihomo Client",
+      "url": "https://github.com/appshubcc/Bettbox",
+      "language": "Go",
+      "total_score": 208.9179
+    }
+  ]
+}
