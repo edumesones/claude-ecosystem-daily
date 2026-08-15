@@ -1,0 +1,138 @@
+{
+  "date": "2026-08-15",
+  "generated_at": "2026-08-15T12:34:56.055216",
+  "period": "past_week",
+  "total_repos": 13,
+  "repos": [
+    {
+      "name": "zhaoxuya520/reverse-skill",
+      "stars": 29,
+      "stars_gained_7d": 29,
+      "forks": 1,
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients \u9006\u5411/\u6e17\u900f/\u5b89\u5168\u6280\u80fd\u8def\u7531\u5305 - AI \u81ea\u52a8\u8def\u7531 + \u6309\u9700\u81ea\u4e3e\u5de5\u5177\u94fe + \u81ea\u52a8\u8fdb\u5316\u7ecf\u9a8c\u5e93 | \u652f\u6301 Claude Code / Kiro / Cursor / Cline \u7b49\u4ee3\u7801 AI \u5ba2\u6237\u7aef",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "language": "PowerShell",
+      "total_score": 291.2167
+    },
+    {
+      "name": "iOfficeAI/OfficeCLI",
+      "stars": 11,
+      "stars_gained_7d": 11,
+      "forks": 1,
+      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "language": "C#",
+      "total_score": 243.5872
+    },
+    {
+      "name": "diegosouzapw/OmniRoute",
+      "stars": 11,
+      "stars_gained_7d": 11,
+      "forks": 1,
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models \u2014 Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "language": "TypeScript",
+      "total_score": 238.8937
+    },
+    {
+      "name": "brightdata/cli",
+      "stars": 9,
+      "stars_gained_7d": 9,
+      "forks": 0,
+      "description": "Official Bright Data CLI - scrape, search, and extract structured web data directly from your terminal.",
+      "url": "https://github.com/brightdata/cli",
+      "language": "TypeScript",
+      "total_score": 230.8037
+    },
+    {
+      "name": "lidge-jun/opencodex",
+      "stars": 7,
+      "stars_gained_7d": 7,
+      "forks": 1,
+      "description": "Universal provider proxy for OpenAI Codex & Claude Code \u2014 use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama\u2026) with Codex CLI, App, SDK, and Claude Code",
+      "url": "https://github.com/lidge-jun/opencodex",
+      "language": "TypeScript",
+      "total_score": 227.2859
+    },
+    {
+      "name": "langchain-ai/openwiki",
+      "stars": 7,
+      "stars_gained_7d": 7,
+      "forks": 1,
+      "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+      "url": "https://github.com/langchain-ai/openwiki",
+      "language": "TypeScript",
+      "total_score": 221.4431
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 1,
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "language": "Python",
+      "total_score": 224.3509
+    },
+    {
+      "name": "tirth8205/code-review-graph",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 2,
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "language": "Python",
+      "total_score": 223.4516
+    },
+    {
+      "name": "t8y2/dbx",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | \u8f7b\u91cf\u7ea7\u8de8\u5e73\u53f0\u6570\u636e\u5e93\u7ba1\u7406\u5de5\u5177\uff0c\u652f\u6301 MySQL\u3001PostgreSQL\u3001SQLite\u3001Redis\u3001MongoDB\u3001\u8fbe\u68a6\u7b49 70+ \u6570\u636e\u5e93\uff0c\u63d0\u4f9b\u684c\u9762\u7aef\u3001Docker\u3001CLI\u3001\u5185\u7f6e AI \u52a9\u624b\u548c MCP Server\u3002",
+      "url": "https://github.com/t8y2/dbx",
+      "language": "Rust",
+      "total_score": 221.1138
+    },
+    {
+      "name": "AntigmaLabs/ante",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "Ghost in your shell. Ante is a self-contained agent harness with a highly optimized core. It works like Claude Code or Codex, with none of their dependencies or model constraints. ",
+      "url": "https://github.com/AntigmaLabs/ante",
+      "language": "Rust",
+      "total_score": 218.619
+    },
+    {
+      "name": "esengine/DeepSeek-Reasonix",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability \u2014 leave it running.",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "language": "Go",
+      "total_score": 218.5977
+    },
+    {
+      "name": "gloom-sh/gloomberb",
+      "stars": 4,
+      "stars_gained_7d": 4,
+      "forks": 0,
+      "description": "Finance terminal, in your terminal.",
+      "url": "https://github.com/gloom-sh/gloomberb",
+      "language": "TypeScript",
+      "total_score": 217.7374
+    },
+    {
+      "name": "vercel-labs/agent-browser",
+      "stars": 3,
+      "stars_gained_7d": 3,
+      "forks": 2,
+      "description": "Browser automation CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "language": "Rust",
+      "total_score": 218.4472
+    }
+  ]
+}
