@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T12:50:06.629979",
+  "period": "past_week",
+  "total_repos": 12,
+  "repos": [
+    {
+      "name": "akitaonrails/ai-memory",
+      "stars": 22,
+      "stars_gained_7d": 22,
+      "forks": 0,
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "language": "Rust",
+      "total_score": 267.8305
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 15,
+      "stars_gained_7d": 15,
+      "forks": 0,
+      "description": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "language": "Python",
+      "total_score": 250.5461
+    },
+    {
+      "name": "zhaoxuya520/reverse-skill",
+      "stars": 13,
+      "stars_gained_7d": 13,
+      "forks": 1,
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients \u9006\u5411/\u6e17\u900f/\u5b89\u5168\u6280\u80fd\u8def\u7531\u5305 - AI \u81ea\u52a8\u8def\u7531 + \u6309\u9700\u81ea\u4e3e\u5de5\u5177\u94fe + \u81ea\u52a8\u8fdb\u5316\u7ecf\u9a8c\u5e93 | \u652f\u6301 Claude Code / Kiro / Cursor / Cline \u7b49\u4ee3\u7801 AI \u5ba2\u6237\u7aef",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "language": "PowerShell",
+      "total_score": 245.0351
+    },
+    {
+      "name": "HiThink-Tech/Financial-API",
+      "stars": 11,
+      "stars_gained_7d": 11,
+      "forks": 0,
+      "description": "\u540c\u82b1\u987a\u5b98\u65b9 A\u80a1\u91d1\u878d\u6570\u636e\u670d\u52a1\uff0c\u63d0\u4f9b\u80a1\u7968\u5b9e\u65f6\u884c\u60c5\u3001\u5386\u53f2\u884c\u60c5\u3001\u8d22\u52a1\u62a5\u8868\u3001\u6307\u6570\u3001\u677f\u5757\u3001\u6da8\u505c\u7b49\u6570\u636e\uff0c\u9002\u7528\u4e8e AI Agent\u3001\u91cf\u5316\u7814\u7a76\u548c\u5e94\u7528\u5f00\u53d1\uff0c\u652f\u6301 API\u3001MCP\u3001CLI \u548c Python\u3002Official Tonghuashun (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices, sectors and limit-up data for AI agents, quantitative research and application development.",
+      "url": "https://github.com/HiThink-Tech/Financial-API",
+      "language": "TypeScript",
+      "total_score": 231.9603
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 9,
+      "stars_gained_7d": 9,
+      "forks": 0,
+      "description": "817 structured cybersecurity skills for AI agents \u00b7 Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 29 security domains \u00b7 Apache 2.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "language": "Python",
+      "total_score": 227.4119
+    },
+    {
+      "name": "agentrhq/webcmd",
+      "stars": 8,
+      "stars_gained_7d": 8,
+      "forks": 6,
+      "description": "The Browser Infra that learns and cuts token spend by upto 90%",
+      "url": "https://github.com/agentrhq/webcmd",
+      "language": "JavaScript",
+      "total_score": 238.3635
+    },
+    {
+      "name": "zenbu-labs/terminal-browser",
+      "stars": 8,
+      "stars_gained_7d": 8,
+      "forks": 0,
+      "description": "A browser inside your terminal",
+      "url": "https://github.com/zenbu-labs/terminal-browser",
+      "language": "Rust",
+      "total_score": 222.8829
+    },
+    {
+      "name": "zenbu-labs/terminal-code",
+      "stars": 7,
+      "stars_gained_7d": 7,
+      "forks": 1,
+      "description": "VS Code in the terminal",
+      "url": "https://github.com/zenbu-labs/terminal-code",
+      "language": "TypeScript",
+      "total_score": 222.026
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "stars": 6,
+      "stars_gained_7d": 6,
+      "forks": 0,
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "language": "Python",
+      "total_score": 221.2505
+    },
+    {
+      "name": "missuo/kumone",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "\u96f2\u306e\u97f3 \u2014 Native macOS NetEase Cloud Music client built with SwiftUI",
+      "url": "https://github.com/missuo/kumone",
+      "language": "Swift",
+      "total_score": 220.6332
+    },
+    {
+      "name": "t8y2/dbx",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 1,
+      "description": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | \u8f7b\u91cf\u7ea7\u8de8\u5e73\u53f0\u6570\u636e\u5e93\u7ba1\u7406\u5de5\u5177\uff0c\u652f\u6301 MySQL\u3001PostgreSQL\u3001SQLite\u3001Redis\u3001MongoDB\u3001\u8fbe\u68a6\u7b49 90+ \u6570\u636e\u5e93\uff0c\u63d0\u4f9b\u684c\u9762\u7aef\u3001Docker\u3001CLI\u3001\u5185\u7f6e AI \u52a9\u624b\u548c MCP Server\u3002",
+      "url": "https://github.com/t8y2/dbx",
+      "language": "Rust",
+      "total_score": 220.2832
+    },
+    {
+      "name": "langchain-ai/openwiki",
+      "stars": 5,
+      "stars_gained_7d": 5,
+      "forks": 0,
+      "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+      "url": "https://github.com/langchain-ai/openwiki",
+      "language": "TypeScript",
+      "total_score": 218.4069
+    }
+  ]
+}
