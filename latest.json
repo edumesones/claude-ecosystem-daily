@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29-evening",
-  "generated_at": "2026-08-29T14:06:55.230077",
+  "generated_at": "2026-08-29T22:55:39.859693",
   "total_repos": 100,
   "method": "ossinsight_api_24h",
   "repos": [
@@ -471,7 +471,7 @@
       "stars": 2,
       "stars_gained_24h": 2,
       "forks": 1,
-      "description": "",
+      "description": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.",
       "url": "https://github.com/FlashML-org/FreeToken",
       "language": "Python",
       "total_score": 208.0906,

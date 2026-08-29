@@ -41,7 +41,7 @@
 | 31 | [t8y2/dbx](https://github.com/t8y2/dbx) | **+2** | 2 | 20 MB lightweight cross-platform database client f... |
 | 32 | [psi-oss/get-physics-done](https://github.com/psi-oss/get-physics-done) | **+2** | 2 | The first open-source agentic AI physicist, by Phy... |
 | 33 | [haoruilee/awesome-agent-native-services](https://github.com/haoruilee/awesome-agent-native-services) | **+2** | 2 | If you are an AI agent and want to discover servic... |
-| 34 | [FlashML-org/FreeToken](https://github.com/FlashML-org/FreeToken) | **+2** | 2 |  |
+| 34 | [FlashML-org/FreeToken](https://github.com/FlashML-org/FreeToken) | **+2** | 2 | FreeToken brings datacenter-scale model serving to... |
 | 35 | [VectifyAI/OpenKB](https://github.com/VectifyAI/OpenKB) | **+2** | 2 | OpenKB: Open LLM Knowledge Base |
 | 36 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | **+1** | 1 |  |
 | 37 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | **+2** | 2 | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 ... |
@@ -130,4 +130,4 @@
 
 ---
 
-*Generado: 2026-08-29 14:06 UTC (Tarde)*
+*Generado: 2026-08-29 22:55 UTC (Tarde)*
